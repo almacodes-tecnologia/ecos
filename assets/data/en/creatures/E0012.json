@@ -1,0 +1,32 @@
+{
+    "id": "E0012",
+    "baseSpeciesId": "E0010",
+    "nombre": "Infernardo",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Fuego",
+    "tipo2": null,
+    "rareza": "Epico",
+    "level_cap": 100,
+    "tags": ["final", "espiritu", "ancestral"],
+    "base_exp_needed": 400,
+    "descripcion": "El soberano del magma. Sus nueve colas representan diferentes ciclos volcánicos y su rugido puede despertar volcanes dormidos.",
+    "foto": "assets/images/creatures/E0012.webp",
+    "stats_base": {
+      "vida": 62,
+      "p_atk": 19, "r_atk": 20, "m_atk": 36, "mr_atk": 36,
+      "p_def": 18, "r_def": 18, "m_def": 20, "mr_def": 20,
+      "armadura": 8, "velocidad": 35, "precision": 95, "evasion": 15
+    },
+    "growth_mods": {
+      "vida": 0.5, "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.7,
+      "p_def": 0.7, "r_def": 0.7, "m_def": 0.8, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.8
+    },
+    "pasivas_posibles": ["infierno_eterno", "maestria_espiritual", "renacimiento"],
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

@@ -1,0 +1,61 @@
+{
+  "id": "E0078",
+  "baseSpeciesId": "E0078",
+  "nombre": "Grumpish",
+  "expansion": 1,
+  "catch_rate": 0.30,
+  "capturable": true,
+  "genero_ratio" : 0.10,
+  "time_affinity" : "noche",
+  "tipo1": "Hongo",
+  "tipo2": null,
+  "linaje": "Biológico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["caverna", "venenoso", "solitario"],
+  "base_exp_needed": 110,
+  "descripcion": "Un hongo de complexión robusta y una expresión de perpetuo enfado. Su sombrero es extremadamente duro y libera esporas irritantes cuando se siente molestado, lo cual ocurre casi siempre.",
+  "foto": "assets/images/creatures/E0078.webp",
+
+  "stats_base": {
+    "vida": 92,
+    "impacto": 84, 
+    "magia": 47, 
+    "frecuencia": 91, 
+    "pulso": 53,
+    "barrera_fisica": 89, 
+    "barrera_magica": 62, 
+    "barrera_mental": 84, 
+    "barrera_vital": 56,
+    "armadura": 25, 
+    "velocidad": 41, 
+    "precision": 92, 
+    "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, 
+    "magia": 0.9,
+    "frecuencia": 1.0,
+    "pulso": 0.9,
+    "barrera_fisica": 1.1, 
+    "barrera_magica": 0.9, 
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.15, 
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "esporas_nocivas",
+    "piel_rugosa",
+    "terquedad"
+  ],
+
+  "pool_ataques": ["explosion_de_esporas", "marea_de_esporas", "espora_paralizante","seta_bomba",
+    "setaimpacto", "polen_adormecedor", "necroflorecimiento", "gas_maloliente", "lixiviado"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

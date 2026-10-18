@@ -1,0 +1,42 @@
+{
+    "id": "E0022",
+    "baseSpeciesId": "E0021",
+    "nombre": "Colosonaje",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Bestia",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "mamifero", "terremoto"],
+    "base_exp_needed": 280,
+    "descripcion": "Sus colmillos han crecido hasta convertirse en vigas de hueso y piedra. Es capaz de atravesar muros de hormigón sin reducir su velocidad de carga.",
+    "foto": "assets/images/creatures/E0022.webp",
+  
+    "stats_base": {
+      "vida": 85,
+      "p_atk": 30, "r_atk": 10, "m_atk": 5, "mr_atk": 5,
+      "p_def": 20, "r_def": 20, "m_def": 15, "mr_def": 15,
+      "armadura": 12, "velocidad": 22, "precision": 94, "evasion": 4
+    },
+  
+    "growth_mods": {
+      "vida": 0.7,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.7, "r_def": 0.7, "m_def": 0.8, "mr_def": 0.8,
+      "armadura": 0.2, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "estampida_continua",
+      "sangre_caliente",
+      "rompemuros"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

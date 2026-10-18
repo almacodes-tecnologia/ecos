@@ -1,0 +1,42 @@
+{
+    "id": "E0019",
+    "baseSpeciesId": "E0019",
+    "nombre": "Luminid",
+    "expansion": 1,
+    "catch_rate": 0.2,
+    "capturable": true,
+    "tipo1": "Insecto",
+    "tipo2": "Mental",
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["larva", "bosque", "nocturno"],
+    "base_exp_needed": 100,
+    "descripcion": "Una pequeña larva que emite pulsos de luz rítmicos. Se dice que sus destellos pueden inducir estados de trance en quienes los miran fijamente durante mucho tiempo.",
+    "foto": "assets/images/creatures/E0019.webp",
+  
+    "stats_base": {
+      "vida": 1,
+      "p_atk": 1, "r_atk": 8, "m_atk": 15, "mr_atk": 12,
+      "p_def": 5, "r_def": 7, "m_def": 12, "mr_def": 10,
+      "armadura": 2, "velocidad": 1, "precision": 100, "evasion": 1
+    },
+  
+    "growth_mods": {
+      "vida": 0.5,
+      "p_atk": 0.3, "r_atk": 0.8, "m_atk": 0.7, "mr_atk": 0.9,
+      "p_def": 0.6, "r_def": 0.6, "m_def": 0.8, "mr_def": 0.8,
+      "armadura": 0.2, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "antena_sensorial",
+      "fototaxis",
+      "mente_enjambre"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0020",
+    "evolutionPointsNeeded": 16
+  }

@@ -1,0 +1,13 @@
+{
+  "id": "LM0013",
+  "capitulo": "El Núcleo de Silicio",
+  "orden": 1,
+  "titulo": "LA RED EXPANDIDA",
+  "cuerpo": [
+    "Día 1. El servidor central de la colonia no sufrió un fallo de software; simplemente se desbordó. Los cables de fibra de vidrio que enterramos bajo la pradera para conectar los búnkeres encontraron un receptor inesperado en las profundidades. Las vetas de cuarzo blanco del subsuelo actúan como conductores perfectos.",
+    "Nuestros diarios, informes médicos y comunicaciones de radio están siendo succionados por la piedra. Cuando conecto el terminal de diagnóstico directo a la roca desnuda, la pantalla parpadea mostrando líneas de código humano mezcladas con frecuencias matemáticas puras. El planeta no destruye los datos; los almacena en sus estratos."
+  ],
+  "fuente": "Terminal de Diagnóstico Estructural de Elias",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Localiza los guantes de Silicio"
+}

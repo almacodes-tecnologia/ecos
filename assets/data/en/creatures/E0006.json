@@ -1,0 +1,42 @@
+{
+    "id": "E0006",
+    "baseSpeciesId": "E0004",
+    "nombre": "Fulgaleon",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Electrico",
+    "tipo2": "Lucha",
+    "rareza": "Raro",
+    "level_cap": 300,
+    "tags": ["final", "felino", "alfa"],
+    "base_exp_needed": 100,
+    "descripcion": "Se dice que cuando ruge, las nubes de tormenta se forman instantáneamente. Su cuerpo se mueve tan rápido que parece teletransportarse en medio de los rayos.",
+    "foto": "assets/images/creatures/E0006.webp",
+  
+    "stats_base": {
+      "vida": 68,
+      "p_atk": 35, "r_atk": 25, "m_atk": 18, "mr_atk": 15,
+      "p_def": 20, "r_def": 17, "m_def": 17, "mr_def": 17,
+      "armadura": 8, "velocidad": 55, "precision": 95, "evasion": 10
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.8, "mr_atk": 0.7,
+      "p_def": 0.6, "r_def": 0.7, "m_def": 0.6, "mr_def": 0.6,
+      "armadura": 0.3, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "majestad_electrica",
+      "corazón_galvanico",
+      "depredador_alfa"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

@@ -1,0 +1,36 @@
+{
+  "id": "E0065",
+  "baseSpeciesId": "E0063",
+  "nombre": "Tanquastor",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.80,
+  "time_affinity" : "noche",
+  "tipo1": "Agua",
+  "tipo2": null,
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["río", "azul", "tanque"],
+  "base_exp_needed": 450,
+  "descripcion": "Un imponente eco que porta un reservorio de agua pura en su espalda. Se dice que puede abastecer a toda una aldea en tiempos de sequía.",
+  "foto": "assets/images/creatures/E0065.webp",
+  "stats_base": {
+    "vida": 94,
+    "impacto": 69, "magia": 81, "frecuencia": 61, "pulso": 73,
+    "barrera_fisica": 80, "barrera_magica": 89, "barrera_mental": 71, "barrera_vital": 77,
+    "armadura": 15, "velocidad": 77, "precision": 96, "evasion": 4
+  },
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.8, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.2,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+  "pasivas_posibles": ["tanque_presurizado", "reserva_vital", "torrente_eco"],
+  "pool_ataques": ["hidro_escudo", "chapoteo", "lluvia_de_agua", "impacto_acuatico", "misil_de_agua",
+    "chorro_a_presion", "embestida", "pisoton", "endurecer","mordisco", "terremoto", "lanzamiento_chatarra"],
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

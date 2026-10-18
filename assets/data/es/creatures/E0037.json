@@ -1,0 +1,40 @@
+{
+  "id": "E0037",
+  "baseSpeciesId": "E0035",
+  "nombre": "Ababolt",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.3,
+  "time_affinity" : "dia",
+  "tipo1": "Vegetal",
+  "tipo2": "Ninguno",
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["planta", "real", "místico"],
+  "base_exp_needed": 140,
+  "descripcion": "Conocida como la reina de los campos. Su sola presencia calma a los ecos salvajes, aunque su polen puede causar visiones poderosas.",
+  "foto": "assets/images/creatures/E0037.webp",
+  "stats_base": {
+    "vida": 93,
+    "impacto": 55, "magia": 63, "frecuencia": 100, "pulso": 85,
+    "barrera_fisica": 52, "barrera_magica": 62, "barrera_mental": 77, "barrera_vital": 77,
+    "armadura": 27, "velocidad": 71, "precision": 90, "evasion": 1
+  },
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.3, "velocidad": 1.0
+  },
+  "pasivas_posibles": [
+    "dominio_botanico",
+    "aroma_soporifero",
+    "renacimiento_floral"
+  ],
+  "pool_ataques": ["impacto_vegetal", "clorofila_viva", "semilla_traicionera", "muro_de_espinas",
+    "hojas_cortantes", "danza_vegetal",  "fotosintesis", "necroflorecimiento", "polen_adormecedor", "arraizar"],
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

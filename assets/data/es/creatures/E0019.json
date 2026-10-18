@@ -1,0 +1,44 @@
+{
+    "id": "E0019",
+    "baseSpeciesId": "E0019",
+    "nombre": "Luminid",
+    "expansion": 1,
+    "catch_rate": 0.9,
+    "capturable": true,
+    "genero_ratio" : 0.5,
+    "time_affinity" : "dia",
+    "tipo1": "Insecto",
+    "tipo2": "Mental",
+   "linaje": "biologico",
+   "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["larva", "bosque", "nocturno"],
+    "base_exp_needed": 100,
+    "descripcion": "Una pequeña larva que emite pulsos de luz rítmicos. Se dice que sus destellos pueden inducir estados de trance en quienes los miran fijamente durante mucho tiempo.",
+    "foto": "assets/images/creatures/E0019.webp",
+  
+    "stats_base": {
+      "vida": 64,
+      "impacto": 49, "magia": 70, "frecuencia": 79, "pulso": 50,
+      "barrera_fisica": 31, "barrera_magica": 35, "barrera_mental": 42, "barrera_vital": 44,
+      "armadura": 18, "velocidad": 67, "precision": 100, "evasion": 5
+    },
+  
+    "growth_mods": {
+      "vida": 0.9,
+      "impacto": 0.9, "magia": 1.1, "frecuencia": 1.1, "pulso": 1.0,
+      "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+      "armadura": 0.2, "velocidad": 1.0
+    },
+  
+    "pasivas_posibles": [
+      "antena_sensorial",
+      "fototaxis",
+      "mente_enjambre"
+    ],
+
+  "pool_ataques": ["picadura", "enjambre", "polvillo_cegador", "onda_mental", "barrera_psiquica"],
+  
+    "evolutionId": "E0020",
+    "evolutionPointsNeeded": 16
+  }

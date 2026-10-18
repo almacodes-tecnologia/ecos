@@ -1,0 +1,33 @@
+
+{
+    "id": "E0011",
+    "baseSpeciesId": "E0010",
+    "nombre": "Vulcánix",
+    "expansion": 1,
+    "catch_rate": 0.0,
+      "capturable": false,
+      "tipo1": "Fuego",
+      "tipo2": "Espiritu",
+      "rareza": "Raro",
+      "level_cap": 100,
+      "tags": ["evolucion", "felino", "mistico"],
+      "base_exp_needed": 200,
+      "descripcion": "Su cuerpo se vuelve etéreo y sus patas se cubren de obsidiana. Puede caminar sobre la lava sin hundirse.",
+      "foto": "assets/images/creatures/E0011.webp",
+      "stats_base": {
+        "vida": 40,
+        "p_atk": 12, "r_atk": 12, "m_atk": 20, "mr_atk": 20,
+        "p_def": 10, "r_def": 10, "m_def": 10, "mr_def": 10,
+        "armadura": 4, "velocidad": 20, "precision": 96, "evasion": 12
+      },
+      "growth_mods": {
+        "vida": 0.6, "p_atk": 0.7, "r_atk": 0.9, "m_atk": 0.8, "mr_atk": 0.8,
+        "p_def": 0.7, "r_def": 0.6, "m_def": 0.7, "mr_def": 0.7,
+        "armadura": 0.4, "velocidad": 0.7
+      },
+      "pasivas_posibles": ["presencia_espectral", "llama_azul", "intimidacion"],
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+      "evolutionId": "E0012",
+      "evolutionPointsNeeded": 28
+    }

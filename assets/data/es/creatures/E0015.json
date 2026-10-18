@@ -1,0 +1,41 @@
+{
+  "id": "E0015",
+  "baseSpeciesId": "E0013",
+  "nombre": "Escaraxon",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.7,
+  "time_affinity" : "noche",
+  "tipo1": "Insecto",
+  "tipo2": null,
+  "linaje": "bilogico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["insecto", "desierto", "berseker"],
+  "base_exp_needed": 140,
+  "descripcion": "Conocido como el verdugo del desierto. Su cuerno ha evolucionado en una hacha natural capaz de cortar el acero. Su presencia intimida a depredadores mayores.",
+  "foto": "assets/images/creatures/E0015.webp",
+  "stats_base": {
+    "vida": 97,
+    "impacto": 91, "magia": 39, "frecuencia": 45, "pulso": 39,
+    "barrera_fisica": 89, "barrera_magica": 88, "barrera_mental": 53, "barrera_vital": 61,
+    "armadura": 27, "velocidad": 71, "precision": 99, "evasion": 2
+  },
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  "pasivas_posibles": [
+    "hacha_afilada",
+    "intimidacion_insecto",
+    "piel_de_hierro"
+  ],
+  "pool_ataques": ["picadura", "enjambre", "endurecer", "polvillo_cegador", "mandibula_feroz",
+    "lanza_de_veneno", "hachazo"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

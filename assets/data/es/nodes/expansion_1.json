@@ -1,0 +1,37 @@
+[
+  {
+    "id": "N026",
+    "nombre": "Paso del Abismo",
+    "image_asset": "assets/images/nodes/N020.webp",
+    "descripcion": "Un puente colgante que une el Núcleo de Datos con las Tierras Altas.",
+    "boss_id": null,
+    "routes": ["R100", "R101"]
+  },
+  {
+    "id": "N027",
+    "nombre": "Estación Eléctrica E1",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N021.webp",
+    "descripcion": "Una antigua central que aún genera pulsos electromagnéticos.",
+    "boss_id": "B021",
+    "routes": ["R101", "R102"],
+    "acciones": [
+      {
+        "tipo": "electrico",
+        "herramienta_id": "tool_019",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0080", "probability": 0.8 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N028",
+    "nombre": "Valle de los Espectros",
+    "image_asset": "assets/images/nodes/N022.webp",
+    "descripcion": "Un lugar donde la realidad se vuelve translúcida.",
+    "boss_id": null,
+    "routes": ["R102"]
+  }
+]

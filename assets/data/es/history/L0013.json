@@ -1,0 +1,16 @@
+{
+  "id": "lore_0013",
+  "capitulo": "1",
+  "orden": 13,
+  "titulo": "El Primer Brote",
+  "cuerpo": [
+    "El caminante observó las notas tomadas durante los primeros días de la llegada. El autor relataba el hallazgo de un elemento extraño entre el barro negro del Paso de la Cosecha. Al principio creyó que era una flor de cristal, un capricho de la luz violeta, pero al aproximarse notó que sus pétalos no se movían con el viento, sino que vibraban con un zumbido constante y sordo.",
+    "El registro describía el intento de arrancarla: al tocarla, los dedos del naturalista sufrieron una descarga punzante. Al examinarla de cerca, descubrió que carecía de un tallo orgánico; en su lugar, unos hilos trenzados y brillantes se hundían profundamente en la tierra. Aquella planta no buscaba agua, parecía buscar el pulso de las estructuras enterradas bajo el lodo.",
+    "Junto a las líneas había un boceto rápido, dibujado antes de que la planta perdiera su brillo y se volviera de un gris apagado. Lo más inquietante no era su naturaleza artificial, sino su aroma: no olía a polen ni a tierra mojada, sino a ozono y a metal quemado. Era una flor que no había nacido para abrirse a la vida, sino para transmitir un mensaje invisible.",
+    "El diario terminaba con una reflexión melancólica: si la naturaleza de aquel mundo había decidido que la belleza debía albergar corrientes frías, resultaba imposible saber qué lugar les quedaba a los seres humanos, hechos únicamente de sangre y huesos frágiles."
+  ],
+  "fuente": "Boceto de Naturalista: Diario de Campo",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Encontrado en un rincón embarrado del Paso de la Cosecha.",
+  "foto": "assets/images/lore/lore_0013.webp"
+}

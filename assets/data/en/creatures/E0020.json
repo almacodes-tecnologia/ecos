@@ -1,0 +1,42 @@
+{
+    "id": "E0020",
+    "baseSpeciesId": "E0019",
+    "nombre": "Psycérula",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Insecto",
+    "tipo2": "Mental",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "volador", "psiquico"],
+    "base_exp_needed": 250,
+    "descripcion": "Sus alas vibran a una frecuencia que altera las ondas cerebrales de sus enemigos. La luz de su abdomen no solo ilumina, sino que proyecta ilusiones de sus propios miedos.",
+    "foto": "assets/images/creatures/E0020.webp",
+  
+    "stats_base": {
+      "vida": 50,
+      "p_atk": 8, "r_atk": 18, "m_atk": 27, "mr_atk": 32,
+      "p_def": 10, "r_def": 15, "m_def": 28, "mr_def": 30,
+      "armadura": 3, "velocidad": 45, "precision": 100, "evasion": 15
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.5, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.7,
+      "p_def": 0.6, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.3, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "iluminacion_mental",
+      "alas_espejo",
+      "neurotoxina_luminica"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

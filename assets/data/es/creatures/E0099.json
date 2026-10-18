@@ -1,0 +1,62 @@
+{
+  "id": "E0099",
+  "baseSpeciesId": "E0099",
+  "nombre": "Ferrocanis",
+  "expansion": 1,
+  "catch_rate": 0.02,
+  "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Basura",
+  "tipo2": "Metal",
+  "linaje": "conceptual",
+  "rareza": "Legendario",
+  "level_cap": 100,
+  "tags": ["legendario", "mazmorra", "maquina", "chatarra"],
+  "base_exp_needed": 220,
+  "descripcion": "Un guardián ancestral forjado con restos de maquinaria agrícola y metal oxidado. Aunque su aspecto es desvencijado, su núcleo late con una energía ferrosa incontrolable. Dicen que protege los vertederos sagrados del campo.",
+  "foto": "assets/images/creatures/E0099.webp",
+
+  "stats_base": {
+    "vida": 110,
+    "impacto": 85,
+    "magia": 61,
+    "frecuencia": 70,
+    "pulso": 68,
+    "barrera_fisica": 101,
+    "barrera_magica": 100,
+    "barrera_mental": 80,
+    "barrera_vital": 90,
+    "armadura": 40,
+    "velocidad": 80,
+    "precision": 92, 
+    "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, 
+    "magia": 0.9, 
+    "frecuencia": 1.0, 
+    "pulso": 0.9,
+    "barrera_fisica": 1.0, 
+    "barrera_magica": 1.0, 
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.25, 
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "blindaje_oxidado",
+    "magnetismo_residual",
+    "furia_chatarra"
+  ],
+
+  "pool_ataques": ["lanzamiento_chatarra","chatarra_oxidada","aceite_resbaladizo","compactacion", "avalancha_de_desechos",
+    "gas_maloliente","nube_de_particulas","barrera_de_escombros","succion_de_residuos","mordisco_de_acero","placaje_de_acero",
+    "martillazo"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

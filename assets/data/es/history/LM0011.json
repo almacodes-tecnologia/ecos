@@ -1,0 +1,13 @@
+{
+  "id": "LM0011",
+  "capitulo": "Las Fauces de la Chatarra",
+  "orden": 5,
+  "titulo": "MECANISMOS SIN PATRÓN",
+  "cuerpo": [
+    "Día 22. Kaelen no regresó de la última incursión al fondo del desguace. Al bajar a buscarlo, solo hallamos su linterna incrustada en un bloque de paneles de blindaje deformados. El bloque se mueve. Camina apoyándose en tres puntales de hierro retorcido que imitan de forma tosca la zancada humana.",
+    "El planeta ha terminado el reciclaje. Ha tomado las piezas rotas que desechamos por inservibles y las ha ensamblado mediante magnetismo puro en un organismo ciego y puramente físico. No responde a comandos de radio; defiende su masa mineral contra cualquier intruso que intente arrebatarle su hierro."
+  ],
+  "fuente": "Grabación recuperada del último equipo de rescate",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Házte con el anillo de la Chatarra"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lore_0004",
+  "capitulo": "1",
+  "orden": 4,
+  "titulo": "Los Que Escuchan",
+  "cuerpo": [
+    "Las crónicas mencionaban un silbido constante, casi musical, que los primeros exploradores sintieron al llegar. Al principio creyeron que era el simple efecto del viento filtrándose en sus pesados trajes. Lo llamaron 'el canto de la llanura' e intentaron no prestarle atención.",
+    "Sin embargo, al adentrarse en la Senda de los Susurros, el rumor se transformaba. No era el aire golpeando la maleza alta; era una vibración profunda que atravesaba el cráneo de manera sorda. Si el caminante se quedaba quieto el tiempo suficiente, aquel rumor difuso empezaba a articular sílabas.",
+    "El diario describía escenas perturbadoras: exploradores veteranos que se despojaban de sus cascos y se arrodillaban entre las extrañas espigas, jurando que la tierra les devolvía conversaciones que habían tenido hace décadas en su viejo mundo. Recuerdos que creían borrados para siempre, brotaban ahora de la propia naturaleza.",
+    "No eran voces reales. El autor del diario comprendió que el planeta atrapaba el ruido de sus mentes para devolverles un reflejo, un eco de su propia conciencia. El verdadero peligro en aquella ruta no era perder el rumbo, sino olvidar qué pensamientos eran tuyos antes de entrar en la maleza."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Encontrado en un puesto de avanzada abandonado en la Senda de los Susurros.",
+  "foto": "assets/images/lore/lore_0004.webp"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "E0097",
+  "baseSpeciesId": "E0097",
+  "nombre": "Kikirizark",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio": 0.2,
+  "time_affinity": "noche",
+  "tipo1": "Bestia",
+  "tipo2": null,
+  "linaje": "biológico",
+  "rareza": "Mazmorra",
+  "level_cap": 100,
+  "tags": ["salvaje", "ofensivo", "pradera"],
+  "base_exp_needed": 125,
+  "descripcion": "Un ave de plumaje erizado y mirada feroz. Aunque parece un ave de corral común, su velocidad de picoteo y su temperamento territorial lo convierten en un depredador temible en campo abierto.",
+  "foto": "assets/images/creatures/E0097.webp",
+
+  "stats_base": {
+    "vida": 85,
+    "impacto": 80,
+    "magia": 75,
+    "frecuencia": 43,
+    "pulso": 43,
+    "barrera_fisica": 81,
+    "barrera_magica": 61,
+    "barrera_mental": 58,
+    "barrera_vital": 62,
+    "armadura": 31,
+    "velocidad": 77,
+    "precision": 99,
+    "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 1.0,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "frenesi_aviar",
+    "pico_afilado",
+    "alerta_temprana"
+  ],
+
+  "pool_ataques": ["golpe_base", "piel_de_granito","embestida", "golpe_agil", "rapidez", "garra_desgarradora",
+    "furia_desatada", "furia_animal", "golpe_alado", "ala_cortante" ],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

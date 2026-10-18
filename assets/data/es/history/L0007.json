@@ -1,0 +1,16 @@
+{
+  "id": "lore_0007",
+  "capitulo": "1",
+  "orden": 7,
+  "titulo": "El Fruto de la Memoria",
+  "cuerpo": [
+    "El caminante leyó las páginas correspondientes al invierno de la colonia. El hambre los había obligado a lo impensable cuando las raciones del viaje se agotaron. Los extraños manzanos del Huerto comenzaron a dar frutos perfectos: rojos, jugosos, con un aroma que hacía llorar porque evocaba el mundo que habían dejado atrás. Pero no eran alimento.",
+    "Al morder la carne del fruto, el diario describía un destello punzante en la base del cráneo. Por unos segundos, dejabas de ser tú. El autor vio a hombres maduros llorar al 'recordar' el primer paso de un hijo que jamás tuvieron, o a exploradores aterrorizados por el olor a pólvora de una guerra que ocurrió siglos antes de que ellos nacieran.",
+    "Aquel Huerto parecía estar absorbiendo los retazos de las mentes de quienes habían muerto en el lugar, atrapándolos en su savia. Cada bocado era un fragmento de una existencia ajena. Las notas advertían con desesperación que, si comías demasiado, las voces de los extraños empezaban a sepultar tu propia mente.",
+    "Finalmente, se prohibió el acceso al sector N009. El diario concluía con una imagen desoladora: colonos que se habían quedado sentados bajo las ramas, masticando en silencio, convertidos en cáscaras vacías que solo deseaban habitar los veranos de perfectos desconocidos."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado tras recolectar la primera muestra en el Huerto del Nodo N009.",
+  "foto": "assets/images/lore/lore_0007.webp"
+}

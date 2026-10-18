@@ -1,0 +1,16 @@
+{
+  "id": "lore_0016",
+  "capitulo": "1",
+  "orden": 16,
+  "titulo": "Frecuencia 440Hz",
+  "cuerpo": [
+    "Las notas del registro describían la instalación de pesados sensores de escucha en el punto más alto de La Cresta, con la intención de registrar los movimientos mundanos de las placas del subsuelo. Sin embargo, los resultados de las mediciones no mostraban el rumor caótico y natural de la tierra; revelaban una vibración limpia, constante y artificial.",
+    "No se trataba de un temblor común. Era un pulso rítmico, matemático, que emanaba desde lo más profundo del sector. Lo más perturbador para los analistas era descubrir que la intensidad de esa vibración se alteraba de forma sutil y exacta cada vez que un grupo de colonos se aproximaba a las grandes estructuras metálicas del asentamiento.",
+    "Daba la impresión de que el entorno respondía al paso de la presencia humana. No era el suelo el que temblaba por causas naturales; era un mecanismo oculto que parecía acompasar su ritmo interno a la propia biología de los recién llegados, como si esperara a que todos los cuerpos se sintonizaran con su cadencia.",
+    "El informe concluía con una advertencia cargada de temor: si aquel latido sordo continuaba acelerándose, el peligro de que la vibración colapsara las estructuras físicas del campamento era inminente. Aquel sonido no provenía de un entorno salvaje, sino de un engranaje invisible que los oídos humanos percibían como un constante tambor de guerra."
+  ],
+  "fuente": "Informe de Campo: Unidad de Análisis del Subsuelo",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado tras estabilizar la señal en el pico de La Cresta.",
+  "foto": "assets/images/lore/lore_0016.webp"
+}

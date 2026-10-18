@@ -1,0 +1,39 @@
+{
+  "id": "E0013",
+  "baseSpeciesId": "E0013",
+  "nombre": "Escaralin",
+  "expansion": 1,
+  "catch_rate": 0.4,
+  "capturable": true,
+  "genero_ratio" : 0.7,
+  "time_affinity" : "noche",
+  "tipo1": "Insecto",
+  "tipo2": null,
+  "linaje": "bilogico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["insecto", "bosque", "luminoso"],
+  "base_exp_needed": 90,
+  "descripcion": "Sus antenas brillan en la oscuridad del bosque para guiar a otros de su especie. Aunque parece indefenso, su caparazón es sorprendentemente duro.",
+  "foto": "assets/images/creatures/E0013.webp",
+  "stats_base": {
+    "vida": 65,
+    "impacto": 62, "magia": 25, "frecuencia": 32, "pulso": 26,
+    "barrera_fisica": 59, "barrera_magica": 63, "barrera_mental": 31, "barrera_vital": 33,
+    "armadura": 20, "velocidad": 51, "precision": 98, "evasion": 4
+  },
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  "pasivas_posibles": [
+    "antena_luz",
+    "caparazon_firme",
+    "huida_rapida"
+  ],
+  "pool_ataques": ["picadura", "enjambre", "endurecer", "polvillo_cegador"],
+  "evolutionId": "E0014",
+  "evolutionPointsNeeded": 15
+}

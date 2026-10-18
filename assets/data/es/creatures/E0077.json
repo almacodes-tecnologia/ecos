@@ -1,0 +1,45 @@
+{
+  "id": "E0077",
+  "baseSpeciesId": "E0076",
+  "nombre": "Vallator",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.85,
+  "time_affinity" : "dia",
+  "tipo1": "Madera",
+  "tipo2": null,
+  "linaje": "Biológico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["fortaleza", "obstáculo", "veterano"],
+  "base_exp_needed": 130,
+  "descripcion": "Una estructura de madera reforzada que desprende una autoridad natural. Se dice que los Empalator más antiguos formaron las murallas de las primeras aldeas de los Ecos.",
+  "foto": "assets/images/creatures/E0077.webp",
+
+  "stats_base": {
+    "vida": 117,
+    "impacto": 64, "magia": 61, "frecuencia": 60, "pulso": 61,
+    "barrera_fisica": 85, "barrera_magica": 85, "barrera_mental": 85, "barrera_vital": 85,
+    "armadura": 30, "velocidad": 30, "precision": 98, "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 0.9, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.25, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "muro_espinado",
+    "madera_curada",
+    "gran_baluarte"
+  ],
+
+  "pool_ataques": ["corteza_reforzada", "astilla_cortante", "paciencia", "intimidacion_arborea",
+    "golpe_de_madera", "troncazo","escudo_de_madera"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

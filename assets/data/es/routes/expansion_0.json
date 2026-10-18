@@ -1,0 +1,820 @@
+[
+  {
+    "id": "R0001",
+    "nombre": "Senda del Recuerdo",
+    "from_node": "N001",
+    "to_node": "N002",
+    "pasos": 2,
+    "image_asset": "assets/images/routes/R0001.webp",
+    "encounters": [
+      {"creature_id": "E0019", "probability": 0.1},
+      {"creature_id": "E0013", "probability": 0.1},
+      {"creature_id": "E0016", "probability": 0.3}
+    ],
+    "item_encounters": [
+      {"item_id": "item_001", "probability": 0.2},
+      {"item_id": "lore_0002", "probability": 0.8}
+    ],
+    "descripcion": [
+      "Un camino flanqueado por postes de luz que parpadean rítmicamente. La hierba salvaje ha empezado a devorar el asfalto artificial.",
+      "A lo lejos, el perfil de la granja se recorta nítido contra un cielo envuelto en tonos violetas.",
+      "La incómoda sensación de que algo observa desde la maleza acompaña la marcha, pero al girarse, el caminante solo halla el movimiento del viento."
+    ],
+    "idle_messages": [
+      "Se escucha un crujido seco entre los arbustos cercanos.",
+      "El aire se vuelve gélido de repente.",
+      "Un viejo dispositivo de alerta abandonado emite un pitido aislado.",
+      "Una huella extraña y profunda queda marcada en el barro.",
+      "El viento arrastra un penetrante olor a metal quemado.",
+      "Una hilera de hormigas transporta semillas bajo un tronco muerto.",
+      "Las botas resuenan con un eco sordo sobre una rejilla metálica oculta.",
+      "Un latido rítmico bajo el suelo parece acompasarse con las pulsaciones de la carne.",
+      "Se divisa una raíz gruesa que palpita levemente, como si tuviera un fluido interno."
+    ]
+  },
+  {
+    "id": "R0002",
+    "nombre": "Camino del Horizonte",
+    "from_node": "N001",
+    "to_node": "N003",
+    "pasos": 45,
+    "requirement": {
+      "type": "item",
+      "value": "item_key_alpha",
+      "fail_msg": "La puerta de acceso al sendero requiere una tarjeta de identificación de la colonia."
+    },
+    "image_asset": "assets/images/routes/R0002.webp",
+    "encounters": [
+      {"creature_id": "E0016", "probability": 0.12},
+      {"creature_id": "E0019", "probability": 0.12},
+      {"creature_id": "E0021", "probability": 0.12}
+    ],
+    "item_encounters": [
+      {"item_id": "lore_0003", "probability": 0.75}
+    ],
+    "descripcion": [
+      "Una ruta extensa que atraviesa una llanura abierta y desolada. No hay un solo refugio donde guarecerse si el peligro decide manifestarse.",
+      "Los restos de un armatoste de transporte yacen a mitad del camino; su baliza aún emite un destello rojo y débil.",
+      "Es un trayecto agotador que pone a prueba la resistencia física de cualquier explorador."
+    ],
+    "idle_messages": [
+      "El sol calienta el páramo con una intensidad extraña y sofocante.",
+      "A lo lejos se levanta una densa columna de humo negro.",
+      "El suelo vibra levemente bajo los pies.",
+      "Una criatura voladora de reflejos metálicos cruza el cielo rápidamente.",
+      "Se encuentra una lata de raciones vacía y abollada.",
+      "El silencio se vuelve absoluto y denso durante unos minutos.",
+      "Un reflejo brillante parpadea en una colina lejana.",
+      "Una lente rota en el suelo refleja el tono violeta del firmamento.",
+      "El aire vibra con una frecuencia baja que eriza la piel."
+    ]
+  },
+  {
+    "id": "R0003",
+    "nombre": "Paso de la Cosecha",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 50,
+    "image_asset": "assets/images/routes/R0003.webp",
+    "encounters": [
+      {"creature_id": "E0090", "probability": 0.3},
+      {"creature_id": "E0091", "probability": 0.05},
+      {"creature_id": "E0071", "probability": 0.1},
+      {"creature_id": "E0076", "probability": 0.1},
+      {"creature_id": "E0077", "probability": 0.02},
+      {"creature_id": "E0041", "probability": 0.05},
+      {"creature_id": "E0062", "probability": 0.1}
+    ],
+    "descripcion": [
+      "Un camino corto pero enfangado que conecta la granja con el puesto avanzado.",
+      "El sendero es una herida abierta en la tierra; los viejos surcos de la maquinaria son ahora arterias de agua estancada y negra.",
+      "Es una zona donde el entorno se muestra especialmente activo debido a la constante humedad.",
+      "La pesada bruma se pega a la piel como una película de aceite. El lodo parece retener las pisadas, como si la propia tierra intentara aferrarse a la carne."
+    ],
+    "idle_messages": [
+      "Las botas se hunden con dificultad en el barro pegajoso.",
+      "Burbujas extrañas escapan de un charco de agua estancada.",
+      "El olor a vegetación podrida y lodo se vuelve casi insoportable.",
+      "Un pequeño roedor de lomo áspero cruza el camino a toda prisa.",
+      "Se escucha el zumbido constante de insectos invisibles.",
+      "El cielo se oscurece por un instante bajo una nube densa.",
+      "Aparece una herramienta de labranza oxidada a un lado del sendero.",
+      "El barro burbujea, liberando un gas de olor químico y penetrante.",
+      "Un escalofrío recorre la espalda: algo ha dejado de moverse justo al girar la cabeza."
+    ]
+  },
+  {
+    "id": "R0004",
+    "nombre": "Senda de los Susurros",
+    "from_node": "N002",
+    "to_node": "N004",
+    "pasos": 55,
+    "image_asset": "assets/images/routes/R0004.webp",
+    "encounters": [
+      {"creature_id": "E0023", "probability": 0.1},
+      {"creature_id": "E0027", "probability": 0.1},
+      {"creature_id": "E0045", "probability": 0.15},
+      {"creature_id": "E0025", "probability": 0.05}
+    ],
+    "item_encounters": [
+      {"item_id": "item_002", "probability": 0.05},
+      {"item_id": "lore_0004", "probability": 0.04}
+    ],
+    "descripcion": [
+      "Esta ruta serpentea a través de la hierba alta. La visibilidad es casi nula, obligando al caminante a aguzar el oído a cada paso.",
+      "Los susurros del viento al chocar con los tallos parecen formar palabras en un idioma casi comprensible.",
+      "El viento no silba; modula frecuencias y tonos. Por momentos, da la impresión de que el entorno intenta evocar un recuerdo perdido mucho antes de despertar.",
+      "Es fácil perder el rumbo si se desvía la mirada de las balizas semienterradas en el suelo."
+    ],
+    "idle_messages": [
+      "El caminante cree percibir un eco familiar entre el susurro de la hierba.",
+      "Unas espigas rígidas rozan el rostro suavemente.",
+      "Sombras desdibujadas parecen moverse a los lados del camino.",
+      "El viento cambia de dirección de forma brusca y rítmica.",
+      "Una extraña y repentina calma interior aquieta los pensamientos.",
+      "Un ave de colores imposibles alza el vuelo entre la maleza.",
+      "Se encuentra un fragmento de cinta magnética arrugado y roto.",
+      "Se percibe la sensación de que la hierba se aparta sutilmente antes de ser tocada."
+    ]
+  },
+  {
+    "id": "R0005",
+    "nombre": "El Sendero del Pulso",
+    "from_node": "N003",
+    "to_node": "N005",
+    "pasos": 30,
+    "requirement": {
+      "type": "boss",
+      "value": "B001",
+      "fail_msg": "Un protocolo de bloqueo estático, activado tras la caída del Guardián Delta, impide avanzar por el sendero."
+    },
+    "image_asset": "assets/images/routes/R0005.webp",
+    "encounters": [
+      {"creature_id": "E0092", "probability": 0.1},
+      {"creature_id": "E0051", "probability": 0.01},
+      {"creature_id": "E0052", "probability": 0.005}
+    ],
+    "item_encounters": [
+      {"item_id": "item_001", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Tras el colapso del cordón de seguridad en Delta, el sendero ha quedado abierto, aunque el aire todavía vibra con una estática residual que eriza la piel.",
+      "Bajo las botas, las placas metálicas del suelo chirrían al pasar, enviando vibraciones erráticas hacia el molino que domina el horizonte como un gigante dormido.",
+      "Las balizas, ahora apagadas, emergen entre la hierba alta como las costillas oxidadas de una criatura prehistórica hecha de hilos y metal."
+    ],
+    "idle_messages": [
+      "Un chispazo eléctrico salta entre dos estructuras, señal de un mecanismo que pugna por reactivarse.",
+      "El zumbido del suelo parece seguir el ritmo del pulso tras el combate.",
+      "Un destello azulado parpadea bajo una rejilla; el núcleo de energía del sector se muestra inestable.",
+      "Un autómata de mantenimiento cuelga de un poste, desactivado tras la caída del Guardián.",
+      "Un hormigueo eléctrico recorre la nuca; el bloqueo ha cesado, pero el peligro latente persiste.",
+      "El viento silba a través de las placas rotas, arrastrando un olor a quemado.",
+      "Un panel medio enterrado parpadea con una inscripción de error desvaída: 'AVISO_DELTA_DESACTIVADO'."
+    ]
+  },
+  {
+    "id": "R0006",
+    "nombre": "Vía del Agua",
+    "from_node": "N004",
+    "to_node": "N006",
+    "pasos": 40,
+    "image_asset": "assets/images/routes/R0006.webp",
+    "encounters": [
+      {"creature_id": "E0029", "probability": 0.3},
+      {"creature_id": "E0007", "probability": 0.01},
+      {"creature_id": "E0008", "probability": 0.005}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_002", "probability": 0.05},
+      {"item_id": "item_003", "probability": 0.05}
+    ],
+    "descripcion": [
+      "La ruta corre paralela a una arteria de acero: una tubería maestra que transporta el pulso hídrico de la colonia. El metal vibra con una fuerza rítmica que se transmite con claridad a través de las suelas.",
+      "Las fugas en la estructura han creado oasis donde la vegetación local crece con una agresividad inusual, alimentada por un agua densa y cargada de minerales artificiales.",
+      "Avanzar por aquí exige un ejercicio constante de equilibrio. El lodo es espeso y las zanjas laterales, profundas y oscuras, parecen aguardar a que un paso en falso entregue al viajero a las profundidades."
+    ],
+    "idle_messages": [
+      "Un chorro de agua a presión escapa silbando de una grieta en el metal.",
+      "El suelo aparece cubierto por un musgo de un tono verde fosforescente.",
+      "Se escucha el gorgoteo continuo del fluido corriendo bajo tierra.",
+      "Una rana de piel translúcida salta hacia el agua estancada.",
+      "Las botas se empapan al cruzar un arroyo que desborda el sendero.",
+      "El aire se vuelve notablemente más denso y húmedo en este tramo.",
+      "Se divisa una válvula gigante bloqueada por capas de óxido rojizo.",
+      "Una criatura anfibia permanece inmóvil; a través de su piel se intuyen filamentos de cobre.",
+      "El metal de la tubería emite un gemido sordo, como si la presión interna fuese insoportable."
+    ]
+  },
+  {
+    "id": "R0007",
+    "nombre": "Ascenso a la Cresta",
+    "from_node": "N004",
+    "to_node": "N007",
+    "pasos": 60,
+    "image_asset": "assets/images/routes/R0007.webp",
+    "encounters": [
+      {"creature_id": "E0013", "probability": 0.16},
+      {"creature_id": "E0014", "probability": 0.08},
+      {"creature_id": "E0016", "probability": 0.08},
+      {"creature_id": "E0021", "probability": 0.16}
+    ],
+    "tools_encounters": [
+      {"item_id": "lore_0016", "probability": 0.05}
+    ],
+    "descripcion": [
+      "El sendero se empina de forma abrupta, obligando a clavar bien los apoyos en una tierra seca donde los entramados de hilos brillantes actúan como escalones naturales. A cada paso, la llanura se despliega rezagada como un tapiz de colores extraños.",
+      "El viento en las alturas se comporta como un animal salvaje. Arrastra nubes de un polen brillante que resplandece como oro molido bajo la luz violeta del cielo, adhiriéndose al equipo con una persistencia casi magnética.",
+      "A medida que el aire se vuelve más liviano, el rumor lejano de la pradera muere, sustituido por el zumbido vibrante e ininterrumpido de la estructura que corona la cima."
+    ],
+    "idle_messages": [
+      "El aliento escasea debido a la marcada inclinación de la pendiente.",
+      "Una ráfaga de viento repentina obliga a detener la marcha para no perder el equilibrio.",
+      "El destello intermitente de la antena recorta su silueta en lo alto.",
+      "El murmullo constante de la llanura se desvanece por completo.",
+      "Aparece un viejo mosquetón de escalada semienterrado en el sendero.",
+      "Una piedra suelta rueda ladera abajo, perdiéndose en el vacío.",
+      "El firmamento violeta parece quedar mucho más cerca en este punto."
+    ]
+  },
+  {
+    "id": "R0008",
+    "nombre": "Sendero del Pastoreo",
+    "from_node": "N005",
+    "to_node": "N008",
+    "pasos": 35,
+    "image_asset": "assets/images/routes/R0008.webp",
+    "encounters": [
+      {"creature_id": "E0025", "probability": 0.2},
+      {"creature_id": "E0016", "probability": 0.2},
+      {"creature_id": "E0049", "probability": 0.05}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_004", "probability": 0.05},
+      {"item_id": "lore_0011", "probability": 0.1},
+      {"item_id": "lore_0012", "probability": 0.1},
+      {"item_id": "lore_0020", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Un camino de tierra suave, marcado por el paso constante de pezuñas que no dejan rastro biológico alguno. Las cercas de madera, ahora inútiles, se retuercen entre la maleza como las costillas de un proyecto que se detuvo en seco.",
+      "En esta zona, el horizonte parece abrirse y la luz adquiere un matiz ámbar, casi reconfortante. Es un paraje de calma extraña donde los antiguos dispensadores permanecen como centinelas mudos, aguardando a unas manadas que ya no necesitan sustento orgánico.",
+      "El contraste resulta desconcertante: la aparente paz de un prado tradicional se ve rota por el zumbido de un bebedero oxidado que aún intenta bombear en un mundo que lo ha olvidado."
+    ],
+    "idle_messages": [
+      "Un mechón de filamentos blancos y finos cuelga atrapado en una valla.",
+      "Un bebedero automático cruje e intenta activarse sin éxito.",
+      "Se escucha un balido lejano y distorsionado que resuena a metal tallado.",
+      "El trazado del camino es nítido y fácil de seguir en este sector.",
+      "Se encuentra una bota de cuero humano desgastada y abandonada.",
+      "La luz del sol entibia el paisaje de una manera extrañamente agradable.",
+      "Insectos de alas translúcidas revolotean e imitan los patrones de fauna real.",
+      "Un mechón de fibra cuelga de un clavo; al rozarlo, produce una pequeña descarga estática.",
+      "El sol calienta los campos, pero el viento arrastra un eco lejano de engranajes."
+    ]
+  },
+  {
+    "id": "R0009",
+    "nombre": "Camino de los Frutos",
+    "from_node": "N006",
+    "to_node": "N009",
+    "pasos": 45,
+    "image_asset": "assets/images/routes/R0009.webp",
+    "encounters": [
+      {"creature_id": "E0029", "probability": 0.1},
+      {"creature_id": "E0030", "probability": 0.05},
+      {"creature_id": "E0056", "probability": 0.15},
+      {"creature_id": "E0057", "probability": 0.05},
+      {"creature_id": "E0031", "probability": 0.2}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_005", "probability": 0.05},
+      {"item_id": "lore_0013", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Un sendero angosto que lucha por no desaparecer bajo el avance implacable de las raíces retorcidas.",
+      "El ambiente se satura con el olor a tierra fértil y a la savia dulce que gotea de las cortezas heridas.",
+      "En la linde, las criaturas devoran la fruta directamente de las ramas, asimilando en el proceso los sutiles rastros y memorias que las raíces extraen de las estructuras del subsuelo."
+    ],
+    "idle_messages": [
+      "Se percibe un aroma denso que mezcla fragancias silvestres y ozono.",
+      "Una fruta pesada cae al suelo con un golpe sordo y húmedo.",
+      "Se divisa una mancha de jugo carmesí extendida sobre una piedra gris.",
+      "El zumbido de pequeños artefactos voladores que recorren las flores es constante.",
+      "Una oleada de vitalidad y ánimo inexplicable reconforta el cuerpo.",
+      "Aparece un cesto de recolección roto y pisoteado junto al camino.",
+      "El aire se vuelve espeso, dulce y cargado en las cercanías del huerto."
+    ]
+  },
+  {
+    "id": "R0010",
+    "nombre": "Bajada del Suministro",
+    "from_node": "N007",
+    "to_node": "N010",
+    "pasos": 20,
+    "requirement": {
+      "type": "password",
+      "value": "DESCENSO_SEGURO",
+      "fail_msg": "El elevador de carga requiere el código de autorización del supervisor de la antena."
+    },
+    "image_asset": "assets/images/routes/R0010.webp",
+    "encounters": [
+      {"creature_id": "E0092", "probability": 0.1},
+      {"creature_id": "E0093", "probability": 0.02}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_002", "probability": 0.05},
+      {"item_id": "lore_0010", "probability": 0.075},
+      {"item_id": "lore_0014", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una serie de rampas metálicas y escaleras oxidadas que descienden desde la colina en dirección al viejo hangar.",
+      "Las estructuras de hierro muestran los daños del tiempo, y cada pisada produce un eco metálico que parece propagarse por todo el valle.",
+      "Es una ruta técnica y escarpada que exige suma precaución para no resbalar sobre las placas de acero humedecidas por la neblina."
+    ],
+    "idle_messages": [
+      "Una rejilla suelta cede levemente bajo el peso de la pisada.",
+      "El eco repetido de los propios pasos genera una sensación inquietante.",
+      "Se observan nidos de criaturas voladoras ocultos bajo los entramados de las rampas.",
+      "El óxido acumulado mancha las manos al aferrarse a las barandillas.",
+      "La perspectiva hacia abajo genera un ligero vértigo ante la caída.",
+      "Un tensor de acero vibra de forma aguda bajo el azote del viento.",
+      "El chirrido áspero de metal rozando contra metal resuena en la estructura."
+    ]
+  },
+  {
+    "id": "R0011",
+    "nombre": "Senda de la Huida",
+    "from_node": "N008",
+    "to_node": "N009",
+    "pasos": 45,
+    "image_asset": "assets/images/routes/R0011.webp",
+    "encounters": [
+      {"creature_id": "E0016", "probability": 0.2},
+      {"creature_id": "E0045", "probability": 0.15}
+    ],
+    "item_encounters": [
+      {"item_id": "lore_0012", "probability": 0.1},
+      {"item_id": "lore_0024", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Un camino estrecho y oculto donde la maleza ha sido aplastada de forma violenta y reciente por el paso de un grupo numeroso.",
+      "A ambos lados del sendero se aprecian restos de equipamiento desechado: correas de cuero viejo y envases de raciones vacíos.",
+      "La constante sensación de ser observado no da tregua; el denso silencio de la pradera se percibe en este tramo como una amenaza inminente."
+    ],
+    "idle_messages": [
+      "Se observa una mancha de fluido oscuro y seco sobre una roca del camino.",
+      "El viento agita los tallos secos con una cadencia errática y nerviosa.",
+      "Aparece un pequeño amuleto de madera tallado a mano, caído entre la hierba.",
+      "El caminante cree percibir el rumor de pasos apresurados unos metros más adelante.",
+      "El rastro de las pisadas humanas se vuelve difuso y caótico al mezclarse con el barro.",
+      "Una de las criaturas mecánicas observa desde la distancia, inmóvil y sin atacar.",
+      "Una urgencia extraña e irracional empuja al caminante a no detener la marcha."
+    ]
+  },
+  {
+    "id": "R0012",
+    "nombre": "Senda del Hierro",
+    "from_node": "N008",
+    "to_node": "N012",
+    "pasos": 45,
+    "image_asset": "assets/images/routes/R0012.webp",
+    "encounters": [
+      {"creature_id": "E0092", "probability": 0.13},
+      {"creature_id": "E0016", "probability": 0.25}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_006", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una ruta polvorienta que se adentra en el corazón del Prado de los Caídos.",
+      "El suelo está sembrado de fragmentos metálicos, filamentos de cobre y piezas de maquinaria que brillan bajo la luz del sol.",
+      "Es un terreno árido donde la vegetación ha perdido toda batalla contra el avance implacable de la chatarra."
+    ],
+    "idle_messages": [
+      "El roce de las botas contra el suelo metálico levanta un tintineo metálico.",
+      "El sol se refleja en miles de fragmentos de metal dispersos.",
+      "Se escucha el crujido del metal al dilatarse con el cambio de temperatura.",
+      "Un chasis mecánico permanece inerte, observando el camino desde un montón de cables.",
+      "El aire está cargado con un sabor metálico, denso y fuerte.",
+      "Aparece una placa de datos calcinada, ilegible y fracturada.",
+      "Se divisa una estructura que recuerda vagamente a un esqueleto articulado."
+    ]
+  },
+  {
+    "id": "R0013",
+    "nombre": "Camino del Entrenamiento",
+    "from_node": "N009",
+    "to_node": "N013",
+    "pasos": 40,
+    "image_asset": "assets/images/routes/R0013.webp",
+    "encounters": [
+      {"creature_id": "E0017", "probability": 0.2},
+      {"creature_id": "E0029", "probability": 0.2},
+      {"creature_id": "E0016", "probability": 0.1},
+      {"creature_id": "E0025", "probability": 0.05}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_007", "probability": 0.05},
+      {"item_id": "lore_0013", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una pista recta y despejada, marcada con líneas geométricas de colores para diferentes tipos de instrucción física.",
+      "Postes equipados con lentes de lectura intentan registrar la identidad al paso del caminante.",
+      "Es una zona diseñada para la eficiencia técnica, carente de cualquier rasgo orgánico o natural."
+    ],
+    "idle_messages": [
+      "Una luz roja de vigilancia barre el camino rápidamente.",
+      "Se observan marcas de garras profundas sobre el firme sintético.",
+      "Un altavoz emite una instrucción mecánica que resulta ininteligible.",
+      "La sensación de ser observado por ojos invisibles se vuelve insoportable.",
+      "El suelo resulta extrañamente estable y cómodo para la marcha.",
+      "Se encuentra un cronómetro de mano detenido en un segundo eterno.",
+      "Una proyección lumínica de entrenamiento parpadea con una cadencia irregular."
+    ]
+  },
+  {
+    "id": "R0014",
+    "nombre": "Senda del Abismo",
+    "from_node": "N010",
+    "to_node": "N014",
+    "pasos": 55,
+    "image_asset": "assets/images/routes/R0014.webp",
+    "encounters": [
+      {"creature_id": "E0016", "probability": 0.15},
+      {"creature_id": "E0066", "probability": 0.1},
+      {"creature_id": "E0067", "probability": 0.05}
+    ],
+    "tools_encounters": [
+      {"item_id": "lore_0021", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una ruta estrecha que bordea el precipicio del valle central. Las vistas son espectaculares, pero la seguridad es nula.",
+      "A tramos, el camino se estrecha tanto que obliga a adherirse a la roca para avanzar.",
+      "El sonido del viento subiendo desde el abismo crea un silbido constante y agudo."
+    ],
+    "idle_messages": [
+      "Una piedra cae al vacío sin producir eco al impactar.",
+      "El viento presiona con fuerza, tratando de desplazar al viajero hacia el borde.",
+      "Nubes densas flotan por debajo del nivel del suelo.",
+      "Un agarre firme a una raíz saliente evita el deslizamiento.",
+      "Se perciben las propias palpitaciones resonando en los oídos.",
+      "Un ave mecánica planea en silencio cerca de la pared de piedra.",
+      "La vastedad del abismo provoca un vértigo instintivo."
+    ]
+  },
+  {
+    "id": "R0015",
+    "nombre": "Raíces del Mundo",
+    "from_node": "N011",
+    "to_node": "N015",
+    "pasos": 40,
+    "requirement": {
+      "type": "boss",
+      "value": "B003",
+      "fail_msg": "La vegetación de la mansión está tan descontrolada que solo tras vencer a su guardián podrás despejar el camino."
+    },
+    "image_asset": "assets/images/routes/R0015.webp",
+    "encounters": [
+      {"creature_id": "E0051", "probability": 0.1},
+      {"creature_id": "E0029", "probability": 0.1},
+      {"creature_id": "E0030", "probability": 0.2}
+    ],
+    "tools_encounters": [
+      {"item_id": "lore_0006", "probability": 0.1}
+    ],
+    "descripcion": [
+      "Un sendero cubierto por las raíces masivas del Roble Sintético, que actúan como escalones naturales.",
+      "La luz del sol se filtra a través de las hojas artificiales, creando un patrón de luces y sombras hipnótico y cambiante.",
+      "Es un lugar donde la tecnología y lo orgánico se han fusionado de forma indivisible."
+    ],
+    "idle_messages": [
+      "Al pisar una raíz gruesa, una vibración rítmica recorre el suelo.",
+      "La luz tamizada cambia de tonalidad al pasar entre las ramas.",
+      "Se escucha un canto armónico que no corresponde a ningún animal conocido.",
+      "El aire se percibe inusualmente puro y cargado de estática.",
+      "Cables trenzados se confunden con la corteza rugosa del árbol.",
+      "Un aroma que mezcla resina natural y ozono envuelve el entorno.",
+      "La densa sombra del injerto ofrece una falsa sensación de protección."
+    ]
+  },
+  {
+    "id": "R0016",
+    "nombre": "Paso de la Extracción",
+    "from_node": "N012",
+    "to_node": "N016",
+    "pasos": 35,
+    "image_asset": "assets/images/routes/R0016.webp",
+    "encounters": [
+      {"creature_id": "E0086", "probability": 0.1},
+      {"creature_id": "E0059", "probability": 0.1},
+      {"creature_id": "E0060", "probability": 0.1}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_019", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una ruta industrial llena de restos de bandas de tracción y vagonetas volcadas.",
+      "El suelo es de un tono gris ceniza y no permite el crecimiento de brizna alguna de vegetación.",
+      "Grandes reflectores de obra cuelgan de postes torcidos, iluminando el sendero con un tono pálido."
+    ],
+    "idle_messages": [
+      "Los pasos levantan una nube de polvo gris y fina.",
+      "Se encuentra un casco de protección industrial aplastado.",
+      "Una banda de tracción chirría bajo el azote del viento.",
+      "El aire es seco, áspero y erosiona la garganta.",
+      "Aparece un fragmento de mineral que destella con una luz fría.",
+      "Una inscripción de advertencia desgastada reza: 'PELIGRO: EXCAVACIÓN'.",
+      "El paisaje se muestra monótono y profundamente desolador."
+    ]
+  },
+  {
+    "id": "R0017",
+    "nombre": "Senda del Origen",
+    "from_node": "N013",
+    "to_node": "N017",
+    "pasos": 45,
+    "image_asset": "assets/images/routes/R0017.webp",
+    "encounters": [
+      {"creature_id": "E0010", "probability": 0.02},
+      {"creature_id": "E0011", "probability": 0.01},
+      {"creature_id": "E0013", "probability": 0.1},
+      {"creature_id": "E0014", "probability": 0.1}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_008", "probability": 0.05},
+      {"item_id": "lore_0011", "probability": 0.1},
+      {"item_id": "lore_0022", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Un camino que desciende suavemente hacia la entrada blindada del Santuario.",
+      "A los lados, antiguas proyecciones informativas muestran retazos de la historia de la Tierra, ahora distorsionadas y confusas.",
+      "La proximidad al corazón de los secretos que oculta este planeta se hace patente en cada metro."
+    ],
+    "idle_messages": [
+      "Una proyección de un animal extinto parpadea y se disuelve en estática.",
+      "La temperatura desciende drásticamente a medida que se avanza.",
+      "Se alcanza a oír una grabación de voz entrecortada por la interferencia.",
+      "El suelo es de cemento pulido, frío y carente de vida.",
+      "Un sello grabado muestra el emblema del banco genético sobre la puerta de entrada.",
+      "Sensores de movimiento ocultos parecen activarse ante la presencia del caminante.",
+      "Un aire frío y reciclado emana de una rejilla de ventilación."
+    ]
+  },
+  {
+    "id": "R0018",
+    "nombre": "Camino de la Ribera",
+    "from_node": "N014",
+    "to_node": "N018",
+    "pasos": 80,
+    "image_asset": "assets/images/routes/R0018.webp",
+    "encounters": [
+      {"creature_id": "E0007", "probability": 0.02},
+      {"creature_id": "E0008", "probability": 0.005},
+      {"creature_id": "E0043", "probability": 0.2},
+      {"creature_id": "E0044", "probability": 0.1},
+      {"creature_id": "E0063", "probability": 0.05},
+      {"creature_id": "E0064", "probability": 0.02}
+    ],
+    "descripcion": [
+      "Un sendero agradable que desciende desde el mirador hasta el nivel del río.",
+      "La arena blanca se mezcla con restos de conchas artificiales que brillan con un lustre perlado.",
+      "Es una zona donde el murmullo del agua absorbe cualquier otro sonido, proporcionando una extraña intimidad."
+    ],
+    "idle_messages": [
+      "El reflejo del caminante se distorsiona en el agua cristalina.",
+      "La arena fina se filtra en las botas.",
+      "Se encuentra una piedra perfectamente esférica y pulida por el agua.",
+      "Cardúmenes de mecanismos nadadores cruzan el cauce con precisión.",
+      "La luz del sol destella sobre las ondas del agua.",
+      "Se escucha el chapoteo rítmico de algo que se sumerge.",
+      "La brisa que emana del río refresca el ambiente."
+    ]
+  },
+  {
+    "id": "R0019",
+    "nombre": "Túnel Vegetal",
+    "from_node": "N015",
+    "to_node": "N019",
+    "pasos": 50,
+    "image_asset": "assets/images/routes/R0019.webp",
+    "encounters": [
+      {"creature_id": "E0001", "probability": 0.02},
+      {"creature_id": "E0002", "probability": 0.005},
+      {"creature_id": "E0079", "probability": 0.2},
+      {"creature_id": "E0043", "probability": 0.1},
+      {"creature_id": "E0035", "probability": 0.1},
+      {"creature_id": "E0036", "probability": 0.1},
+      {"creature_id": "E0019", "probability": 0.1}
+    ],
+    "item_encounters": [
+      {"item_id": "item_001", "probability": 0.15},
+      {"item_id": "item_004", "probability": 0.05},
+      {"item_id": "lore_0019", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Una ruta sombría donde las ramas de los árboles se han entrelazado sobre el sendero, configurando un angosto túnel natural.",
+      "La oscuridad en el interior es casi total, rota únicamente por pequeños brotes florales que emiten una pálida luz biológica.",
+      "El avance exige apartar marañas de lianas de forma constante para no perder la senda."
+    ],
+    "idle_messages": [
+      "Una liana fibrosa queda enganchada en la mochila de viaje.",
+      "Se escucha el rítmico goteo de la condensación cayendo de la bóveda vegetal.",
+      "Ciertos capullos luminosos se contraen y cierran al detectar el paso cercano.",
+      "El suelo se transforma en una alfombra densa de hojas húmedas y en descomposición.",
+      "Se percibe la inquietante impresión de que los tallos se reubican sutilmente tras pasar.",
+      "Una fosforescencia sutil y titilante alivia por momentos la oscuridad.",
+      "Un olor penetrante a tierra selvática y savia estancada impregna el ambiente."
+    ]
+  },
+  {
+    "id": "R0020",
+    "nombre": "Vía del Transporte",
+    "from_node": "N016",
+    "to_node": "N020",
+    "pasos": 40,
+    "image_asset": "assets/images/routes/R0020.webp",
+    "encounters": [
+      {"creature_id": "E0092", "probability": 0.1},
+      {"creature_id": "E0093", "probability": 0.1}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_002", "probability": 0.07}
+    ],
+    "descripcion": [
+      "Una calzada ancha concebida originalmente para el tránsito de transporte pesado, ahora agrietada y cuarteada por el desuso.",
+      "Grandes paneles apagados señalan la dirección hacia la antigua terminal de carga de la colonia.",
+      "Es una ruta directa pero completamente desprotegida ante los elementos y las incursiones de criaturas salvajes."
+    ],
+    "idle_messages": [
+      "Aparece una señal de tránsito derribada y sepultada por la maleza.",
+      "El viento produce un silbido agudo al colarse entre los postes de luz doblados.",
+      "Se divisa un neumático de proporciones colosales abandonado en la cuneta.",
+      "Un indicador de energía parpadea con un destello anaranjado e intermitente.",
+      "El asfalto deteriorado irradia el sofocante calor acumulado durante el ciclo.",
+      "Cicatrices de frenado térmico marcan el punto donde alguna vez descendió una nave.",
+      "Un dispositivo de reconocimiento averiado gira de forma errática sobre el firme."
+    ]
+  },
+  {
+    "id": "R0021",
+    "nombre": "Sendero del Reciclaje",
+    "from_node": "N017",
+    "to_node": "N021",
+    "pasos": 45,
+    "requirement": {
+      "type": "boss",
+      "value": "B004",
+      "fail_msg": "El protocolo de seguridad del Santuario impide la salida hacia el vertedero."
+    },
+    "image_asset": "assets/images/routes/R0021.webp",
+    "encounters": [
+      {"creature_id": "E0031", "probability": 0.18},
+      {"creature_id": "E0033", "probability": 0.14}
+    ],
+    "descripcion": [
+      "Un sendero sinuoso que se abre paso entre montañas de deshechos industriales y chatarra oxidada.",
+      "El entorno se vuelve un laberinto confuso donde perder el rumbo es sencillo y el peligro acecha tras cada estructura de metal retorcido.",
+      "Por momentos, el caminante puede percibir frecuencias residuales y distorsionadas de antiguos comunicados terrestres emanando de terminales rotas."
+    ],
+    "idle_messages": [
+      "Una pequeña avalancha de chatarra se desliza con estruendo a un lado del sendero.",
+      "El viento arrastra una melodía fragmentada y distorsionada que evoca tiempos pasados.",
+      "Una pantalla parpadea mostrando únicamente un patrón estático de líneas grises.",
+      "Una criatura de cuerpo escuálido huye a toda prisa arrastrando un mazo de hilos de cobre.",
+      "El olor acre de componentes químicos y baterías sulfatadas se vuelve muy intenso.",
+      "Un roce descuidado con un borde metálico afilado provoca un corte superficial.",
+      "Un brazo mecánico semienterrado ejecuta un movimiento espasmódico antes de apagarse."
+    ]
+  },
+  {
+    "id": "R0022",
+    "nombre": "Paso del Puente",
+    "from_node": "N018",
+    "to_node": "N022",
+    "pasos": 25,
+    "image_asset": "assets/images/routes/R0022.webp",
+    "encounters": [
+      {"creature_id": "E0039", "probability": 0.1},
+      {"creature_id": "E0053", "probability": 0.1}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_019", "probability": 0.05},
+      {"item_id": "tool_023", "probability": 0.05}
+    ],
+    "descripcion": [
+      "Un sendero estrecho y escarpado que asciende desde la orilla del río hacia el inicio del puente de piedra viva.",
+      "La vegetación orgánica desaparece en este tramo, sustituida por formaciones minerales de geometrías desconcertantes.",
+      "Una vibración sorda y continua asciende desde las entrañas del suelo, transmitiéndose por las piernas."
+    ],
+    "idle_messages": [
+      "Una roca expuesta muestra una densa veta de cristal violeta incrustada.",
+      "Se observa una hendidura en la roca que parece expandirse y contraerse levemente.",
+      "El aire se vuelve drásticamente seco, gélido y difícil de tragar.",
+      "Un retumbar profundo y lejano reverbera en las paredes del desfiladero.",
+      "Las pisadas adquieren un eco hueco, como si se caminase sobre una costra delgada.",
+      "Marcas de percusión y herramientas humanas permanecen grabadas en los bloques pétreos.",
+      "Una presión súbita e incómoda afecta a los oídos debido al cambio de altitud."
+    ]
+  },
+  {
+    "id": "R0023",
+    "nombre": "Senda del Simulacro",
+    "from_node": "N019",
+    "to_node": "N023",
+    "pasos": 35,
+    "image_asset": "assets/images/routes/R0023.webp",
+    "encounters": [
+      {"creature_id": "E0025", "probability": 0.05},
+      {"creature_id": "E0079", "probability": 0.05},
+      {"creature_id": "E0080", "probability": 0.02}
+    ],
+    "tools_encounters": [
+      {"item_id": "lore_0009", "probability": 0.1}
+    ],
+    "descripcion": [
+      "Un sendero que se adentra en el perímetro del Pueblo de la Calma, delimitado por un sutil cambio de densidad en el aire.",
+      "Al cruzar el umbral, las condiciones del entorno mutan de forma drástica, simulando la temperatura estable de una tarde perpetua.",
+      "La transición resulta una experiencia artificial y pulcra que empuja al caminante a cuestionar la veracidad de sus propios sentidos."
+    ],
+    "idle_messages": [
+      "La luz cenital carece de sombras naturales, semejando la iluminación de un recinto cerrado.",
+      "Un ave cruza el cielo ejecutando un patrón de vuelo excesivamente preciso y simétrico.",
+      "El tapiz de hierba se presenta con una regularidad y suavidad impropias de la pradera.",
+      "La atmósfera permanece en una inmovilidad absoluta; ni una sola hoja oscila.",
+      "Un olor químico, similar al de materiales sintéticos nuevos, impregna el aire.",
+      "Un mecanismo de riego automático humedece un suelo perfectamente estéril.",
+      "La quietud del entorno genera la desconcertante sensación de habitar una estampa congelada."
+    ]
+  },
+  {
+    "id": "R0024",
+    "nombre": "Vía del Vigía",
+    "from_node": "N020",
+    "to_node": "N024",
+    "pasos": 30,
+    "image_asset": "assets/images/routes/R0024.webp",
+    "encounters": [
+      {"creature_id": "E0004", "probability": 0.02},
+      {"creature_id": "E0005", "probability": 0.01},
+      {"creature_id": "E0054", "probability": 0.05},
+      {"creature_id": "E0055", "probability": 0.05},
+      {"creature_id": "E0059", "probability": 0.05},
+      {"creature_id": "E0060", "probability": 0.05},
+      {"creature_id": "E0061", "probability": 0.05}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_019", "probability": 0.05},
+      {"item_id": "item_009", "probability": 0.05},
+      {"item_id": "lore_0008", "probability": 0.08}
+    ],
+    "descripcion": [
+      "Un camino solitario y empinado que conduce hacia las instalaciones del observatorio, aislado de cualquier rastro de actividad previa.",
+      "El suelo está compuesto por una roca de tonalidad blanquecina que refleja la luz celeste con una nitidez sobrecogedora.",
+      "Es un trayecto dominado por el silencio y la introspección, donde el resto de la llanura parece quedar atrás definitivamente."
+    ],
+    "idle_messages": [
+      "El firmamento nocturno se despliega con una nitidez y profundidad abrumadoras.",
+      "El eco de las propias pulsaciones se transforma en el único sonido reconocible.",
+      "El aire se vuelve tan liviano en la altura que la respiración se torna pausada.",
+      "Un destello cruza la alta atmósfera, sugiriendo la caída de algún viejo pecio orbital.",
+      "La inmensidad del espacio exterior acentúa la pequeñez de la figura humana en el páramo.",
+      "Aparece un fragmento de lente óptica pulida, trizado entre las piedras calizas.",
+      "Una luminiscencia pálida y constante traza el perfil de la senda ascendente."
+    ]
+  },
+  {
+    "id": "R0025",
+    "nombre": "Senda del Límite",
+    "from_node": "N021",
+    "to_node": "N025",
+    "pasos": 60,
+    "image_asset": "assets/images/routes/R0025.webp",
+    "encounters": [
+      {"creature_id": "E0078", "probability": 0.1},
+      {"creature_id": "E0069", "probability": 0.05},
+      {"creature_id": "E0070", "probability": 0.05},
+      {"creature_id": "E0027", "probability": 0.05},
+      {"creature_id": "E0094", "probability": 0.05},
+      {"creature_id": "E0095", "probability": 0.02}
+    ],
+    "tools_encounters": [
+      {"item_id": "item_010", "probability": 0.05},
+      {"item_id": "lore_0012", "probability": 0.05},
+      {"item_id": "lore_0025", "probability": 0.02}
+    ],
+
+    "descripcion": [
+      "La última sección transitable del sector, que avanza desde los límites del desguace hacia la Puerta del Vacío.",
+      "Los márgenes del camino exhiben antiguos paneles de advertencia en diversos alfabetos, todos ellos ordenando el cese de la marcha.",
+      "A medida que se gana proximidad con el monolito, el entorno circundante se percibe inestable, borroso y extrañamente desdibujado."
+    ],
+    "idle_messages": [
+      "Una inscripción desvaída sobre el metal advierte de alteraciones severas en la realidad.",
+      "Un leve e involuntario temblor sacude las extremidades sin causa física aparente.",
+      "El tono del cielo fluctúa de manera sutil e irregular con cada tramo recorrido.",
+      "Un zumbido de frecuencia extremadamente baja reverbera directamente en el cráneo.",
+      "Siluetas oscuras se proyectan sobre el terreno, careciendo de un cuerpo real que las cause.",
+      "Un impulso instintivo y primario empuja al caminante a dar la vuelta antes de que sea tarde.",
+      "El sendero desciende hasta disolverse por completo en una negrura impenetrable."
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+  {
+    "id": "E0060",
+    "baseSpeciesId": "E0059",
+    "nombre": "Triolongo",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "genero_ratio" : 0.10,
+    "time_affinity" : "dia",
+    "tipo1": "Insecto",
+    "tipo2": null,
+    "linaje": "Biologico",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["cueva", "arácnido", "albino"],
+    "base_exp_needed": 110,
+    "descripcion": "Sus patas se han estirado considerablemente, permitiéndole desplazarse por los techos de las cuevas con una agilidad pasmosa.",
+    "foto": "assets/images/creatures/E0060.webp",
+    "stats_base": {
+      "vida": 77,
+      "impacto": 90, "magia": 53, "frecuencia": 62, "pulso": 61,
+      "barrera_fisica": 45, "barrera_magica": 57, "barrera_mental": 69, "barrera_vital": 67,
+      "armadura": 12, "velocidad": 95, "precision": 96, "evasion": 8
+    },
+    "growth_mods": {
+      "vida": 1.0,
+      "impacto": 1.1, "magia": 0.9, "frecuencia": 1.1, "pulso": 0.9,
+      "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.1,
+      "armadura": 0.2, "velocidad": 1.0
+    },
+    "pool_ataques": ["red_inmovilizadora",  "telarana_pegajosa", "aguijon_veloz", "coraza_de_insecto", "veneno_letal", "mordisco_toxico", "rapidez"],
+    "evolutionId": "E0061",
+    "evolutionPointsNeeded": 45
+  }

@@ -1,0 +1,46 @@
+{
+  "id": "E0026",
+  "baseSpeciesId": "E0025",
+  "nombre": "Mirajandra",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Ilusión",
+  "tipo2": null,
+  "linaje": "conceptual",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["anfibio", "espectral", "místico", "veloz"],
+  "base_exp_needed": 150,
+  "descripcion": "Se dice que ver a una Mirajandra en libertad es señal de buena fortuna, aunque lo más probable es que solo estés viendo un espejismo. Puede volverse invisible a voluntad fundiéndose con las ondas de calor.",
+  "foto": "assets/images/creatures/E0026.webp",
+
+  "stats_base": {
+    "vida": 72,
+    "impacto": 39, "magia": 43, "frecuencia": 87, "pulso": 81,
+    "barrera_fisica": 41, "barrera_magica": 41, "barrera_mental": 43, "barrera_vital": 70,
+    "armadura": 10, "velocidad": 89, "precision": 100, "evasion": 40
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.3, "velocidad": 1.1
+  },
+
+  "pasivas_posibles": [
+    "maestro_del_espejismo",
+    "terror_ilusorio",
+    "vuelo_onírico"
+  ],
+
+  "pool_ataques": ["ataque_sorpresa", "copia_mental", "golpe_de_ilusion", "reflejo_cristalino",
+    "ilusion_destructiva", "inyeccion_mental","ilusion_reforzada"
+  ],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

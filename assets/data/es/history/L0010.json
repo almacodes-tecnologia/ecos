@@ -1,0 +1,16 @@
+{
+  "id": "lore_0010",
+  "capitulo": "1",
+  "orden": 10,
+  "titulo": "ADN de Hierro",
+  "cuerpo": [
+    "El caminante halló el testimonio de alguien que trabajó en las profundidades de la excavación. Al principio, el autor hablaba de un entumecimiento en las manos, un frío que achacaban a las oscuras galerías y al peso de las herramientas de metal. Pero el malestar no cesaba; se había vuelto sordo y vibrante, como si los huesos respondieran a un pulso lejano.",
+    "Las líneas se volvían erráticas al describir un accidente en las vetas: tras sufrir un corte profundo, la piel no sangró. De la herida brotó un fluido denso y oscuro, y bajo los bordes desgarrados se apreciaba el brillo de un entramado extraño que no parecía humano. Los minerales del subsuelo estaban reclamando el cuerpo, transformándolo desde dentro.",
+    "Quien escribió aquellas palabras comprendió una verdad terrible: no eran los humanos quienes extraían las riquezas de aquel mundo; era el mundo el que los estaba asimilando a ellos. El suelo devoraba su humedad y su calor para devolverles metal frío. Los convertía en piezas de un engranaje antiguo, listos para un mecanismo que llevaba eones esperando a ponerse en marcha.",
+    "El diario concluía con una advertencia para los rezagados: el autor había visto a compañeros quedarse quietos en mitad de las rutas, transformados en estatuas rígidas de chatarra viva. Sus ojos aún se movían desamparados, pero sus piernas ya se habían fundido con el suelo oxidado. Pronto, la transformación se completaría. Serían parte del camino. Serían hierro."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado de un casco de minero medio enterrado en la Senda del Hierro.",
+  "foto": "assets/images/lore/lore_0010.webp"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "E0005",
+    "baseSpeciesId": "E0004",
+    "nombre": "Voltane",
+    "expansion": 1,
+    "catch_rate": 0.05,
+    "capturable": true,
+    "tipo1": "Electrico",
+    "tipo2": "Lucha",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "felino", "cazador"],
+    "base_exp_needed": 180,
+    "descripcion": "Su melena ha empezado a crecer y parece estar hecha de filamentos de cobre. Sus garras ahora pueden fundir el metal con un zarpazo cargado.",
+    "foto": "assets/images/creatures/E0005.webp",
+  
+    "stats_base": {
+      "vida": 45,
+      "p_atk": 22, "r_atk": 14, "m_atk": 10, "mr_atk": 8,
+      "p_def": 12, "r_def": 12, "m_def": 10, "mr_def": 10,
+      "armadura": 4, "velocidad": 28, "precision": 96, "evasion": 12
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.8, "r_atk": 0.8, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.5, "r_def": 0.6, "m_def": 0.6, "mr_def": 0.6,
+      "armadura": 0.2, "velocidad": 0.8
+    },
+  
+    "pasivas_posibles": [
+      "pararrayos",
+      "garra_dinamo",
+      "primer_golpe"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0103",
+    "evolutionPointsNeeded": 25
+  }

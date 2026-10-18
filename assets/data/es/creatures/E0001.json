@@ -1,0 +1,45 @@
+{
+  "id": "E0001",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushpre",
+  "expansion": 1,
+  "catch_rate": 0.3,
+  "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "linaje": "biológico",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["inicial", "slime", "bosque"],
+  "base_exp_needed": 100,
+  "descripcion": "Un pequeño caracol de color verde con una pequeña seta en su espalda. Es curioso y muy vulnerable. Un eco amigable y blando, perfecto como acompañante.",
+  "foto": "assets/images/creatures/E0001.webp",
+
+  "stats_base": {
+    "vida": 999,
+    "impacto": 999, "magia": 999, "frecuencia": 999, "pulso": 999,
+    "barrera_fisica": 999, "barrera_magica": 999, "barrera_mental": 999, "barrera_vital": 999,
+    "armadura": 999, "velocidad": 999, "precision": 99, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.9
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_liquido",
+    "regeneracion_clofila",
+    "nucleo_blando"
+  ],
+  "pool_ataques": ["golpe_base", "impacto", "armadura_de_filos", "golpe_base", "fractura","endurecer", "mazazo", "impacto_de_piedra", "muro_de_roca", "eco_geologico",
+    "Perforadora", "rugido_aturdidor", "impacto_acuatico", "lluvia_de_agua", "chapoteo",
+    "furia_animal", "hidro_escudo", "hidro_escudo"],
+
+  "evolutionId": "E0002",
+  "evolutionPointsNeeded": 0
+}

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "N001",
+    "nombre": "Nodo starting",
+    "tipo": "recurso",
+    "image_asset": "assets/images/routes/N001.webp",
+    "descripcion": "Start here",
+    "boss_id": null,
+    "routes": ["R001"],
+    "acciones": [
+      {
+        "tipo": "pescar",
+        "herramienta_id": "tool_001",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ],
+        "item_encounters": [
+          {
+            "item_id": "bota_vieja",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "digitalizar",
+        "herramienta_id": "tool_005",
+        "delay": 10,
+        "encounters": [
+          {
+            "creature_id": "E0002",
+            "probability": 0.4
+          },
+          {
+            "creature_id": "E0005",
+            "probability": 0.4
+          }
+        ],
+        "item_encounters": [
+          {
+            "item_id": "bota_vieja",
+            "probability": 0.2
+          }
+        ]
+      },
+      {
+        "tipo": "minar",
+        "herramienta_id": "tool_002",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "resonancia",
+        "herramienta_id": "tool_006",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "nuclear",
+        "herramienta_id": "tool_007",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "caos",
+        "herramienta_id": "tool_008",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "temporal",
+        "herramienta_id": "tool_009",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "totem",
+        "herramienta_id": "tool_010",
+        "delay": 3,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.5
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "gravedad",
+        "herramienta_id": "tool_011",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.7 },
+          { "creature_id": "E0004", "probability": 0.3 }
+        ]
+      },
+      {
+        "tipo": "tinieblas",
+        "herramienta_id": "tool_012",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.6 },
+          { "creature_id": "E0007", "probability": 0.4 }
+        ]
+      },
+      {
+        "tipo": "ilusion",
+        "herramienta_id": "tool_013",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.1 },
+          { "creature_id": "E0009", "probability": 0.1 }
+        ]
+      },
+      {
+        "tipo": "luz",
+        "herramienta_id": "tool_014",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.2 }
+        ]
+      },
+      {
+        "tipo": "espectro",
+        "herramienta_id": "tool_015",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.2 },
+          { "creature_id": "E0012", "probability": 0.5 }
+        ]
+      },
+      {
+        "tipo": "polvora",
+        "herramienta_id": "tool_016",
+        "delay": 4,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.2 }
+        ]
+      },
+      {
+        "tipo": "espuma",
+        "herramienta_id": "tool_017",
+        "delay": 4,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.1 }
+        ]
+      },
+      {
+        "tipo": "telaje",
+        "herramienta_id": "tool_018",
+        "delay": 4,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.4 }
+        ]
+      },
+      {
+        "tipo": "electrico",
+        "herramienta_id": "tool_019",
+        "delay": 4,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.4 }
+        ]
+      },
+      {
+        "tipo": "magnetico",
+        "herramienta_id": "tool_020",
+        "delay": 5,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.46 }
+        ]
+      },
+      {
+        "tipo": "alquitran",
+        "herramienta_id": "tool_021",
+        "delay": 6,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.4 }
+        ]
+      },
+      {
+        "tipo": "fuego",
+        "herramienta_id": "tool_022",
+        "delay": 6,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.4 }
+        ]
+      },
+      {
+        "tipo": "cristal",
+        "herramienta_id": "tool_023",
+        "delay": 6,
+        "encounters": [
+          { "creature_id": "E0001", "probability": 0.4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N002",
+    "nombre": "Ciudad Pradera",
+    "descripcion": "Una ciudad tranquila rodeada de verde.",
+    "boss_id": "B001",
+    "routes": ["R001", "R002", "R003"]
+  },
+  {
+    "id": "N003",
+    "nombre": "Puesto Avanzado",
+    "descripcion": "Un pequeño refugio en el borde del Desierto.",
+    "boss_id": null,
+    "routes": ["R002", "R003", "R004"]
+  },
+  {
+    "id": "N004",
+    "nombre": "Entrada Digital",
+    "descripcion": "La puerta hacia el mundo digital, con arena por todas partes.",
+    "boss_id": "B002",
+    "routes": ["R004", "R005"]
+  },
+  {
+    "id": "N005",
+    "nombre": "Núcleo de Datos",
+    "descripcion": "El centro del dominio Digital. El código es el camino.",
+    "boss_id": "B003",
+    "routes": ["R005"]
+  },
+  {
+    "id": "N006",
+    "nombre": "Lago del Bosque",
+    "tipo": "recurso",
+    "image_asset": "assets/images/routes/N006.webp",
+    "descripcion": "Un lago tranquilo. Necesitarás una caña para ver qué hay en el fondo.",
+    "boss_id": null,
+    "routes": ["R005"],
+    "acciones": [
+      {
+        "tipo": "pescar",
+        "herramienta_id": "item_0021",
+        "delay": 15,
+        "encounters": [
+          {
+            "creature_id": "E0001",
+            "probability": 0.1
+          },
+          {
+            "creature_id": "E0002",
+            "probability": 0.1
+          }
+        ],
+        "item_encounters": [
+          {
+            "item_id": "bota_vieja",
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "tipo": "pescar",
+        "herramienta_id": "item_0022",
+        "delay": 10,
+        "encounters": [
+          {
+            "creature_id": "E0002",
+            "probability": 0.4
+          },
+          {
+            "creature_id": "E0005",
+            "probability": 0.4
+          }
+        ],
+        "item_encounters": [
+          {
+            "item_id": "bota_vieja",
+            "probability": 0.2
+          }
+        ]
+      }
+    ]
+  }
+]
+
+

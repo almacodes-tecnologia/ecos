@@ -1,0 +1,45 @@
+{
+  "id": "E0088",
+  "baseSpeciesId": "E0088",
+  "nombre": "Fogorroc",
+  "expansion": 1,
+  "catch_rate": 0.2,
+  "capturable": true,
+  "genero_ratio" : 0.75,
+  "time_affinity" : "noche",
+  "tipo1": "Piedra",
+  "tipo2": "Fuego",
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["escarabajo", "montaña", "terrestre"],
+  "base_exp_needed": 120,
+  "descripcion": "Un escarabajo de movimientos pausados que camufla su coraza con piedras y pequeñas patatas silvestres. Aunque parece inofensivo, el calor que desprende su abdomen ayuda a que los tubérculos en su espalda crezcan rápido.",
+  "foto": "assets/images/creatures/E0088.webp",
+
+  "stats_base": {
+    "vida": 71,
+    "impacto": 57, "magia": 68, "frecuencia": 48, "pulso": 54,
+    "barrera_fisica": 76, "barrera_magica": 66, "barrera_mental": 66, "barrera_vital": 51,
+    "armadura": 18, "velocidad": 26, "precision": 92, "evasion": 3
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+
+  "pasivas_posibles": [
+    "coraza_ignea",
+    "robustez_rocosa",
+    "geotermia"
+  ],
+
+  "pool_ataques": ["fogonazo","manto_de_fuego","manto_de_ceniza","drenaje_de_calor","fractura","cornada_petrea",
+    "pisoton","tormenta_de_arena"],
+
+  "evolutionId": "E0089",
+  "evolutionPointsNeeded": 40
+}

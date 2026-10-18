@@ -1,0 +1,42 @@
+{
+  "id": "E0002",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushnell",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["evolucion", "slime", "bosque"],
+  "base_exp_needed": 150,
+  "descripcion": "Al acumular minerales del suelo, este slime ha desarrollado una capa protectorade hongos que lo hace mucho más resistente. Su moco empieza a ser tóxico.",
+  "foto": "assets/images/creatures/E0002.webp",
+
+  "stats_base": {
+    "vida": 45,
+    "p_atk": 8, "r_atk": 6, "m_atk": 14, "mr_atk": 12,
+    "p_def": 18, "r_def": 20, "m_def": 16, "mr_def": 16,
+    "armadura": 10, "velocidad": 10, "precision": 94, "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 0.6,
+    "p_atk": 0.6, "r_atk": 0.4, "m_atk": 0.8, "mr_atk": 0.8,
+    "p_def": 0.8, "r_def": 0.8, "m_def": 0.8, "mr_def": 0.8,
+    "armadura": 0.2, "velocidad": 0.6
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_liquido",
+    "coraza_mineral",
+    "fotosintesis"
+  ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+
+  "evolutionId": "E0003",
+  "evolutionPointsNeeded": 12
+}

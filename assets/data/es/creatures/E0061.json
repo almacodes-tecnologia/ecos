@@ -1,0 +1,36 @@
+  {
+    "id": "E0061",
+    "baseSpeciesId": "E0059",
+    "nombre": "Kinttal",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "genero_ratio" : 0.10,
+    "time_affinity" : "dia",
+    "tipo1": "Insecto",
+    "tipo2": "Cristal",
+    "linaje": "Biologico",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["cueva", "arácnido", "cristalizado"],
+    "base_exp_needed": 140,
+    "descripcion": "Con cinco ojos que brillan como gemas, sus patas ahora son tan afiladas y duras como el diamante. Su seda refracta la luz de forma letal.",
+    "foto": "assets/images/creatures/E0061.webp",
+    "stats_base": {
+      "vida": 97,
+      "impacto": 77, "magia": 63,"frecuencia": 100, "pulso": 70,
+      "barrera_fisica": 64, "barrera_magica": 69, "barrera_mental": 73, "barrera_vital": 91,
+      "armadura": 20, "velocidad": 70, "precision": 99, "evasion": 8
+    },
+    "growth_mods": {
+      "vida": 1.0,
+      "impacto": 1.1, "magia": 0.9, "frecuencia": 1.1, "pulso": 0.9,
+      "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.1,
+      "armadura": 0.2, "velocidad": 1.0
+    },
+    "pasivas_posibles": ["cuerpo_refractario", "corte_cristalino", "quinto_ojo"],
+    "pool_ataques": ["red_inmovilizadora",  "telarana_pegajosa", "aguijon_veloz", "coraza_de_insecto", "veneno_letal", "mordisco_toxico", "rapidez", "onda_mental",
+      "espejismo", "fragmentacion", "coraza_de_cristal", "cristatela"],
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

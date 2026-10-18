@@ -1,0 +1,61 @@
+{
+  "id": "E0084",
+  "baseSpeciesId": "E0084",
+  "nombre": "Pradogolem",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Piedra",
+  "tipo2": "Vegetal",
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["golem", "prado", "musgo", "flores"],
+  "base_exp_needed": 145,
+  "descripcion": "Una criatura pacífica que suele confundirse con un montículo de rocas floridas en los valles. Su cuerpo es un ecosistema vivo; las flores que crecen en su lomo dependen de los minerales de sus piedras para florecer durante todo el año.",
+  "foto": "assets/images/creatures/E0084.webp",
+
+  "stats_base": {
+    "vida": 116,
+    "impacto": 72,
+    "magia": 43,
+    "frecuencia": 55,
+    "pulso": 45,
+    "barrera_fisica": 109,
+    "barrera_magica": 101,
+    "barrera_mental": 90,
+    "barrera_vital": 80,
+    "armadura": 70,
+    "velocidad": 29,
+    "precision": 90,
+    "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.2,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "fotosintesis",
+    "cuerpo_rocoso",
+    "clorofila"
+  ],
+
+  "pool_ataques": ["Perforadora","coletazo_de_roca","martillazo_de_golem","armadura_de_filos","lanzapiedras",
+    "muro_de_roca","arraizar","muro_de_espinas","latigazo","paciencia","lluvia_de_ramas"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

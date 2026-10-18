@@ -1,0 +1,36 @@
+  {
+    "id": "E0066",
+    "baseSpeciesId": "E0066",
+    "nombre": "Garriz",
+    "expansion": 1,
+    "catch_rate": 0.35,
+    "capturable": true,
+    "genero_ratio" : 0.70,
+    "time_affinity" : "dia",
+    "tipo1": "Viento",
+    "tipo2": "Bestia",
+    "linaje": "Elemental",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["ave", "pradera", "veloz"],
+    "base_exp_needed": 85,
+    "descripcion": "Un pequeño polluelo de plumaje erizado. Aunque su vuelo es torpe, sus garras ya muestran la ferocidad de una bestia.",
+    "foto": "assets/images/creatures/E0066.webp",
+    "stats_base": {
+      "vida": 48,
+      "impacto": 62, "magia": 50, "frecuencia": 44, "pulso": 41,
+      "barrera_fisica": 37, "barrera_magica": 43, "barrera_mental": 38, "barrera_vital": 43,
+      "armadura": 12, "velocidad": 71, "precision": 96, "evasion": 8
+    },
+    "growth_mods": {
+      "vida": 1.1,
+      "impacto": 1.0, "magia": 1.0, "frecuencia": 0.8, "pulso": 1.0,
+      "barrera_fisica": 0.9, "barrera_magica": 1.1, "barrera_mental": 0.9, "barrera_vital": 1.1,
+      "armadura": 0.2, "velocidad": 1.1
+    },
+    "pasivas_posibles": ["ojo_halcon", "vuelo_ligero", "furia_bestial"],
+    "pool_ataques": ["torbellino", "en_picado", "golpe_alado","ala_cortante", "ojo_del_huracan", "golpe_agil",
+      "mirada_penetrante"],
+    "evolutionId": "E0067",
+    "evolutionPointsNeeded": 16
+  }

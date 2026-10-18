@@ -1,0 +1,21 @@
+{
+  "id": "G002",
+  "nombre": "Guardián Caótico R-02F",
+  "tipo_entidad": "guardian",
+  "capturable": false,
+  "tipo1": "caos",
+  "tipo2": "metal",
+  "descripcion": "",
+  "foto": "assets/images/guardians/G002.webp",
+
+  "stats_base": {
+    "vida": 1,
+    "impacto": 25, "magia": 20, "frecuencia": 15, "pulso": 15,
+    "barrera_fisica": 30, "barrera_magica": 25, "barrera_mental": 20, "barrera_vital": 20,
+    "armadura": 10, "velocidad": 1, "precision": 95, "evasion": 2
+  },
+
+  "pool_ataques": ["golpe_base"],
+
+  "recompensa_especial": "key_ancient_01"
+}

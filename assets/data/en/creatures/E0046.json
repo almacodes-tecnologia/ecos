@@ -1,0 +1,38 @@
+{
+    "id": "E0046",
+    "baseSpeciesId": "E0046",
+    "nombre": "Tormiguero",
+    "expansion": 1,
+    "catch_rate": 0.50,
+    "capturable": true,
+    "tipo1": "Tótem",
+    "tipo2": "Tierra",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["tótem", "bosque", "excavador"],
+    "base_exp_needed": 120,
+    "descripcion": "Un pequeño buscador de raíces. Sus orejas aún son blandas, pero su piel empieza a endurecerse como la corteza de un árbol joven.",
+    "foto": "assets/images/creatures/E0046.webp",
+  
+    "stats_base": {
+      "vida": 45,
+      "p_atk": 15, "r_atk": 8, "m_atk": 5, "mr_atk": 5,
+      "p_def": 18, "r_def": 12, "m_def": 10, "mr_def": 8,
+      "armadura": 10, "velocidad": 20, "precision": 100, "evasion": 5
+    },
+  
+    "growth_mods": {
+      "vida": 1.1,
+      "p_atk": 1.2, "r_atk": 0.6, "m_atk": 0.4, "mr_atk": 0.4,
+      "p_def": 1.4, "r_def": 1.1, "m_def": 0.9, "mr_def": 0.7,
+      "armadura": 1.2, "velocidad": 0.8
+    },
+  
+    "pasivas_posibles": ["piel_clorofila", "sentido_vibratorio"],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0047",
+    "evolutionPointsNeeded": 16
+}

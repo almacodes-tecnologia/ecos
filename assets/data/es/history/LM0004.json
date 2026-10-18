@@ -1,0 +1,14 @@
+{
+  "id": "lore_m_botas_del_eco_antiguo",
+  "capitulo": "Cripta Antigua",
+  "orden": 4,
+  "titulo": "LA MARCHA MECÁNICA",
+  "cuerpo": [
+    "Día 12. La expedición ha terminado. Solo quedo yo. Los demás huyeron cuando los acumuladores de la excavación colapsaron, inundando las galerías inferiores con una marea de lodo electrificado. Sin embargo, estas botas... desafían la física del sector. La aleación de su suela disipa cualquier carga magnética.",
+    "Caminé literalmente sobre el fango hirviente mientras veía cómo las herramientas de hierro de mis compañeros se retorcían y deshacían. La sensación es embriagadora; no percibo el peso de mi carne, solo una tracción perfecta sobre las losas calientes. El cansancio muscular ha desaparecido, sustituido por una necesidad imperiosa de avanzar.",
+    "He llegado a la zona de las criaturas salvajes del subsuelo. Formas minerales que se desplazan entre las sombras. Curiosamente, no muestran hostilidad. Se apartan a mi paso, inclinando sus cuerpos deformes de roca y metal. Quizás sea el sonido de mis pisadas, ese golpe seco y rítmico que resuena en la roca como una frecuencia de mando."
+  ],
+  "fuente": "Grabación de voz recuperada",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Obtén las Botas en la Cripta."
+}

@@ -1,0 +1,155 @@
+{
+  "id": "D0001",
+  "nombre": "Cripta del Eco Antiguo",
+  "tipo_mazmorra": "antigua",
+  "pasos_maximo": 80,
+  "image_asset": "assets/images/dungeons/D001.webp",
+  "tags": ["mazmorra_antigua","eco_legendario","dungeon_de_guardian"],
+  "descripcion": [
+    "Una mazmorra olvidada donde los Ecos antiguos aún resuenan.",
+    "La energía es inestable y cada decisión puede marcar la diferencia."
+  ],
+  "objetos_especiales": {
+    "key_ancient_01": "Llave de Laton de Alba",
+    "item_001": "Anillo de Hierro de Mario",
+    "item_002": "Anillo de bronce de Alba",
+    "lore_page_01": "Cronica de Alba y Mario"
+  },
+  "nivel": 1,
+  "restricciones": {
+    "nivel_max": 20,
+    "rango_minimo": 0,
+    "tamano_equipo": 3,
+    "tipos_permitidos": [],
+    "expansiones_requeridas": []
+  },
+  "dificultades": {
+    "normal": { "boss_level_modifier": 0},
+    "dificil": { "boss_level_modifier": 2},
+    "experto": { "boss_level_modifier": 5}
+  },
+  "recompensa_final": {
+    "set_id": "set_eco_antiguo",
+    "piezas": ["guantes_del_eco_antiguo", "pantalones_del_eco_antiguo", "yelmo_del_eco_antiguo",
+      "botas_del_eco_antiguo", "anillo_del_eco_antiguo", "pechera_del_eco_antiguo"],
+    "eco_legendario": {
+      "eco_id": "E0098",
+      "probabilidad_aparicion": 1.0,
+      "captura_dado": {
+        "1": "capturado", "2": "capturado", "3": "capturado",
+        "4": "fallo", "5": "fallo", "6": "fallo"
+      }
+    }
+  },
+
+  "nodos": [
+    {
+      "id": "N1",
+      "nombre": "Entrada de la Cripta",
+      "tipo": "inicio",
+      "msg": "Las puertas se cierran tras de ti. Solo puedes avanzar."
+    },
+    {
+      "id": "N2",
+      "nombre": "Plaza Desierta",
+      "tipo": "seleccion_ruta",
+      "evento_id": "azar_menor"
+    },
+    {
+      "id": "N3",
+      "nombre": "Sala del Azar",
+      "tipo": "normal",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N4",
+      "nombre": "Fuente de la Vida",
+      "tipo": "curacion",
+      "curacion_valor": 1.0,
+      "msg": "El agua cristalina sana las heridas de tu equipo."
+    },
+    {
+      "id": "N5",
+      "nombre": "Altar del Guardián",
+      "tipo": "guardian_final",
+      "guardian_id": "G001",
+      "msg_pre_combate": "El Guardián Antiguo despierta de su letargo..."
+    }
+  ],
+  "rutas": [
+    {
+      "id": "R1",
+      "from_node": "N1",
+      "to_node": "N2",
+      "pasos": 10,
+      "descripcion": "Cruzas el umbral hacia el centro de la cripta.",
+      "encounters": [{"creature_id": "E0075", "probability": 0.2},{"item_id": "item_001", "probability": 0.000002}, {"item_id": "key_ancient_01", "probability": 0.3}]
+    },
+    {
+      "id": "R2",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 20,
+      "descripcion": "Tomas el camino de las ruinas (Peligroso).",
+      "item_requerido": "key_ancient_01",
+      "encounters": [{"creature_id": "E0073", "probability": 0.000002},
+        {"creature_id": "E0074", "probability": 0.000001}]
+    },
+    {
+      "id": "R3",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 35,
+      "descripcion": "Rodeas por las catacumbas (Largo pero seguro).",
+      "item_encounters": [{"item_id": "item_001", "probability": 0.001}]
+    },
+    {
+      "id": "R4",
+      "from_node": "N3",
+      "to_node": "N4",
+      "pasos": 15,
+      "descripcion": "Sigues el rastro de agua fresca.",
+      "encounters": [{"creature_id": "E0073", "probability": 0.000001}]
+        },
+    {
+      "id": "R5",
+      "from_node": "N4",
+      "to_node": "N5",
+      "pasos": 5,
+      "descripcion": "El aire se vuelve gélido. El final está cerca.",
+      "encounters": [{"creature_id": "E0073", "probability": 0.000001},
+        {"creature_id": "E0075", "probability": 0.000001}]
+    }
+  ],
+  "eventos_pool": {
+    "azar_menor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.15, "msg": "¡Trampa de flechas!"},
+        "2": {"creature_id": "E0074", "msg": "¡Un Eco salvaje aparece!", "capturable": true},
+        "3": {"msg": "El silencio es absoluto... sigues adelante."},
+        "4": {"valor_pasos": 10, "msg": "Encuentras un atajo y recuperas energía."},
+        "5": {"valor_danio": 0.05, "msg": "Tropiezas con una piedra. Un rasguño leve."},
+        "6": {"item_id": "item_002", "msg": "¡Brilla algo en el suelo! Has encontrado un objeto."}
+      }
+    },
+    "azar_mayor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.35, "msg": "¡Derrumbe masivo! El equipo sufre heridas graves."},
+        "2": {"creature_id": "G001", "capturable": false, "msg": "¡Un Centinela robótico detecta tu presencia!"},
+        "3": {"creature_id": "G002", "capturable": false, "msg": "¡Un guardián robótico te corta el paso!"},
+        "4": {"valor_pasos": 25, "msg": "Una corriente de aire místico te da vigor."},
+        "5": {"creature_id": "E0075", "capturable": true, "msg": "¡Un Eco raro emerge de las sombras!"},
+        "6": {"forzar_salida": true, "es_victoria": false, "msg": "Gas narcótico... tus ojos se cierran. Despiertas en la entrada."}
+      }
+    }
+  },
+  "idle_messages": [
+    "Escuchas gotas de agua caer rítmicamente.",
+    "Un escalofrío recorre tu espalda.",
+    "Ecos lejanos parecen pronunciar tu nombre."
+  ]
+}
+
+

@@ -1,0 +1,44 @@
+{
+  "id": "E0069",
+  "baseSpeciesId": "E0069",
+  "nombre": "Larvink",
+  "expansion": 1,
+  "catch_rate": 0.5,
+  "capturable": true,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "noche",
+  "tipo1": "Insecto",
+  "tipo2": null,
+  "linaje": "Biológico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["larva", "bosque", "rápido"],
+  "base_exp_needed": 80,
+  "descripcion": "Una larva pálida que se mueve con una agilidad sorprendente. Sus mandíbulas vibran a alta frecuencia, preparándose para su violenta metamorfosis.",
+  "foto": "assets/images/creatures/E0069.webp",
+
+  "stats_base": {
+    "vida": 42,
+    "impacto": 56, "magia": 48, "frecuencia": 31, "pulso": 29,
+    "barrera_fisica": 34, "barrera_magica": 32, "barrera_mental": 36, "barrera_vital": 34,
+    "armadura": 3, "velocidad": 62, "precision": 96, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 0.9, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 1.1, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "reflejos_quiti",
+    "enjambre_alerta",
+    "mandibula_veloz"
+  ],
+
+  "pool_ataques": ["golpe_base", "endurecer", "coraza_de_insecto"],
+
+  "evolutionId": "E0070",
+  "evolutionPointsNeeded": 38
+}

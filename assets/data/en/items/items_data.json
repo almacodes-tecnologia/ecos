@@ -1,0 +1,82 @@
+[
+  {
+    "id": "item_001",
+    "nombre": "Ring de Hierro",
+    "descripcion": "Un simple anillo que aumenta ligeramente la defensa.",
+    "tipo_objeto": "equipo",
+    "statModificado": "p_def",
+    "valorModificador": 5
+  },
+  {
+    "id": "item_002",
+    "nombre": "Púas de Acero",
+    "descripcion": "Aumenta el poder de ataques cuerpo a cuerpo.",
+    "tipo_objeto": "equipo",
+    "statModificado": "p_atk",
+    "valorModificador": 15
+  },
+  {
+    "id": "item_003",
+    "nombre": "Gema de Vida",
+    "descripcion": "Una gema que añade resistencia extra.",
+    "tipo_objeto": "equipo",
+    "statModificado": "vida",
+    "valorModificador": 30
+  },
+  {
+    "id": "item_004",
+    "nombre": "Mira de Francotirador",
+    "descripcion": "Mejora la probabilidad de acertar ataques de rango.",
+    "tipo_objeto": "equipo",
+    "statModificado": "precision",
+    "valorModificador": 5
+  },
+  {
+    "id": "item_005",
+    "nombre": "Guantes de Poder",
+    "descripcion": "Aumenta la fuerza en los ataques cuerpo a cuerpo.",
+    "tipo_objeto": "equipo",
+    "statModificado": "p_atk",
+    "valorModificador": 12
+  },
+  {
+    "id": "item_006",
+    "nombre": "Visor Arcano",
+    "descripcion": "Concentra la energía para mejorar el ataque mágico.",
+    "tipo_objeto": "equipo",
+    "statModificado": "m_atk",
+    "valorModificador": 15
+  },
+  {
+    "id": "item_007",
+    "nombre": "Capa de Sigilo",
+    "descripcion": "Tejido especial que facilita la evasión de ataques.",
+    "tipo_objeto": "equipo",
+    "statModificado": "evasion",
+    "valorModificador": 8
+  },
+  {
+    "id": "item_008",
+    "nombre": "Chaleco Reforzado",
+    "descripcion": "Materiales densos que incrementan la armadura física.",
+    "tipo_objeto": "equipo",
+    "statModificado": "armadura",
+    "valorModificador": 7
+  },
+  {
+    "id": "item_009",
+    "nombre": "Amuleto de Vigor",
+    "descripcion": "Incrementa notablemente los puntos de vida totales.",
+    "tipo_objeto": "equipo",
+    "statModificado": "vida",
+    "valorModificador": 45
+  },
+  {
+    "id": "item_010",
+    "nombre": "Brazales de Titanio",
+    "descripcion": "Mejora la defensa contra ataques físicos directos.",
+    "tipo_objeto": "equipo",
+    "statModificado": "p_def",
+    "valorModificador": 8
+  }
+]

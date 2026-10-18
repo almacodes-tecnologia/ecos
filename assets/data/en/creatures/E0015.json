@@ -1,0 +1,42 @@
+{
+    "id": "E0015",
+    "baseSpeciesId": "E0013",
+    "nombre": "Quarzodon",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Cristal",
+    "tipo2": null,
+    "rareza": "Epico",
+    "level_cap": 100,
+    "tags": ["final", "reptil", "ancestral"],
+    "base_exp_needed": 380,
+    "descripcion": "Un ser majestuoso cuyo cuerpo es un diamante viviente. Dicen que puede ver el futuro a través de las infinitas facetas de sus ojos. Sus ataques mágicos no conocen la distancia.",
+    "foto": "assets/images/creatures/E0015.webp",
+  
+    "stats_base": {
+      "vida": 63,
+      "p_atk": 12, "r_atk": 25, "m_atk": 26, "mr_atk": 26,
+      "p_def": 27, "r_def": 27, "m_def": 25, "mr_def": 25,
+      "armadura": 8, "velocidad": 30, "precision": 98, "evasion": 10
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.6, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.7,
+      "p_def": 0.8, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.3, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "transparencia_total",
+      "aura_diamantina",
+      "amplificador_gauss"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

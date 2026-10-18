@@ -1,0 +1,46 @@
+{
+  "id": "E0044",
+  "baseSpeciesId": "E0043",
+  "nombre": "Dracohoja",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "noche",
+  "tipo1": "Vegetal",
+  "tipo2": "Bestia",
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["serpiente", "bosque", "depredador"],
+  "base_exp_needed": 140,
+  "descripcion": "Al evolucionar, desarrolla grandes hojas en su cabeza que utiliza para absorber luz solar. Es majestuosa y territorial, capaz de moverse silenciosamente por el dosel del bosque.",
+  "foto": "assets/images/creatures/E0044.webp",
+
+  "stats_base": {
+    "vida": 92,
+    "impacto": 70, "magia": 81, "frecuencia": 71, "pulso": 95,
+    "barrera_fisica": 64, "barrera_magica": 63, "barrera_mental": 92, "barrera_vital": 90,
+    "armadura": 20, "velocidad": 77, "precision": 95, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.1, "magia": 1.1, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 0.9, "barrera_vital": 0.9,
+    "armadura": 0.3, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "fotosintesis_feroz",
+    "camuflaje_selvatico",
+    "veneno_vegetal"
+  ],
+
+  "pool_ataques": ["mirada_penetrante", "golpe_agil", "rapidez", "mordisco", "danza_vegetal", "hojas_cortantes",
+    "latigazo", "enredadera", "lanza_de_veneno", "veneno_letal", "hoja_precisa"],
+
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

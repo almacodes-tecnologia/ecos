@@ -1,0 +1,42 @@
+{
+    "id": "E0004",
+    "baseSpeciesId": "E0004",
+    "nombre": "Liohm",
+    "expansion": 1,
+    "catch_rate": 0.15,
+    "capturable": true,
+    "tipo1": "Electrico",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["inicial", "felino", "sabana"],
+    "base_exp_needed": 100,
+    "descripcion": "Un pequeño cachorro de león cuyo pelaje genera chispas constantes. Al jugar, suele soltar descargas accidentales que paralizan a sus compañeros.",
+    "foto": "assets/images/creatures/E0004.webp",
+  
+    "stats_base": {
+      "vida": 25,
+      "p_atk": 12, "r_atk": 8, "m_atk": 11, "mr_atk": 9,
+      "p_def": 6, "r_def": 6, "m_def": 5, "mr_def": 5,
+      "armadura": 2, "velocidad": 15, "precision": 95, "evasion": 8
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.9, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.7,
+      "p_def": 0.6, "r_def": 0.6, "m_def": 0.6, "mr_def": 0.6,
+      "armadura": 0.1, "velocidad": 0.8
+    },
+  
+    "pasivas_posibles": [
+      "estatica_activa",
+      "impulso_nervioso",
+      "cobardia_electrica"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0102",
+    "evolutionPointsNeeded": 15
+  }

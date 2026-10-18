@@ -1,0 +1,46 @@
+{
+  "id": "E0039",
+  "baseSpeciesId": "E0039",
+  "nombre": "Krokrock",
+  "expansion": 1,
+  "catch_rate": 0.12,
+  "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+  "tipo1": "Piedra",
+  "tipo2": null,
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["reptil", "pantano", "robusto"],
+  "base_exp_needed": 110,
+  "descripcion": "Tras años de ingerir minerales del fondo del río, sus escamas se han fusionado con sedimentos rocosos. Es lento en tierra, pero imparable cuando inicia una carga.",
+  "foto": "assets/images/creatures/E0039.webp",
+
+  "stats_base": {
+    "vida": 80,
+    "impacto": 68, "magia": 30, "frecuencia": 31, "pulso": 30,
+    "barrera_fisica": 51, "barrera_magica": 60, "barrera_mental": 61, "barrera_vital": 58,
+    "armadura": 25, "velocidad": 35, "precision": 90, "evasion": 0
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.1, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 1.1, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "piel_de_granito",
+    "mandibula_ferrea",
+    "sangre_fria"
+  ],
+
+  "pool_ataques": [ "impacto", "canto_bestial", "endurecer", "rapidez", "temblor", "impacto_de_piedra", "aranazo_rocoso",
+    "muro_de_roca", "garra_de_cristal"
+  ],
+
+  "evolutionId": "E0040",
+  "evolutionPointsNeeded": 35
+}

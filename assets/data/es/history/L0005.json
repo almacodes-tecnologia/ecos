@@ -1,0 +1,16 @@
+{
+  "id": "lore_0005",
+  "capitulo": "1",
+  "orden": 5,
+  "titulo": "Hidrosincronía",
+  "cuerpo": [
+    "Las notas del primer capítulo hablaban de una época en que los filtros mecánicos de los colonos mantenían el agua limpia y segura. Pequeños mecanismos invisibles recorrían los conductos, purificando el flujo hídrico. Eran herramientas silenciosas y obedientes.",
+    "Sin embargo, el agua de este planeta parecía poseer una extraña memoria, una corriente que nadie previó. Aquellos mecanismos dejaron de limpiar; empezaron a construir. Se agruparon en el fondo de las corrientes, uniendo sus fuerzas para reaccionar al unísono y transmitir impulsos de un extremo a otro del río de forma instantánea.",
+    "El explorador dejó escrito que vio criaturas emerger de la orilla, seres que parecían moldeados con cristal líquido. No tenían órganos internos, sino una intrincada estructura parpadeante que imitaba la forma de las criaturas de su viejo mundo con una precisión aterradora. Sus cuerpos refractaban la luz violeta del entorno, brillando con un fulgor eléctrico.",
+    "Al acercarse a la Vía del Agua, descubrió que sumergir la mano no provocaba una sensación de frío, sino un hormigueo punzante. El río ya no era un simple recurso para la supervivencia; era una corriente infinita que fluía hacia el mar, entrelazando cada rincón del planeta como si se tratara de una gran mente viviente."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado tras la primera jornada de pesca en el Nodo N006.",
+  "foto": "assets/images/lore/lore_0005.webp"
+}

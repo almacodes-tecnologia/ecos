@@ -1,0 +1,42 @@
+{
+    "id": "E0043",
+    "baseSpeciesId": "E0043",
+    "nombre": "Glacepín",
+    "expansion": 1,
+    "catch_rate": 0.25,
+    "capturable": true,
+    "tipo1": "Hielo",
+    "tipo2": null,
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["crustaceo", "artico", "caparazon"],
+    "base_exp_needed": 120,
+    "descripcion": "Un pequeño cangrejo que vive en las grietas de los glaciares. Su caparazón está cubierto por una capa de permafrost que nunca se derrite.",
+    "foto": "assets/images/creatures/E0043.webp",
+  
+    "stats_base": {
+      "vida": 45,
+      "p_atk": 12, "r_atk": 5, "m_atk": 8, "mr_atk": 4,
+      "p_def": 18, "r_def": 15, "m_def": 10, "mr_def": 8,
+      "armadura": 8, "velocidad": 8, "precision": 95, "evasion": 2
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.9, "r_atk": 0.4, "m_atk": 0.6, "mr_atk": 0.3,
+      "p_def": 0.6, "r_def": 0.6, "m_def": 0.8, "mr_def": 0.6,
+      "armadura": 0.2, "velocidad": 0.4
+    },
+  
+    "pasivas_posibles": [
+      "caparazon_gelido",
+      "hidratacion",
+      "pinza_fria"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0044",
+    "evolutionPointsNeeded": 20
+}

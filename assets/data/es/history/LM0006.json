@@ -1,0 +1,14 @@
+{
+  "id": "lore_m_pechera_del_eco_antiguo",
+  "capitulo": "Cripta Antigua",
+  "orden": 6,
+  "titulo": "EL ÚLTIMO VIGILANTE",
+  "cuerpo": [
+    "Aquí yace el cuerpo de Valerius, aunque la biología humana ya lo ha abandonado. Su anatomía ha sido integrada por la densidad de la armadura, pero su impronta permanece grabada en este cristal ferroso. La pechera de la Cripta no detiene los impactos físicos; detiene la erosión de la memoria.",
+    "El núcleo mineral late con una cadencia sorda, bombeando fluidos pesados a través de un sistema circulatorio de filamentos y bronce oxidado. Al revestir esta última pieza, el individuo cede su condición aislada para transformarse en el centro térmico de la Cripta. El dolor biológico se extingue, el miedo se disipa; solo perdura la inercia de vigilar las formas que habitan la oscuridad.",
+    "Si estás leyendo esta inscripción y vistes la armadura en su totalidad, debes saber que el retorno a la superficie es imposible. Te has convertido en el nuevo Guardián de la galería. El mundo exterior se desvanecerá de tus recuerdos, pero aquí abajo, entre las sombras de bronce y los susurros de la piedra viva, serás un engranaje eterno en un mundo que despierta."
+  ],
+  "fuente": "Inscripción final tallada en el Trono de Piedra",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Recupera la Pechera en la Cripta."
+}

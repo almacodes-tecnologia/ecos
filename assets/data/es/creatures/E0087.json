@@ -1,0 +1,45 @@
+{
+  "id": "E0087",
+  "baseSpeciesId": "E0086",
+  "nombre": "Dracovipe",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio": 0.8,
+  "time_affinity": "noche",
+  "tipo1": "Tóxico",
+  "tipo2": null,
+  "linaje": "conceptual",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["serpiente", "venenoso", "ala_falsa"],
+  "base_exp_needed": 160,
+  "descripcion": "Tras evolucionar, su tamaño aumenta considerablemente y muestra unas pequeñas alas. Aunque no le sirven para volar, las agita para dispersar nubes de polen tóxico.",
+  "foto": "assets/images/creatures/E0087.webp",
+
+  "stats_base": {
+    "vida": 96,
+    "impacto": 70, "magia": 109, "frecuencia": 90, "pulso": 62,
+    "barrera_fisica": 85, "barrera_magica": 64, "barrera_mental": 70, "barrera_vital": 84,
+    "armadura": 12, "velocidad": 68, "precision": 96, "evasion": 8
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 1.1, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.22, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "piel_toxica",
+    "vuelo_falso",
+    "neurotoxina"
+  ],
+
+  "pool_ataques": ["lanza_de_veneno", "mordisco_toxico", "mordisco_infectado", "absorcion_toxica", "aguijon_venenoso",
+    "residuos", "evasion_mental", "blindaje", "canto_bestial", "picadura", "picadura_neurotoxica", "veneno_devastador"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

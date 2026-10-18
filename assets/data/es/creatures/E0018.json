@@ -1,0 +1,40 @@
+{
+  "id": "E0018",
+  "baseSpeciesId": "E0017",
+  "nombre": "Bambubol",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Vegetal",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["planta", "guardián", "bosque"],
+  "base_exp_needed": 130,
+  "descripcion": "Cuando un Bambusín se planta en tierra fértil, sus raíces se expanden hasta convertirse en este coloso. Es capaz de manipular la flora a su alrededor para atrapar intrusos.",
+  "foto": "assets/images/creatures/E0018.webp",
+  "stats_base": {
+    "vida": 109,
+    "impacto": 49, "magia": 55, "frecuencia": 73, "pulso": 61,
+    "barrera_fisica": 54, "barrera_magica": 71, "barrera_mental": 80, "barrera_vital": 77,
+    "armadura": 35, "velocidad": 50, "precision": 98, "evasion": 2
+  },
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 1.2, "barrera_vital": 1.1,
+    "armadura": 0.3, "velocidad": 0.8
+  },
+  "pasivas_posibles": [
+    "bosque_eterno",
+    "piel_de_roble",
+    "clorofila_pura"
+  ],
+  "pool_ataques": ["muro_de_espinas", "latigazo", "polen_adormecedor", "clorofila_viva", "semilla_drenadora",
+    "golpe_de_raiz", "semilla_traicionera"],
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

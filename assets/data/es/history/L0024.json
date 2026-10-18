@@ -1,0 +1,16 @@
+{
+  "id": "lore_0024",
+  "capitulo": "1",
+  "orden": 24,
+  "titulo": "ADN Huérfano",
+  "cuerpo": [
+    "El caminante escuchó el desalentador informe del sector de la Mansión. Las notas revelaban que los investigadores habían cometido un error irreparable: en su afán por alterar el rastro de los colonos para que resistieran la atmósfera hostil del entorno, aplicaron un proceso de selección implacable. Creían que bastaría con erradicar las debilidades y las enfermedades de la carne.",
+    "Sin embargo, el proceso de purga no se detuvo ante los males biológicos; terminó por borrar los cimientos mismos de la estirpe original. El registro lamentaba que ya no quedara memoria del molde primitivo de la humanidad; solo restaban reflejos distorsionados y pálidos. Describían la desesperada y vana tarea de intentar reconstruir la inocencia de un niño a partir de las sombras proyectadas en una pared agrietada.",
+    "Si las instalaciones de la Mansión colapsaban por completo, no habría forma de recuperar el pasado. Los colonos no eran pioneros forjando un imperio, sino un linaje fragmentado que había extraviado el camino de regreso a su verdadera naturaleza. El entorno parecía percatarse de esa flaqueza, y por ello aceleraba el avance de sus estructuras metálicas para ocupar su lugar; porque los humanos ya no recordaban cómo ser ellos mismos.",
+    "Aquel era el rastro de un ADN huérfano. Sin una raíz pura que los validara frente al nuevo mundo, los últimos supervivientes no eran más que un murmullo errante, un eco desvaído aguardando a que los mecanismos implacables de aquel lugar borraran definitivamente su presencia sobre el suelo."
+  ],
+  "fuente": "Grabación de Voz: Supervisor de Linaje (Sector N011)",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de un terminal de datos echando chispas en la Senda de la Huida (R0011).",
+  "foto": "assets/images/lore/lore_0024.webp"
+}

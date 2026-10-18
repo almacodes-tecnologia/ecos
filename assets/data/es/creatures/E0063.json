@@ -1,0 +1,35 @@
+{
+  "id": "E0063",
+  "baseSpeciesId": "E0063",
+  "nombre": "Aquator",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.80,
+  "time_affinity" : "noche",
+  "tipo1": "Agua",
+  "tipo2": null,
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["río", "azul", "roedor"],
+  "base_exp_needed": 110,
+  "descripcion": "Un pequeño castor de pelaje azul impermeable. Pasa el día recolectando ramas que imbuye con energía acuática.",
+  "foto": "assets/images/creatures/E0063.webp",
+  "stats_base": {
+    "vida": 70,
+    "impacto": 51, "magia": 68, "frecuencia": 41, "pulso": 59,
+    "barrera_fisica": 64, "barrera_magica": 70, "barrera_mental": 58, "barrera_vital": 62,
+    "armadura": 12, "velocidad": 71, "precision": 95, "evasion": 4
+  },
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.8, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.2,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+  "pasivas_posibles": ["nado_rapido", "dique_natural", "hidratacion"],
+  "pool_ataques": ["hidro_escudo", "chapoteo", "lluvia_de_agua", "impacto_acuatico"],
+  "evolutionId": "E0064",
+  "evolutionPointsNeeded": 18
+}

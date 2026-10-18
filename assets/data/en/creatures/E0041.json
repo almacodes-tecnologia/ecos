@@ -1,0 +1,43 @@
+{
+    "id": "E0041",
+    "baseSpeciesId": "E0040",
+    "nombre": "Cefaló-Link",
+    "expansion": 1,
+    "catch_rate": 0.05,
+    "capturable": true,
+    "tipo1": "Agua",
+    "tipo2": "Digital",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "molusco", "hacker"],
+    "base_exp_needed": 220,
+    "descripcion": "Su cuerpo brilla con luces LED que cambian de color según su estado de ánimo. Es capaz de hackear boyas de navegación para despistar a los barcos.",
+    "foto": "assets/images/creatures/E0041.webp",
+  
+    "stats_base": {
+      "vida": 30,
+      "p_atk": 9, "r_atk": 11, "m_atk": 16, "mr_atk": 16,
+      "p_def": 9, "r_def": 9, "m_def": 9, "mr_def": 10,
+      "armadura": 3, "velocidad": 19, "precision": 100, "evasion": 8
+    },
+  
+    "growth_mods": {
+      "vida": 0.4,
+      "p_atk": 0.5, "r_atk": 0.6, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.7, "m_def": 0.6, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.6
+    },
+  
+  
+    "pasivas_posibles": [
+      "firewall_liquido",
+      "señal_amplificada",
+      "procesador_dual"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0042",
+    "evolutionPointsNeeded": 25
+  }

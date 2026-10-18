@@ -1,0 +1,46 @@
+{
+  "id": "E0038",
+  "baseSpeciesId": "E0038",
+  "nombre": "Salmo",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.6,
+  "time_affinity" : "noche",
+  "tipo1": "Agua",
+  "tipo2": "Ninguno",
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["pez", "rio", "veloz"],
+  "base_exp_needed": 110,
+  "descripcion": "Un salmón de escamas plateadas y reflejos azulados. Es famoso por su terquedad, siendo capaz de saltar cascadas enteras solo para demostrar su valía.",
+  "foto": "assets/images/creatures/E0038.webp",
+
+  "stats_base": {
+    "vida": 51,
+    "impacto": 55, "magia": 48, "frecuencia": 40, "pulso": 64,
+    "barrera_fisica": 58, "barrera_magica": 50, "barrera_mental": 66, "barrera_vital": 58,
+    "armadura": 37, "velocidad": 77, "precision": 95, "evasion": 12
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "nado_rapido",
+    "contracorriente",
+    "escamas_resbaladizas"
+  ],
+
+  "pool_ataques": ["misil_de_agua", "lluvia_de_agua", "impacto_acuatico", "burbuja_trampa", "hidro_escudo", "copia_mental",
+    "espejismo"
+  ],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

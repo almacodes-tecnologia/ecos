@@ -1,0 +1,16 @@
+{
+  "id": "lore_0012",
+  "capitulo": "1",
+  "orden": 12,
+  "titulo": "La Puerta del Vacío",
+  "cuerpo": [
+    "Las últimas líneas del cuaderno pertenecían al día final. El autor había alcanzado el extremo de la Ruta 25, describiendo cómo el paisaje comenzaba a desvanecerse en un parpadeo de luces frías y estática gris. No se trataba de un fallo en los instrumentos del caminante. Comprendió, con horror, que aquel planeta no funcionaba como un mundo común; era un mecanismo implacable y los humanos eran un elemento extraño que alteraba su orden.",
+    "Aquel supuesto 'Nuevo Hogar' no los rechazaba por odio; simplemente estaba borrando su rastro, como quien limpia una mancha en una superficie perfecta. Cada paso dado hacia el Vacío debilitaba su propia existencia, apagando sus fuerzas. Los verdes prados del inicio no habían sido más que una zona de espera, un jardín hermoso diseñado para que olvidaran el horror del viaje mientras el entorno los desintegraba sin que se dieran cuenta.",
+    "Al cruzar esa última frontera, la naturaleza se volvía hostil e incomprensible. Las crónicas advertían que el agua dejaba de fluir de forma natural; se estancaba y parecía albergar pensamientos oscuros. La densa humedad devoraba el metal de los Guardianes y el aire comenzaba a impregnarse de un olor a azufre y a rastro quemado, la verdad oculta bajo el lodo del sector siguiente.",
+    "El diario terminaba con una sobrecogedora advertencia: 'No busques respuestas bajo la luz del sol; lo que queda de nosotros está escrito en el barro que nos espera. Si estás leyendo estas palabras, es porque ya has cruzado. No mires atrás. El destino ya está sentenciado y lo único que nos queda es correr hacia la siguiente distorsión'."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Se obtiene al alcanzar el límite absoluto de la Pradera.",
+  "foto": "assets/images/lore/lore_0012.webp"
+}

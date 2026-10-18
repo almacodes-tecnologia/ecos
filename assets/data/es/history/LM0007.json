@@ -1,0 +1,13 @@
+{
+  "id": "LM0007",
+  "capitulo": "Las Fauces de la Chatarra",
+  "orden": 1,
+  "titulo": "LA CORRIENTE DE HIERRO",
+  "cuerpo": [
+    "Día 1. Al principio arrojábamos los componentes defectuosos en la fosa común del sector. Pero el desecho no permanece inerte. Hay un movimiento invisible en el subsuelo, una corriente de fango pesado que succiona el metal hacia las profundidades, como si la montaña tuviera un estómago que exige ser alimentado.",
+    "Hemos bajado con ganchos de tracción para recuperar tres generadores térmicos que cayeron ayer. El panorama abajo es dantesco: el acero de nuestra colonia está siendo compactado y triturado por inmensas fallas geológicas. No es erosión natural; la piedra parece estar masticando las aleaciones humanas."
+  ],
+  "fuente": "Registros de la Unidad de Reciclaje",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Encuentra los guantes de la Chatarra."
+}

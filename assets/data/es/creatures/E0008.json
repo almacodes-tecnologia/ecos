@@ -1,0 +1,45 @@
+{
+    "id": "E0008",
+    "baseSpeciesId": "E0007",
+    "nombre": "Ripario",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+    "tipo1": "Agua",
+    "tipo2": null,
+  "linaje": "elemental",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "mamifero", "territorial"],
+    "base_exp_needed": 120,
+    "descripcion": "Muy territorial y de mal carácter. Al caminar, el agua que desprende su cuerpo ablanda el terreno, convirtiendo todo a su paso en lodo.",
+    "foto": "assets/images/creatures/E0008.webp",
+
+  "stats_base": {
+    "vida": 77,
+    "impacto": 69, "magia": 59, "frecuencia": 47, "pulso": 54,
+    "barrera_fisica": 70, "barrera_magica": 73, "barrera_mental": 53, "barrera_vital": 58,
+    "armadura": 30, "velocidad": 58, "precision": 96, "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.2,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.8, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "cuerpo_barro",
+      "furia_territorial",
+      "tanque_oxigeno"
+    ],
+
+  "pool_ataques": ["rugido_aturdidor", "impacto_acuatico", "lluvia_de_agua", "chapoteo",
+    "furia_animal", "tsunami_miniatura"],
+  
+    "evolutionId": "E0009",
+    "evolutionPointsNeeded": 12
+  }

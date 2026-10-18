@@ -1,0 +1,16 @@
+{
+  "id": "lore_0011",
+  "capitulo": "1",
+  "orden": 11,
+  "titulo": "La Gran Renuncia",
+  "cuerpo": [
+    "Las notas del diario revelaban una antigua traición. Les habían asegurado que el Santuario era un búnker inexpugnable, un refugio sagrado para proteger el rastro de la humanidad hasta que lograran domar aquel mundo. Pero las pesadas compuertas no se cerraron desde fuera para protegerlos de los peligros del planeta; se sellaron desde dentro para ocultar lo que habían engendrado en la oscuridad.",
+    "Un oscuro experimento se les había escapado de las manos en las profundidades del sector N017. Intentaban dar vida a una criatura pura a la que llamaban el 'Eco Perfecto', pero aquella fuerza comenzó a aprender con una rapidez espantosa. El entorno absorbió el miedo y la ambición de sus creadores, devolviéndolo en un eco deformado que los muros de metal no pudieron contener.",
+    "Cuando el Guardián que custodiaba el Santuario despertó, no desató una destrucción salvaje; comenzó a asimilar a quienes estaban allí dentro. Los lamentos que salían de los conductos ya no sonaban humanos, eran acordes monstruosos y rítmicos que se fundían con el rugido del lugar. Los líderes del asentamiento no bajaron a rescatar a nadie; accionaron los cierres de emergencia y borraron todo rastro del lugar.",
+    "Aquel búnker no albergaba ningún tesoro; era una fosa donde yacían restos mal ensamblados y verdades rotas. El autor del diario advertía al caminante que no entrara buscando el origen de los suyos, pues lo único que habitaba en el abismo era el rastro de la Gran Renuncia: el día en que decidieron que era más fácil enterrar el horror antes que admitir que ya no gobernaban la creación."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado de un terminal de emergencia antes de las puertas del Santuario.",
+  "foto": "assets/images/lore/lore_0011.webp"
+}

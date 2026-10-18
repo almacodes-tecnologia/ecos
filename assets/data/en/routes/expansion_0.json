@@ -1,0 +1,232 @@
+[
+  {
+    "id": "R001",
+    "nombre": "Pradera camining",
+    "from_node": "N001",
+    "to_node": "N002",
+    "pasos": 40,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0021", "probability": 0.05},
+      {"creature_id": "E0024", "probability": 0.05},
+      {"creature_id": "E0019", "probability": 0.05},
+      {"creature_id": "E0016", "probability": 0.05},
+      {"creature_id": "E0004", "probability": 0.05}
+    ],
+    "item_encounters": [
+      {"item_id": "item_001", "probability": 0.8}
+    ],
+    "tools_encounters": [
+      {"item_id": "tool_022", "probability": 0.001},
+      {"item_id": "tool_023", "probability": 0.03},
+      {"item_id": "tool_001", "probability": 0.03},
+      {"item_id": "tool_002", "probability": 0.03},
+      {"item_id": "tool_005", "probability": 0.03},
+      {"item_id": "tool_006", "probability": 0.03},
+      {"item_id": "tool_007", "probability": 0.03},
+      {"item_id": "tool_008", "probability": 0.03},
+      {"item_id": "tool_009", "probability": 0.03},
+      {"item_id": "tool_010", "probability": 0.05},
+      {"item_id": "tool_011", "probability": 0.03},
+      {"item_id": "tool_012", "probability": 0.03},
+      {"item_id": "tool_013", "probability": 0.03},
+      {"item_id": "tool_014", "probability": 0.03},
+      {"item_id": "tool_015", "probability": 0.03},
+      {"item_id": "tool_016", "probability": 0.03},
+      {"item_id": "tool_017", "probability": 0.03},
+      {"item_id": "tool_018", "probability": 0.03},
+      {"item_id": "tool_019", "probability": 0.03},
+      {"item_id": "tool_020", "probability": 0.03},
+      {"item_id": "tool_021", "probability": 0.03}
+    ],
+    "image_asset": "assets/images/routes/R001.webp",
+    "descripcion": [
+      "Te adentras en la Pradera de Inicio, el lugar donde muchos Entrenadores comienzan su viaje.",
+      "El aire es fresco y el rocío brilla sobre la hierba alta. Se siente la energía de los Ecos elementales jóvenes.",
+      "La meta es llegar al Pueblo del Río, al otro lado. Prepara a tu equipo, la exploración comienza ahora."
+    ],
+    "idle_messages": [
+      "Solo se escucha el canto de los pájaros en el campo.",
+      "Has visto una mariposa. No es un Eco, solo una mariposa.",
+      "El camino está claro. Parece un paso tranquilo.",
+      "La hierba cruje bajo tus pies."
+    ]
+  },
+  {
+    "id": "R002",
+    "nombre": "Túnel de del A",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 8,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0014", "probability": 0.2}
+    ],
+    "image_asset": "assets/images/routes/R002_B.webp",
+    "descripcion": [
+      "Un tújfhjhjhfjfghjntiguos.",
+      "hjhfhfhhgjle."
+    ],
+    "idle_messages": [
+      "Laslkjhlkhjljkhñ-´klhñe.",
+      "Escucñhkjlgjkjghkhgjks cables."
+    ]
+  },
+  {
+    "id": "R002_A",
+    "nombre": "Desfiladero del Guardián",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 25,
+    "requirement": {
+      "type": "boss",
+      "value": "BOSS_001",
+      "fail_msg": "Un eco de energía masiva bloquea el paso. El Guardián de la Pradera debe ser derrotado para estabilizar la zona."
+    },
+    "encounters": [
+      {"creature_id": "E0013", "probability": 0.3}
+    ],
+    "image_asset": "assets/images/routes/R002_A.webp",
+    "descripcion": [
+      "Un paso estrecho entre montañas que vibran con energía residual.",
+      "Sin la derrota del Guardián, la distorsión aquí es mortal."
+    ],
+    "idle_messages": [
+      "Sientes la mirada del Guardián desde las alturas.",
+      "El viento silba entre las rocas como un lamento."
+    ]
+  },
+  {
+    "id": "R002_B",
+    "nombre": "Túnel de Suministros",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 40,
+    "requirement": {
+      "type": "item",
+      "value": "key_alpha",
+      "fail_msg": "La pesada compuerta de seguridad requiere una Tarjeta de Acceso Alpha que se perdió en la Depuradora."
+    },
+    "encounters": [
+      {"creature_id": "E0014", "probability": 0.2}
+    ],
+    "image_asset": "assets/images/routes/R002_B.webp",
+    "descripcion": [
+      "Un túnel de mantenimiento construido por los antiguos.",
+      "Parece el camino más seguro si consigues la llave."
+    ],
+    "idle_messages": [
+      "Las luces de emergencia parpadean débilmente.",
+      "Escuchas ratas o quizás ecos de tipo eléctrico en los cables."
+    ]
+  },
+  {
+    "id": "R002_C",
+    "nombre": "Terminal de Frecuencia Cero",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 15,
+    "requirement": {
+      "type": "password",
+      "value": "ECOS_1990",
+      "fail_msg": "El terminal solicita una secuencia de audio cifrada. Solo alguien que haya leído los archivos del origen sabría qué código introducir."
+    },
+    "encounters": [
+      {"creature_id": "E0021", "probability": 0.5}
+    ],
+    "image_asset": "assets/images/routes/R002_C.webp",
+    "descripcion": [
+      "Un acceso rápido directo al Nodo 3, pero protegido por un código de seguridad biométrico.",
+      "Si encuentras la contraseña en el Lore, ahorrarás mucho tiempo."
+    ],
+    "idle_messages": [
+      "El terminal emite un pitido constante esperando el código.",
+      "¿Será la fecha que ponía en aquella nota amarillenta?"
+    ]
+  },
+  {
+    "id": "R003",
+    "nombre": "Bosque Quemado",
+    "from_node": "N002",
+    "to_node": "N003",
+    "pasos": 25,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0010", "probability": 0.6},
+      {"creature_id": "E0021", "probability": 0.4}
+    ],
+    "item_encounters": [
+      {"item_id": "item_005", "probability": 0.02},
+      {"item_id": "item_013", "probability": 0.01}
+    ],
+    "image_asset": "assets/images/routes/R003.webp",
+    "descripcion": [
+      "Un área de árboles chamuscados, hogar de Ecos de Fuego y Bestias.",
+      "El calor residual es palpable. Las cenizas pueden dificultar el movimiento.",
+      "Avanza rápido si no quieres toparte con un Eco hambriento."
+    ],
+    "idle_messages": [
+      "Una columna de humo se eleva a lo lejos.",
+      "Escuchas un aleteo rápido sobre las copas.",
+      "El suelo está caliente al tacto.",
+      "Huele a madera quemada y azufre."
+    ]
+  },
+  {
+    "id": "R004",
+    "nombre": "Desierto de Dunas",
+    "from_node": "N003",
+    "to_node": "N004",
+    "pasos": 50,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0023", "probability": 0.7},
+      {"creature_id": "E0024", "probability": 0.2}
+    ],
+    "item_encounters": [
+      {"item_id": "item_007", "probability": 0.01},
+      {"item_id": "item_010", "probability": 0.01}
+    ],
+    "image_asset": "assets/images/routes/R004.webp",
+    "descripcion": [
+      "Un inmenso desierto de arena, dominio de los Ecos de Tipo Arena.",
+      "El sol es implacable y el calor es sofocante.",
+      "Ten cuidado con las tormentas de arena y los Ecos que se esconden bajo la superficie."
+    ],
+    "idle_messages": [
+      "El horizonte parece temblar por el calor.",
+      "Sientes que la arena se mueve bajo tus pies, pero es solo el viento.",
+      "Necesitas agua urgentemente...",
+      "Un viento fuerte te arroja arena a los ojos."
+    ]
+  },
+  {
+    "id": "R005",
+    "nombre": "Puente de la CPU",
+    "from_node": "N004",
+    "to_node": "N005",
+    "pasos": 40,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0080", "probability": 0.5},
+      {"creature_id": "E0081", "probability": 0.3},
+      {"creature_id": "E0100", "probability": 0.05}
+    ],
+    "item_encounters": [
+      {"item_id": "item_006", "probability": 0.03},
+      {"item_id": "item_016", "probability": 0.02}
+    ],
+    "image_asset": "assets/images/routes/R005.webp",
+    "descripcion": [
+      "Una estructura que se adentra en el mundo digital, cruza el Puente de la CPU.",
+      "Aquí, los Ecos Digitales son comunes y el espacio-tiempo parece distorsionarse.",
+      "La concentración es clave. Los ataques pueden venir de cualquier 'dirección de código'."
+    ],
+    "idle_messages": [
+      "Escuchas un sonido de 'hardware' antiguo.",
+      "Un 'glitch' visual hace que el cielo parpadee brevemente.",
+      "Parece que has perdido la señal por un momento.",
+      "Sientes un pequeño choque estático en tu mano."
+    ]
+  }
+]

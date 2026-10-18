@@ -1,0 +1,32 @@
+    {
+      "id": "E0010",
+      "baseSpeciesId": "E0010",
+      "nombre": "Fulgur",
+      "expansion": 1,
+      "catch_rate": 0.15,
+      "capturable": true,
+      "tipo1": "Fuego",
+      "tipo2": null,
+      "rareza": "Raro",
+      "level_cap": 100,
+      "tags": ["inicial", "felino", "volcan"],
+      "base_exp_needed": 100,
+      "descripcion": "Un pequeño zorro de pelaje anaranjado que desprende brasas al correr. Sus ojos brillan como carbón encendido.",
+      "foto": "assets/images/creatures/E0010.webp",
+      "stats_base": {
+        "vida": 32,
+        "p_atk": 10, "r_atk": 8, "m_atk": 12, "mr_atk": 10,
+        "p_def": 6, "r_def": 6, "m_def": 8, "mr_def": 8,
+        "armadura": 3, "velocidad": 12, "precision": 95, "evasion": 6
+      },
+      "growth_mods": {
+        "vida": 0.6, "p_atk": 0.8, "r_atk": 0.7, "m_atk": 0.8, "mr_atk": 0.8,
+        "p_def": 0.5, "r_def": 0.5, "m_def": 0.7, "mr_def": 0.7,
+        "armadura": 0.2, "velocidad": 0.8
+      },
+      "pasivas_posibles": ["cuerpo_igneo", "combustion", "rastro_ceniza"],
+      "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+        "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+      "evolutionId": "E0011",
+      "evolutionPointsNeeded": 15
+    }

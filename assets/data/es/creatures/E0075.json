@@ -1,0 +1,60 @@
+{
+  "id": "E0075",
+  "baseSpeciesId": "E0075",
+  "nombre": "Skulkratt",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Caos",
+  "tipo2": "Ninguno",
+  "linaje": "Conceptual",
+  "rareza": "Mazmorra",
+  "level_cap": 100,
+  "tags": ["oscuridad", "urbano", "veloz"],
+  "base_exp_needed": 125,
+  "descripcion": "Una rata de pelaje negro como el carbón que emite una sutil aura de distorsión. Se mueve entre las sombras de la realidad, alterando el orden allí por donde pasa.",
+  "foto": "assets/images/creatures/E0075.webp",
+
+  "stats_base": {
+    "vida": 62,
+    "impacto": 70, 
+    "magia": 62, 
+    "frecuencia": 81, 
+    "pulso": 68,
+    "barrera_fisica": 43, 
+    "barrera_magica": 49, 
+    "barrera_mental": 45, 
+    "barrera_vital": 51,
+    "armadura": 12, 
+    "velocidad": 78, 
+    "precision": 94, 
+    "evasion": 12
+  },
+
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 1.1, 
+    "magia": 1.1, 
+    "frecuencia": 1.1, 
+    "pulso": 1.1,
+    "barrera_fisica": 0.9,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.15, 
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "mirada_caotica",
+    "paso_sombrio",
+    "entropia_aguda"
+  ],
+
+  "pool_ataques": ["toque_corrupto", "sifon_de_vida", "mordisco", "impacto"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

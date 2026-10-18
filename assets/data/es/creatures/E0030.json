@@ -1,0 +1,46 @@
+{
+  "id": "E0030",
+  "baseSpeciesId": "E0029",
+  "nombre": "Granster",
+  "expansion": 1,
+  "catch_rate": 0.00,
+  "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+  "tipo1": "Bestia",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["roedor", "robusto", "territorial"],
+  "base_exp_needed": 180,
+  "descripcion": "Extremadamente protector con su territorio. Utiliza su denso pelaje para amortiguar golpes y su potente mandíbula es capaz de triturar las bayas más duras del bosque.",
+  "foto": "assets/images/creatures/E0030.webp",
+
+  "stats_base": {
+    "vida": 95,
+    "impacto": 81, "magia": 77, "frecuencia": 49, "pulso": 47,
+    "barrera_fisica": 87, "barrera_magica": 83, "barrera_mental": 62, "barrera_vital": 65,
+    "armadura": 25, "velocidad": 71, "precision": 100, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.1
+  },
+
+  "pasivas_posibles": [
+    "reserva_vital",
+    "pelaje_aislante",
+    "frenesi_del_granero"
+  ],
+
+  "pool_ataques": ["golpe_base", "embestida", "impacto", "rapidez", "golpe_agil", "mandibula_feroz",
+    "aranazo_rocoso", "colera_del_vertedero", "trance", "espejismo"
+  ],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

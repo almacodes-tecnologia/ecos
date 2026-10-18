@@ -1,0 +1,41 @@
+{
+    "id": "E0025",
+    "baseSpeciesId": "E0025",
+    "nombre": "Ranatage",
+    "expansion": 1,
+    "catch_rate": 0.35,
+    "capturable": true,
+    "tipo1": "Ilusión",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["anfibio", "bebe", "etéreo"],
+    "base_exp_needed": 115,
+    "descripcion": "Un pequeño ser que parece parpadear entre dimensiones. A menudo se confunde con un reflejo en el agua debido a su piel translúcida.",
+    "foto": "assets/images/creatures/E0025.webp",
+  
+    "stats_base": {
+      "vida": 30,
+      "p_atk": 10, "r_atk": 25, "m_atk": 25, "mr_atk": 15,
+      "p_def": 10, "r_def": 10, "m_def": 15, "mr_def": 12,
+      "armadura": 3, "velocidad": 30, "precision": 100, "evasion": 25
+    },
+  
+    "growth_mods": {
+      "vida": 0.5,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "refracción_luz",
+      "piel_espejismo"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0026",
+    "evolutionPointsNeeded": 24
+}

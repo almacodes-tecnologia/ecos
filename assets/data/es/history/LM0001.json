@@ -1,0 +1,14 @@
+{
+  "id": "lore_m_guantes_del_eco_antiguo",
+  "capitulo": "Cripta Antigua",
+  "orden": 1,
+  "titulo": "EL TACTO DEL INTRUSO",
+  "cuerpo": [
+    "Día 1. Tras meses de excavación, el bloque de roca que sellaba la Cripta finalmente cedió. Al deslizar mis manos por las rugosidades de la entrada, sentí un calor impropio de un estrato mineral que ha estado enterrado eones. Estos guanteletes de bronce pesado que recuperamos del primer altar no son simples protecciones; al ceñirlos a mis muñecas, mis dedos comenzaron a moverse con una precisión milimétrica.",
+    "Es como si la aleación recordara la disposición de las hendiduras en la piedra. Al rozar los relieves de las paredes, una descarga estática recorre mis yemas y activa las vetas cristalinas de la sala. No empuño una herramienta de la colonia; sostengo el fragmento de un mecanismo subterráneo que se niega a permanecer inerte.",
+    "Mis compañeros dicen que actúo de forma extraña. Dicen que paso horas acariciando los muros pulidos como si pudiera sentir el pulso de la montaña. Y tienen razón: puedo sentirlo. La Cripta está despertando, y ha empezado por mis manos."
+  ],
+  "fuente": "Diario de Campo del Arqueólogo Valerius",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Encuentra los Guantes en la Cripta."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "E0003",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushnarch",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "linaje": "biológico",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["final", "slime", "ancestral"],
+  "base_exp_needed": 145,
+  "descripcion": "El soberano de los bosques. Su cuerpo irradia una energía mística que puede sanar la naturaleza o devastar a sus enemigos. Su caparazón es ahora una estructura colosal de múltiples capas de hongos (como las setas de los troncos de los árboles).",
+  "foto": "assets/images/creatures/E0003.webp",
+
+  "stats_base": {
+    "vida": 101,
+    "impacto": 57, "magia": 82, "frecuencia": 52, "pulso": 72,
+    "barrera_fisica": 96, "barrera_magica": 66, "barrera_mental": 65, "barrera_vital": 87,
+    "armadura": 80, "velocidad": 45, "precision": 98, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.9
+  },
+
+  "pasivas_posibles": [
+    "aura_real",
+    "regeneracion_clofila",
+    "maestria_magica"
+  ],
+
+  "pool_ataques": ["latigazo", "fotosintesis", "polen_adormecedor", "setaimpacto", "esporas_toxicas", "seta_bomba",
+    "endurecer", "mazazo", "semilla_drenadora", "pisoton"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

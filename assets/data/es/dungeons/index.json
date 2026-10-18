@@ -1,0 +1,6 @@
+[
+  { "id": "D0001", "nombre": "Cripta del Eco Antiguo", "nivel": 20, "rango": 0, "img": "D001.webp" },
+  { "id": "D0002", "nombre": "El Vertedero Fósil", "nivel": 30, "rango": 0, "img": "D002.webp" },
+  { "id": "D0003", "nombre": "El Archivo de Silicio", "nivel": 50, "rango": 0, "img": "D003.webp" }
+
+]

@@ -1,0 +1,56 @@
+{
+  "id": "B001",
+  "baseSpeciesId": "B001",
+  "nombre": "Golem de Hierro",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "tipo1": "Fuego",
+  "tipo2": "Roca",
+  "rareza": "Mítico",
+  "level_cap": 100,
+  "tags": ["jefe", "golem", "legendario"],
+  "base_exp_needed": 150,
+  "descripcion": "Una masa imponente de metal fundido y roca volcánica. Su rugido es capaz de derretir el acero. Reside en el corazón de la Caverna Ígnea.",
+  "foto": "assets/images/bosses/B001.webp",
+
+  "stats_base": {
+    "vida": 1,
+    "impacto": 45,
+    "magia": 10,
+    "frecuencia": 5,
+    "pulso": 0,
+    "barrera_fisica": 25,
+    "barrera_magica": 20,
+    "barrera_mental": 15,
+    "barrera_vital": 12,
+    "armadura": 8,
+    "velocidad": 5,
+    "precision": 100,
+    "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.5,
+    "impacto": 1.8,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.6,
+    "barrera_magica": 1.4,
+    "barrera_mental": 1.2,
+    "barrera_vital": 1.0,
+    "armadura": 1.2,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "piel_ferrea",
+    "nucleo_igneo"
+  ],
+
+  "pool_ataques": ["golpe_base"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

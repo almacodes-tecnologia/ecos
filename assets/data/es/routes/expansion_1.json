@@ -1,0 +1,51 @@
+[
+  {
+    "id": "R100",
+    "nombre": "Enlace Inter-Dimensional",
+    "from_node": "N005",
+    "to_node": "N020",
+    "pasos": 15,
+    "requirement": {
+      "type": "boss",
+      "value": "B003",
+      "fail_msg": "La brecha hacia la Expansión 1 solo se abre tras derrotar al jefe del Núcleo."
+    },
+    "encounters": [
+      {"creature_id": "E0017", "probability": 0.1}
+    ],
+    "image_asset": "assets/images/routes/R100.webp",
+    "descripcion": [
+      "Un túnel de datos inestable que te expulsa fuera del mundo digital conocido.",
+      "Sientes cómo la gravedad cambia al otro lado."
+    ],
+    "idle_messages": ["La realidad parpadea...", "Ves el código de fondo."]
+  },
+  {
+    "id": "R101",
+    "nombre": "Camino de los Rayos",
+    "from_node": "N020",
+    "to_node": "N021",
+    "pasos": 20,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0080", "probability": 0.4}
+    ],
+    "image_asset": "assets/images/routes/R101.webp",
+    "descripcion": ["Torres de alta tensión flanquean este camino metálico."],
+    "idle_messages": ["El pelo se te eriza por la estática."]
+  },
+  {
+    "id": "R102",
+    "nombre": "Senda de la Niebla",
+    "from_node": "N021",
+    "to_node": "N022",
+    "pasos": 30,
+    "requirement": null,
+    "encounters": [
+      {"creature_id": "E0012", "probability": 0.3}
+    ],
+    "image_asset": "assets/images/routes/R102.webp",
+    "descripcion": ["Una niebla densa y fría baja desde las montañas."],
+    "idle_messages": ["Crees ver sombras moviéndose entre la bruma."]
+  }
+]

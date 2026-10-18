@@ -1,0 +1,128 @@
+[
+  {
+    "id": "guantes_del_eco_antiguo",
+    "nombre": "Guantes del Eco Antiguo",
+    "descripcion": "Guanteletes de bronce grabados con runas de precisión. Parecen diseñados para manipular mecanismos delicados más que para empuñar espadas.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_guantes_del_eco_antiguo"
+  },
+  {
+    "id": "pantalones_del_eco_antiguo",
+    "nombre": "Pantalones del Eco Antiguo",
+    "descripcion": "Protecciones reforzadas con placas de bronce. El metal está frío al tacto, pero emite una vibración casi imperceptible al caminar.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_pantalones_del_eco_antiguo"
+  },
+  {
+    "id": "yelmo_del_eco_antiguo",
+    "nombre": "Yelmo del Eco Antiguo",
+    "descripcion": "Una pieza ceremonial que cubre gran parte del rostro. En su interior se escuchan ecos de voces que dejaron de existir hace eones.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_yelmo_del_eco_antiguo"
+  },
+  {
+    "id": "botas_del_eco_antiguo",
+    "nombre": "Botas del Eco Antiguo",
+    "descripcion": "Calzado pesado que amortigua el ruido de los pasos. Su suela de aleación desconocida permite caminar sobre superficies electrificadas.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_botas_del_eco_antiguo"
+  },
+  {
+    "id": "anillo_del_eco_antiguo",
+    "nombre": "Anillo del Eco Antiguo",
+    "descripcion": "Un aro de bronce pulido que nunca se ensucia. Actúa como una llave de proximidad para las puertas más profundas de la Cripta.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_anillo_del_eco_antiguo"
+  },
+  {
+    "id": "pechera_del_eco_antiguo",
+    "nombre": "Pechera del Eco Antiguo",
+    "descripcion": "Coraza maciza con un núcleo de cristal apagado en el centro. Protege no solo el cuerpo, sino también la esencia vital del portador.",
+    "tipo_objeto": "Cripta del Eco Antiguo",
+    "loreId": "lore_m_pechera_del_eco_antiguo"
+  },
+  {
+    "id": "guantes_de_la_chatarra",
+    "nombre": "Guantes de la Chatarra",
+    "descripcion": "Reforzados con piezas de metal soldado y cuero endurecido. Ideales para hurgar entre escombros afilados sin sufrir cortes.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_guantes_de_la_chatarra"
+  },
+  {
+    "id": "botas_de_la_chatarra",
+    "nombre": "Botas de la Chatarra",
+    "descripcion": "Calzado pesado con suelas de goma antideslizante. Están recubiertas de una capa de aceite protector que evita la corrosión por ácido.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_botas_de_la_chatarra"
+  },
+  {
+    "id": "pantalones_de_la_chatarra",
+    "nombre": "Pantalones de la Chatarra",
+    "descripcion": "Pantalones de trabajo industrial pesados, llenos de bolsillos y remaches oxidados. Resisten los entornos más hostiles del vertedero.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_pantalones_de_la_chatarra"
+  },
+  {
+    "id": "casco_de_la_chatarra",
+    "nombre": "Casco de la Chatarra",
+    "descripcion": "Un receptáculo de metal rescatado de un coloso. Su visor oscurecido protege los ojos de los destellos y partículas suspendidas en el aire.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_casco_de_la_chatarra"
+  },
+  {
+    "id": "anillo_de_la_chatarra",
+    "nombre": "Anillo de la Chatarra",
+    "descripcion": "Un anillo hecho de una arandela de titanio encontrada en el núcleo. Dicen que vibra cuando hay residuos de energía fósil cerca.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_anillo_de_la_chatarra"
+  },
+  {
+    "id": "pechera_de_la_chatarra",
+    "nombre": "Pechera de la Chatarra",
+    "descripcion": "Coraza construida con placas superpuestas de chatarra prehistórica. Es pesada, pero su estructura irregular desvía los impactos directos.",
+    "tipo_objeto": "El Vertedero Fósil",
+    "loreId": "lore_m_pechera_de_la_chatarra"
+  },
+  {
+    "id": "guantes_de_silicio",
+    "nombre": "Guantes de Silicio",
+    "descripcion": "Guantes translúcidos que emiten pulsos de luz azul. Permiten interactuar y reescribir flujos de código directamente en el entorno de red.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_guantes_de_silicio"
+  },
+  {
+    "id": "pantalones_de_silicio",
+    "nombre": "Pantalones de Silicio",
+    "descripcion": "Tejidos con hilos de fibra óptica flexible. Estabilizan el flujo de datos del usuario, reduciendo la latencia de movimiento.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_pantalones_de_silicio"
+  },
+  {
+    "id": "yelmo_de_silicio",
+    "nombre": "Yelmo de Silicio",
+    "descripcion": "Una corona geométrica flotante que procesa la realidad. Permite visualizar las líneas de código ocultas tras la simulación.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_yelmo_de_silicio"
+  },
+  {
+    "id": "zapatos_de_silicio",
+    "nombre": "Zapatos de Silicio",
+    "descripcion": "Calzado ultraligero que deja un rastro de píxeles al avanzar. Absorben los picos de voltaje estático del suelo digital.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_zapatos_de_silicio"
+  },
+  {
+    "id": "anillo_de_silicio",
+    "nombre": "Anillo de Silicio",
+    "descripcion": "Un circuito cerrado perfectamente circular. Actúa como un cortafuegos portátil, aislando la firma digital de quien lo lleva.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_anillo_de_silicio"
+  },
+  {
+    "id": "tunica_de_silicio",
+    "nombre": "Túnica de Silicio",
+    "descripcion": "Una vestidura holográfica compuesta por cascadas de datos encriptados. Su código de seguridad desvía los virus informáticos más comunes.",
+    "tipo_objeto": "El Archivo de Silicio",
+    "loreId": "lore_m_tunica_de_silicio"
+  }
+]

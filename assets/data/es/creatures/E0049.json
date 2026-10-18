@@ -1,0 +1,44 @@
+{
+  "id": "E0049",
+  "baseSpeciesId": "E0049",
+  "nombre": "Mosslog",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.8,
+  "time_affinity" : "noche",
+  "tipo1": "Madera",
+  "tipo2": null,
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["bosque", "naturaleza", "tronco"],
+  "base_exp_needed": 120,
+  "descripcion": "Un fragmento de madera antigua que ha cobrado vida gracias al musgo que lo habita. Aunque parece inerte, se mueve con lentitud protegiendo su núcleo de savia.",
+  "foto": "assets/images/creatures/E0049.webp",
+
+  "stats_base": {
+    "vida": 85,
+    "impacto": 56, "magia": 38, "frecuencia": 67, "pulso": 51,
+    "barrera_fisica": 70, "barrera_magica": 51, "barrera_mental": 62, "barrera_vital": 72,
+    "armadura": 10, "velocidad": 20, "precision": 97, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+
+  "pasivas_posibles": [
+    "corteza_dura",
+    "fotosintesis",
+    "raices_profundas"
+  ],
+
+  "pool_ataques": ["golpe_de_madera", "escudo_de_madera", "paciencia"],
+
+  "evolutionId": "E0050",
+  "evolutionPointsNeeded": 75
+}

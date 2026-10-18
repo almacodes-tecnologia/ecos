@@ -1,0 +1,16 @@
+{
+  "id": "lore_0015",
+  "capitulo": "1",
+  "orden": 15,
+  "titulo": "Teoría del Eco",
+  "cuerpo": [
+    "Las anotaciones de campo describían la observación de un grupo de extrañas criaturas mecánicas cerca de la charca. No parecían estar cazando ni buscando alimento para subsistir; simplemente permanecían quietas, imitando de forma exacta la manera en que los antiguos bueyes de su viejo mundo pastaban en los campos.",
+    "Sin embargo, en aquel lugar no crecía hierba real. Los seres solo repetían el movimiento una y otra vez, atrapados en el reflejo de una memoria que no les pertenecía. Quien escribía se preguntaba si eran artilugios que intentaban desesperadamente imitar la vida que una vez existió, o si era la vida misma la que intentaba sobrevivir adoptando una forma artificial.",
+    "El diario planteaba una duda incómoda: al recorrer aquellas rutas, los propios humanos bien podrían ser tan solo un 'eco' de los que iniciaron el viaje desde las estrellas. Un reflejo que se iba distorsionando poco a poco, perdiendo nitidez y humanidad con el paso del tiempo.",
+    "Si el planeta les devolvía su propia imagen plasmada en metal y engranajes, resultaba imposible saber cuál era el original. El texto concluía con una idea desoladora: tal vez el eco sea lo único que permanece cuando la voz original se ha extinguido para siempre."
+  ],
+  "fuente": "Diario de Campo: Reflexiones de un Observador",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado tras observar el comportamiento de los Ecos en la Charca.",
+  "foto": "assets/images/lore/lore_0015.webp"
+}

@@ -1,0 +1,36 @@
+{
+    "id": "E0005",
+    "baseSpeciesId": "E0004",
+    "nombre": "Guimonte",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+    "tipo1": "Piedra",
+    "tipo2": null,
+  "linaje": "elemental",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "armadillo", "acorazado"],
+    "base_exp_needed": 120,
+    "descripcion": "Sus escamas se han vuelto tan densas que han adquirido un brillo metálico. Puede excavar a través de la roca sólida.",
+    "foto": "assets/images/creatures/E0005.webp",
+  "stats_base": {
+    "vida": 75,
+    "impacto": 78, "magia": 53, "frecuencia": 39, "pulso": 39,
+    "barrera_fisica": 81, "barrera_magica": 75, "barrera_mental": 56, "barrera_vital": 62,
+    "armadura": 40, "velocidad": 50, "precision": 96, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 0.9,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+    "pasivas_posibles": ["filo_metalico", "núcleo_pesado", "contraataque"],
+  "pool_ataques": ["armadura_de_filos", "golpe_base", "fractura","endurecer", "mazazo", "impacto_de_piedra", "muro_de_roca", "eco_geologico"],
+    "evolutionId": "E0006",
+    "evolutionPointsNeeded": 12
+  }

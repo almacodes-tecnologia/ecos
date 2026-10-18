@@ -1,0 +1,44 @@
+{
+    "id": "E0010",
+    "baseSpeciesId": "E0010",
+    "nombre": "Salaglass",
+    "expansion": 1,
+    "catch_rate": 0.3,
+    "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+    "tipo1": "Cristal",
+    "tipo2": null,
+  "linaje": "material",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["inicial", "reptil", "cueva"],
+    "base_exp_needed": 100,
+    "descripcion": "Su piel está compuesta por pequeños fragmentos de cuarzo. En la oscuridad de las cuevas, emite un suave brillo que atrae a los insectos de los que se alimenta.",
+    "foto": "assets/images/creatures/E0010.webp",
+    "stats_base": {
+      "vida": 60,
+      "impacto": 47, "magia": 69, "frecuencia": 80, "pulso": 60,
+      "barrera_fisica": 39, "barrera_magica": 50, "barrera_mental": 73, "barrera_vital": 72,
+      "armadura": 20, "velocidad": 78, "precision": 99, "evasion": 4
+    },
+  
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.1, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.1, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "reflejante",
+      "brillo_cegador",
+      "cuerpo_fragil"
+    ],
+
+  "pool_ataques": ["estocada_cuarzo", "garra_de_cristal", "reflejo_cristalino",
+    "armadura_de_diamante", "cuartear"],
+  
+    "evolutionId": "E0011",
+    "evolutionPointsNeeded": 10
+  }

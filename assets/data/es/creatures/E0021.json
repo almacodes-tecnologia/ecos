@@ -1,0 +1,44 @@
+{
+    "id": "E0021",
+    "baseSpeciesId": "E0021",
+    "nombre": "Brumante",
+    "expansion": 1,
+    "catch_rate": 0.4,
+    "capturable": true,
+    "genero_ratio" : 0.8,
+    "time_affinity" : "noche",
+    "tipo1": "Bestia",
+    "tipo2": null,
+    "linaje": "biologico",
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["mamifero", "pradera"],
+    "base_exp_needed": 110,
+    "descripcion": "Un jabato de pelaje hirsuto y temperamento volátil. Pasa el día embistiendo troncos para fortalecer sus incipientes colmillos.",
+    "foto": "assets/images/creatures/E0021.webp",
+  
+    "stats_base": {
+      "vida": 75,
+      "impacto": 62, "magia": 60, "frecuencia": 41, "pulso": 67,
+      "barrera_fisica": 60, "barrera_magica": 53, "barrera_mental": 44, "barrera_vital": 60,
+      "armadura": 20, "velocidad": 60, "precision": 90, "evasion": 4
+    },
+  
+    "growth_mods": {
+      "vida": 1.1,
+      "impacto": 1.1, "magia": 1.0, "frecuencia": 0.9, "pulso": 1.0,
+      "barrera_fisica": 1.0, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+      "armadura": 0.2, "velocidad": 1.0
+    },
+  
+    "pasivas_posibles": [
+      "testarudo",
+      "piel_dura",
+      "impulso_bruto"
+    ],
+
+  "pool_ataques": ["mirada_penetrante", "impacto", "pisoton", "furia_animal", "canto_bestial"],
+  
+    "evolutionId": "E0022",
+    "evolutionPointsNeeded": 18
+  }

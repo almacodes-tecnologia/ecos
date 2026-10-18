@@ -1,0 +1,21 @@
+{
+  "id": "G001",
+  "nombre": "Centinela de Vapor G-01",
+  "tipo_entidad": "guardian",
+  "capturable": false,
+  "tipo1": "metal",
+  "tipo2": null,
+  "descripcion": "Un antiguo mecanismo de defensa que protege la cripta. Sus engranajes aún rugen con fuerza.",
+  "foto": "assets/images/guardians/G001.webp",
+
+  "stats_base": {
+    "vida": 60,
+    "impacto": 25, "magia": 20, "frecuencia": 15, "pulso": 15,
+    "barrera_fisica": 30, "barrera_magica": 25, "barrera_mental": 20, "barrera_vital": 20,
+    "armadura": 10, "velocidad": 1, "precision": 95, "evasion": 2
+  },
+
+  "pool_ataques": ["golpe_base"],
+
+  "recompensa_especial": "key_ancient_01"
+}

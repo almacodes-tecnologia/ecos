@@ -1,0 +1,62 @@
+{
+    "id": "E0100",
+    "baseSpeciesId": "E0100",
+    "nombre": "Ciberhalxon",
+    "expansion": 1,
+    "catch_rate": 0.005,
+    "capturable": true,
+  "genero_ratio" : 0.8,
+  "time_affinity" : "dia",
+    "tipo1": "Digital",
+    "tipo2": "Viento",
+  "linaje": "tecnologia",
+    "rareza": "Legendaria",
+    "level_cap": 100,
+    "tags": ["legendario", "cyborg", "cielo"],
+    "base_exp_needed": 250,
+    "descripcion": "Un águila majestuosa cuyo plumaje está formado por nanocristales rojos que procesan datos en tiempo real. Se dice que puede hackear la realidad misma con su graznido sónico.",
+    "foto": "assets/images/creatures/E0100.webp",
+
+  "stats_base": {
+    "vida": 95,
+    "impacto": 80,
+    "magia": 119,
+    "frecuencia": 91,
+    "pulso": 65,
+    "barrera_fisica": 65,
+    "barrera_magica": 100,
+    "barrera_mental": 70,
+    "barrera_vital": 70,
+    "armadura": 15,
+    "velocidad": 115,
+    "precision": 100,
+    "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.15, 
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "sobrecarga_binaria",
+    "vuelo_asistido",
+    "cortafuegos_rojo"
+  ],
+
+  "pool_ataques": ["torbellino","en_picado","ala_cortante","ciclón","vendaval","crasheo","sobrecarga_de_datos",
+    "corrupcion_de_datos","parche_de_seguridad","gusano_informatico","inyeccion_de_memoria","ataque_de_dia_cero",
+    "resplandor"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

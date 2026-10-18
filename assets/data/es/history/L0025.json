@@ -1,0 +1,16 @@
+{
+  "id": "lore_0025",
+  "capitulo": "1",
+  "orden": 25,
+  "titulo": "El Nombre del Mundo",
+  "cuerpo": [
+    "Las crónicas definitivas abordaban el enigma de por qué los primeros navegantes bautizaron a aquel paraje como 'Ecos'. Algunos colonos sostenían que se debía al silbido del viento en los cañones; otros, a la manera en que los cristales reflejaban la luz. Sin embargo, el autor del diario aseguraba que la verdad era mucho más silenciosa y sobrecogedora.",
+    "El lugar recibió ese nombre porque nada de lo que allí se manifestaba constituía una presencia original. Las flores eran el reflejo desvaído de jardines terrestres extintos; los automatismos, el rastro de una industria sin fábricas; y los propios humanos... no eran más que el eco sordo de una estirpe que se quedó sin voz tiempo atrás. Un eco no es la realidad, sino la persistencia de un sonido que se resiste a desaparecer, perdiendo fuerza y nitidez con cada choque contra los muros del vacío.",
+    "A medida que se avanzaba hacia la frontera de la ruta, el ambiente se volvía opresivo. El registro mencionaba una certeza inquietante compartida por los rezagados: la constante sensación de que unos ojos invisibles, ocultos tras la estática del horizonte, vigilaban cada movimiento. Al mismo tiempo, entre el rumor metálico del viento, comenzaron a oírse murmullos, voces sin rostro que suplicaban una sola cosa: 'No cruces'.",
+    "Traspasar ese límite significaba dejar atrás los últimos vestigios de la Tierra para adentrarse en el engranaje puro y desconocido de Ecos. Era como cruzar una puerta ciega; nadie sabía qué aguardaba al otro lado, ni si existía la posibilidad del retorno. No se sabía absolutamente nada. Las notas advertían que bajo ningún concepto se debía dar ese paso, pero admitían con desesperación que una fuerza incomprensible les impedía detenerse. Las líneas del diario se interrumpían abruptamente justo ahí, en el instante preciso de avanzar hacia lo desconocido, cruzando el umbral sin la menor certeza de lo que aguardaba en la penumbra."
+  ],
+  "fuente": "Pensamiento Final: Grabado en la roca del Límite",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Se obtiene al observar el horizonte en el punto exacto donde la Ruta R0025 desaparece.",
+  "foto": "assets/images/lore/lore_0025.webp"
+}

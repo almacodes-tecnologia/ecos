@@ -1,0 +1,42 @@
+{
+    "id": "E0026",
+    "baseSpeciesId": "E0025",
+    "nombre": "Mirantora",
+    "expansion": 1,
+    "catch_rate": 0.15,
+    "capturable": true,
+    "tipo1": "Ilusión",
+    "tipo2": null,
+    "rareza": "Épico",
+    "level_cap": 100,
+    "tags": ["evolucion", "depredador_mental", "espejismo"],
+    "base_exp_needed": 380,
+    "descripcion": "Sus patas alargadas le permiten impulsarse a través del aire creando copias de sí mismo. Su cresta canaliza energía mental para hipnotizar a sus presas.",
+    "foto": "assets/images/creatures/E0026.webp",
+  
+    "stats_base": {
+      "vida": 40,
+      "p_atk": 15, "r_atk": 20, "m_atk": 27, "mr_atk": 25,
+      "p_def": 17, "r_def": 18, "m_def": 15, "mr_def": 17,
+      "armadura": 4, "velocidad": 40, "precision": 100, "evasion": 40
+    },
+  
+    "growth_mods": {
+      "vida": 0.5,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "maestro_del_engaño",
+      "mente_clara",
+      "doble_imagen"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+}

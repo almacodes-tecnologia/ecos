@@ -1,0 +1,45 @@
+{
+  "id": "E0047",
+  "baseSpeciesId": "E0047",
+  "nombre": "Voltiton",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.6,
+  "time_affinity" : "dia",
+  "tipo1": "Eléctrico",
+  "tipo2": null,
+  "linaje": "energia",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["roedor", "veloz", "pradera"],
+  "base_exp_needed": 95,
+  "descripcion": "Un pequeño ratón que acumula electricidad en sus bigotes. Suele corretear por cables de alta tensión para recargarse.",
+  "foto": "assets/images/creatures/E0047.webp",
+
+  "stats_base": {
+    "vida": 45,
+    "impacto": 60, "magia": 45, "frecuencia": 65, "pulso": 70,
+    "barrera_fisica": 35, "barrera_magica": 40, "barrera_mental": 50, "barrera_vital": 55,
+    "armadura": 15, "velocidad": 100, "precision": 100, "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.1,
+    "armadura": 0.4, "velocidad": 1.1
+  },
+
+  "pasivas_posibles": [
+    "pararrayos",
+    "estática",
+    "impulso_eléctrico"
+  ],
+
+  "pool_ataques": ["rayo_electrico", "sobrecarga_vatios" , "chispa_rapida", "voltio_duro", "resplandor", "electrogarra",
+    "golpe_agil", "rapidez"],
+
+  "evolutionId": "E0048",
+  "evolutionPointsNeeded": 25
+}

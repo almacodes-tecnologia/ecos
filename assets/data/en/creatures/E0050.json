@@ -1,0 +1,42 @@
+{
+    "id": "E0050",
+    "baseSpeciesId": "E0050",
+    "nombre": "Ciberhalxon",
+    "expansion": 1,
+    "catch_rate": 0.005,
+    "capturable": true,
+    "tipo1": "Digital",
+    "tipo2": "Viento",
+    "rareza": "Legendaria",
+    "level_cap": 100,
+    "tags": ["legendario", "cyborg", "cielo"],
+    "base_exp_needed": 600,
+    "descripcion": "Un águila majestuosa cuyo plumaje está formado por nanocristales rojos que procesan datos en tiempo real. Se dice que puede hackear la realidad misma con su graznido sónico.",
+    "foto": "assets/images/creatures/E0050.webp",
+  
+    "stats_base": {
+      "vida": 75,
+      "p_atk": 25, "r_atk": 40, "m_atk": 30, "mr_atk": 35,
+      "p_def": 20, "r_def": 25, "m_def": 25, "mr_def": 25,
+      "armadura": 5, "velocidad": 50, "precision": 95, "evasion": 8
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.6, "r_atk": 0.6, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.6, "m_def": 0.6, "mr_def": 0.6,
+      "armadura": 0.2, "velocidad": 0.6
+    },
+  
+    "pasivas_posibles": [
+      "procesador_cuantico",
+      "vuelo_supersonico",
+      "firewall_activo"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

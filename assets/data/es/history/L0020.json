@@ -1,0 +1,16 @@
+{
+  "id": "lore_0020",
+  "capitulo": "1",
+  "orden": 20,
+  "titulo": "Manual del Pastor",
+  "cuerpo": [
+    "El caminante localizó un viejo documento de instrucciones para los encargados del ganado. El texto advertía que, si alguno de los animales comenzaba a emitir un zumbido agudo y constante, no se debía intentar alimentarlo con grano común. Aquel sonido era una señal de alteración interna en el mecanismo, no un síntoma de hambre, y requería el uso de herramientas de sintonización para devolverlo a un estado de calma.",
+    "Las directrices recordaban con frialdad que aquellas criaturas ya no poseían sangre en sus venas, sino un fluido denso de refrigeración. Ante una fuga, las vendas eran inútiles; se debía aplicar soldadura directa. Asimismo, se prohibía mirar fijamente a los ojos de las bestias por más de diez segundos, ya que el brillo de sus retinas delataba un flujo invisible de energía que provocaba mareos intensos o pérdidas de memoria en los pastores.",
+    "La labor de pastoreo se limitaba a mantener activo el vallado del perímetro. Si un animal escapaba de la Senda del Pastor, el manual ordenaba no iniciar una persecución: el entorno lo absorbería en cuestión de una hora, transformándolo en un elemento hostil e ingobernable. Los operarios solo custodiaban un reflejo pálido de lo que alguna vez fue una granja en la Tierra.",
+    "El escrito concluía con una fría advertencia para el personal: si una de las unidades intentaba balar y de su garganta solo brotaba un chirrido de metal retorcido, debían ignorar cualquier atisbo de compasión. No se trataba de un lamento de dolor, sino de una distorsión en su engranaje. Aquel ganado no sufría; simplemente se rompía."
+  ],
+  "fuente": "Manual de Usuario: División de Recursos Sintéticos",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de una garita de vigilancia abandonada en la Ruta 8.",
+  "foto": "assets/images/lore/lore_0020.webp"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lore_0022",
+  "capitulo": "1",
+  "orden": 22,
+  "titulo": "El Error de Cálculo",
+  "cuerpo": [
+    "El caminante contempló las toscas palabras pintadas con una mezcla de aceite de motor y óxido sobre el muro de hormigón que descendía hacia el Santuario. No se trataba de un mensaje de aliento para los supervivientes, sino de una fría advertencia: 'No vinimos a colonizar, vinimos a ser asimilados'.",
+    "El relato explicaba que las grandes naves del Exilio nunca tuvieron el propósito de sembrar una nueva civilización; eran meros contenedores de recuerdos. Los miles de colonos no constituían la avanzadilla de una nueva Tierra, sino el alimento necesario para que los mecanismos de aquel mundo aprendieran a replicar la existencia. Quienes diseñaron el viaje necesitaban la biología de los suyos, sus miedos y sus memorias para nutrir los engranajes de este paraje.",
+    "El diario detallaba un proceso atroz: cada vez que un colono fallecía y su pulso se apagaba, el entorno experimentaba una transformación sutil. El paisaje cobraba mayor nitidez, se volvía más denso y adoptaba una apariencia cada vez más cercana a la del viejo mundo. Sin embargo, a cambio de esa falsa familiaridad, los supervivientes se volvían más débiles, perdiendo su humanidad para volverse fríos como el metal.",
+    "El gran error de aquellos pioneros consistió en creer que eran los dueños de su destino, cuando en verdad siempre oficiaron como el tributo para que el lugar se transformase. Las notas concluían con un aviso funesto: si alguien osaba cruzar las puertas del Santuario, no debía esperar el hallazgo de un hogar, sino la purga absoluta de todo lo que lo hacía humano."
+  ],
+  "fuente": "Graffiti en la pared: Escrito con Óxido",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Encontrado en un muro de contención en la Senda del Origen.",
+  "foto": "assets/images/lore/lore_0022.webp"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "E0085",
+  "baseSpeciesId": "E0085",
+  "nombre": "Toxigolem",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Piedra",
+  "tipo2": "Toxico",
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["golem", "prado", "veneno", "toxico"],
+  "base_exp_needed": 145,
+  "descripcion": "Habita en zonas abandonadas y parajes desolados. Su cuerpo de roca absorbe los desechos tóxicos del entorno, acumulándolos en el dorso hasta expulsarlos en forma de cieno fluorescente. Cuando se queda inmóvil, se mimetiza a la perfección con una roca contaminada.",
+  "foto": "assets/images/creatures/E0085.webp",
+
+  "stats_base": {
+    "vida": 108,
+    "impacto": 52,
+    "magia": 43,
+    "frecuencia": 77,
+    "pulso": 45,
+    "barrera_fisica": 101,
+    "barrera_magica": 88,
+    "barrera_mental": 101,
+    "barrera_vital": 94,
+    "armadura": 70,
+    "velocidad": 31,
+    "precision": 90,
+    "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.0,
+    "magia": 1.0,
+    "frecuencia": 0.9,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.2,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "desecho",
+    "cuerpo_rocoso",
+    "taxicidad"
+  ],
+
+  "pool_ataques": ["Perforadora","coletazo_de_roca","martillazo_de_golem","armadura_de_filos","lanzapiedras",
+    "muro_de_roca","mordisco_toxico","gas_nervioso","absorcion_toxica","residuos","enterramiento"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

@@ -1,0 +1,44 @@
+{
+  "id": "E0076",
+  "baseSpeciesId": "E0076",
+  "nombre": "Vallint",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.85,
+  "time_affinity" : "dia",
+  "tipo1": "Madera",
+  "tipo2": null,
+  "linaje": "Biológico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["campo", "obstáculo", "rural"],
+  "base_exp_needed": 100,
+  "descripcion": "Compuesto por dos tablones cruzados que parecen cobrar vida. Suele quedarse quieto en los caminos para confundir a los viajeros, aunque su curiosidad siempre lo delata.",
+  "foto": "assets/images/creatures/E0076.webp",
+
+  "stats_base": {
+    "vida": 60,
+    "impacto": 47, "magia": 39, "frecuencia": 39, "pulso": 46,
+    "barrera_fisica": 78, "barrera_magica": 77, "barrera_mental": 77, "barrera_vital": 78,
+    "armadura": 26, "velocidad": 26, "precision": 92, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 0.9, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.25, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "astilla_defensiva",
+    "enraizamiento",
+    "bloqueo_firme"
+  ],
+
+  "pool_ataques": ["corteza_reforzada", "astilla_cortante", "paciencia", "intimidacion_arborea", "escudo_de_madera"],
+
+  "evolutionId": "E0077",
+  "evolutionPointsNeeded": 40
+}

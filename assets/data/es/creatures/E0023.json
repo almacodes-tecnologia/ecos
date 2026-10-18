@@ -1,0 +1,44 @@
+{
+  "id": "E0023",
+  "baseSpeciesId": "E0023",
+"nombre": "Rotshroom",
+  "expansion": 1,
+  "catch_rate": 0.20,
+  "capturable": true,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Hongo",
+  "tipo2": "Basura",
+  "linaje": "conceptual",
+  "rareza": "Mazmorra",
+  "level_cap": 100,
+  "tags": ["sucio", "espora", "urbano", "venenoso"],
+  "base_exp_needed": 125,
+  "descripcion": "Surgido de la materia orgánica en descomposición de los vertederos. Su sombrero está cubierto de una película aceitosa y desprende un olor fétido que utiliza para desorientar a sus depredadores.",
+  "foto": "assets/images/creatures/E0023.webp",
+
+  "stats_base": {
+    "vida": 69,
+    "impacto": 44, "magia": 74, "frecuencia": 41, "pulso": 22,
+    "barrera_fisica": 50, "barrera_magica": 59, "barrera_mental": 21, "barrera_vital": 30,
+    "armadura": 15, "velocidad": 39, "precision": 97, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.2, "frecuencia": 1.0, "pulso": 0.9,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.9
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_liquido",
+    "regeneracion_clofila",
+    "nucleo_blando"
+  ],
+
+  "pool_ataques": ["setaimpacto", "nube_alucinogena", "espora_ferrea", "humo_denso", "compactacion"],
+
+  "evolutionId": "E0023",
+  "evolutionPointsNeeded": 12
+}

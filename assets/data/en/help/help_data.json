@@ -1,0 +1,88 @@
+{
+  "faqs": [
+    {
+      "pregunta": "¿Qué es Ecos?",
+      "respuesta": "Ecos es un proyecto nacido del deseo de aprender y la pasión por crear. Desarrollado de forma autodidacta por una sola persona, este universo es un regalo dedicado a Alba y Mario (almaCodes). Es una experiencia para disfrutar sin prisas, explorando los límites de la realidad digital y la nostalgia."
+    },
+    {
+      "pregunta": "¿Puedo perder mis Ecos para siempre?",
+      "respuesta": "No. Si un Eco cae en combate, su esencia se desestabiliza y regresa a su núcleo para recuperarse. Podrás volver a proyectarlos una vez descanses en el Santuario."
+    },
+    {
+      "pregunta": "¿Dónde encuentro las contraseñas?",
+      "respuesta": "Los códigos de acceso no siempre están a la vista. Presta atención a los mensajes de ambientación de los nodos; a veces la clave está oculta en la narrativa del mundo."
+    }
+  ],
+  "tutoriales": [
+    {
+      "id": "que_es_un_eco",
+      "nombre": "ESENCIAS Y RANGOS",
+      "descripcion_breve": "Comprende la naturaleza de los Ecos.",
+      "descripcion_larga": [
+        "Un Eco es una huella digital de una vida pasada. Cada uno posee un Rango (D, C, B, A, S) que determina su potencial de crecimiento.",
+        "Pueden evolucionar y fortalecerse hasta alcanzar el nivel 255.",
+        "La resonancia de un Eco depende de su tipo de ataque, creando una red de fortalezas y debilidades frente a otros entes."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "sincronizacion",
+      "nombre": "SINCRONIZAR Y ESTABILIZAR",
+      "descripcion_breve": "Cómo integrar nuevas esencias a tu equipo.",
+      "descripcion_larga": [
+        "No capturamos seres, sincronizamos frecuencias. Al encontrar un Eco salvaje, debes lanzar el Dado de Frecuencia.",
+        "Si el resultado es igual o menor a su tasa de estabilidad, la esencia se integrará en tu sistema.",
+        "Los objetos de apoyo pueden alterar las probabilidades, facilitando la conexión con entes más poderosos."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "exploracion_y_nodos",
+      "nombre": "EL MAPA Y LAS RUTAS",
+      "descripcion_breve": "Navegando por la red fragmentada.",
+      "descripcion_larga": [
+        "El mundo se divide en Nodos interconectados. Algunas rutas están bloqueadas por Guardianes (Bosses), requisitos de nivel, llaves físicas o contraseñas cifradas.",
+        "Usa las Herramientas en los nodos de recolección para participar en minijuegos y extraer recursos valiosos.",
+        "La Proyección del Mapa te permitirá visualizar tu posición en tiempo real dentro del sector."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "combate_y_turnos",
+      "nombre": "PROTOCOLOS DE COMBATE",
+      "descripcion_breve": "Estrategia por turnos de resonancia.",
+      "descripcion_larga": [
+        "Los enfrentamientos se rigen por turnos. La velocidad y el tipo de energía son cruciales.",
+        "Utiliza objetos durante el combate para potenciar tus estadísticas o restaurar la integridad de tus Ecos.",
+        "Derrotar Guardianes en las Mazmorras es la única forma de avanzar hacia los sectores más profundos del sistema."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "archivo_y_reliquias",
+      "nombre": "ECOPEDIA Y MUSEO",
+      "descripcion_breve": "Registrando la historia de almaCodes.",
+      "descripcion_larga": [
+        "La Ecopedia registra cada unidad avistada. Si solo lo ves, aparecerá su rastro; si lo sincronizas, obtendrás sus datos completos.",
+        "En las Mazmorras, podrás hallar piezas únicas para el Museo. Estas reliquias son puramente coleccionables, testimonios de eras pasadas.",
+        "El Códice contiene las páginas de Lore que encuentres: léelas para reconstruir la verdad sobre el Exilio."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "meritos",
+      "nombre": "REGISTRO DE MÉRITOS",
+      "descripcion_breve": "Logros y hitos del explorador.",
+      "descripcion_larga": [
+        "Cada gran hazaña queda grabada en tu registro de Méritos.",
+        "Desde sincronizar tu primer Eco hasta derrotar a los Guardianes de nivel máximo.",
+        "En las Mazmorras de dificultad máxima, incluso podrías tener la oportunidad de estabilizar Ecos legendarios."
+      ],
+      "imagen": ""
+    }
+  ],
+  "contacto": {
+    "email": "almacodes.tecnologia@gmail.com",
+    "mensaje": "Ecos es un sueño personal hecho realidad. Gracias de corazón por dedicar tu tiempo a explorar este mundo. Si tienes cualquier sugerencia o simplemente quieres saludar, puedes escribirme a:"
+  }
+}

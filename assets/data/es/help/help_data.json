@@ -1,0 +1,289 @@
+{
+  "faqs": [
+    {
+      "pregunta": "¿Qué es Ecos?",
+      "respuesta": "Ecos es un proyecto nacido del deseo de aprender y la pasión por crear. Desarrollado de forma autodidacta por una sola persona. Es una experiencia para disfrutar sin prisas, explorando los límites de la realidad digital y la nostalgia."
+    },
+    {
+      "pregunta": "¿Puedo perder mis Ecos para siempre?",
+      "respuesta": "No. Si un Eco cae en combate, su esencia se desestabiliza y regresa a su núcleo para recuperarse. Podrás volver a proyectarlos una vez descanses en el Santuario."
+    },
+    {
+      "pregunta": "¿Dónde encuentro las contraseñas?",
+      "respuesta": "Los códigos de acceso no siempre están a la vista. Presta atención a los mensajes de ambientación de los nodos; a veces la clave está oculta en la narrativa del mundo."
+    },
+    {
+      "pregunta": "¿Por qué mi Eco sube de nivel más lento que otros?",
+      "respuesta": "La complejidad de un Eco depende de su Rango. Un Eco de Rango S requiere un % más de experiencia por cada punto de rango que uno de Rango D. El poder absoluto requiere una mayor inversión de energía."
+    },
+    {
+      "pregunta": "¿Influye mi nivel en el daño que recibo?",
+      "respuesta": "Totalmente. El motor de Ecos utiliza un multiplicador híbrido donde la diferencia de nivel entre el atacante y el defensor puede llegar a triplicar el daño o reducirlo drásticamente. Mantener a tu equipo nivelado es tu mejor defensa."
+    },
+    {
+      "pregunta": "¿Por qué fallan mis ataques si tengo más nivel?",
+      "respuesta": "El nivel no lo es todo. Cada ataque tiene una 'Precisión' base. Técnicas devastadoras como 'Mazazo' o 'Géiser Violento' tienen más probabilidad de fallar para compensar su poder. Además, si el rival ha usado movimientos de evasión o neblina, tu probabilidad de impacto caerá drásticamente."
+    },
+    {
+      "pregunta": "¿Los estados alterados afectan mis estadísticas?",
+      "respuesta": "Sí. Algunos estados no solo dañan, sino que sabotean tu rendimiento: la Quemadura reduce tu Ataque Físico a la mitad, y la Parálisis reduce tu Velocidad global un 50%. Prioriza curar estos estados si dependen de tu fuerza física o rapidez."
+    },
+    {
+      "pregunta": "¿Por qué mi Eco a veces no ataca aunque elijo una técnica?",
+      "respuesta": "Ciertos estados alteran el flujo de datos. La Parálisis tiene un 25% de probabilidad de bloquear tu turno, mientras que la Confusión tiene un 33% de probabilidad de hacer que el Eco se golpee a sí mismo en lugar de al rival."
+    },
+    {
+      "pregunta": "¿Es posible fallar siempre un ataque?",
+      "respuesta": "No. El sistema de Ecos garantiza una probabilidad mínima de acierto del 5%, incluso contra los enemigos más evasivos. Siempre hay una grieta en el código rival."
+    },
+    {
+      "pregunta": "¿Por qué a veces no gano Evo Pts al ganar?",
+      "respuesta": "Para obtener Puntos de Evolución (Evo Pts), tu sistema debe haber investigado previamente la especie. Esto se logra sincronizando (capturando) al menos una unidad. Derrotar especies desconocidas da experiencia, pero no datos de evolución."
+    },
+    {
+      "pregunta": "¿Que es la polaridad??",
+      "respuesta": "Está inspirado en el genero de éste tipo de juegos, modifica levemente alguna caracteristica."
+    }
+  ],
+  "tutoriales": [
+    {
+      "id": "que_es_un_eco",
+      "nombre": "ESENCIAS Y RANGOS",
+      "descripcion_breve": "Comprende la naturaleza de los Ecos.",
+      "descripcion_larga": [
+        "Un Eco es una huella digital de una vida pasada. Cada uno posee un Rango (D, C, B, A, S) que determina su potencial de crecimiento.",
+        "Pueden evolucionar y fortalecerse hasta alcanzar el nivel 255.",
+        "La resonancia de un Eco depende de su tipo de ataque, creando una red de fortalezas y debilidades frente a otros entes."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "sincronizacion",
+      "nombre": "SINCRONIZAR Y ESTABILIZAR",
+      "descripcion_breve": "Cómo integrar nuevas esencias a tu equipo.",
+      "descripcion_larga": [
+        "No capturamos seres, sincronizamos frecuencias. Al encontrar un Eco salvaje, debes lanzar el Dado de Frecuencia.",
+        "Si el resultado es igual o menor a su tasa de estabilidad, la esencia se integrará en tu sistema.",
+        "Los objetos de apoyo pueden alterar las probabilidades, facilitando la conexión con entes más poderosos."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "armonia_contextual",
+      "nombre": "ARMONÍA CONTEXTUAL",
+      "descripcion_breve": "Factores externos que potencian a tus Ecos.",
+      "descripcion_larga": [
+        "La eficacia de tus Ecos no es estática; resuenan con el entorno y su propia esencia.",
+        "Polaridad: Cada ente posee una polaridad intrínseca. Esta naturaleza determina si el individuo destaca en la ofensiva o en la resiliencia durante el combate.",
+        "Afinidad Temporal: Los Ecos mantienen un vínculo con los ciclos solares. Aquellos que encuentran su afinidad con el momento del día actual ven aumentada su agilidad y capacidad de reacción en el campo de batalla.",
+        "Observa el entorno y la naturaleza de tus compañeros antes de desplegarlos para maximizar su rendimiento."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "exploracion_y_nodos",
+      "nombre": "EL MAPA Y LAS RUTAS",
+      "descripcion_breve": "Navegando por la red fragmentada.",
+      "descripcion_larga": [
+        "El mundo se divide en Nodos interconectados. Algunas rutas están bloqueadas por Guardianes (Bosses), requisitos de nivel, llaves físicas o contraseñas cifradas.",
+        "Usa las Herramientas en los nodos de recolección para participar en minijuegos y extraer recursos valiosos.",
+        "La Proyección del Mapa te permitirá visualizar tu posición en tiempo real dentro del sector."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "combate_y_turnos",
+      "nombre": "PROTOCOLOS DE COMBATE",
+      "descripcion_breve": "Estrategia por turnos de resonancia.",
+      "descripcion_larga": [
+        "Los enfrentamientos se rigen por turnos. La velocidad y el tipo de energía son cruciales.",
+        "Utiliza objetos durante el combate para potenciar tus estadísticas o restaurar la integridad de tus Ecos.",
+        "Derrotar Guardianes en las Mazmorras es la única forma de avanzar hacia los sectores más profundos del sistema."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "archivo_y_reliquias",
+      "nombre": "ECOPEDIA Y MUSEO",
+      "descripcion_breve": "Registrando la historia de almaCodes.",
+      "descripcion_larga": [
+        "La Ecopedia registra cada unidad avistada. Si solo lo ves, aparecerá su rastro; si lo sincronizas, obtendrás sus datos completos.",
+        "En las Mazmorras, podrás hallar piezas únicas para el Museo. Estas reliquias son puramente coleccionables, testimonios de eras pasadas.",
+        "El Códice contiene las páginas de Lore que encuentres: léelas para reconstruir la verdad sobre el Exilio."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "el_riesgo_de_huir",
+      "nombre": "PROTOCOLO DE RETROCESO",
+      "descripcion_breve": "Las consecuencias de la retirada.",
+      "descripcion_larga": [
+        "Huir de una frecuencia inestable tiene un coste: el sistema te desplazará aleatoriamente hacia atrás entre 2 y 6 nodos.",
+        "En las Mazmorras, la derrota es más severa, provocando un retroceso de hasta 5 pasos en tu avance por el sector.",
+        "Gestionar cuándo arriesgarse y cuándo retirarse es vital para no perder el progreso hacia el Guardián."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "meritos",
+      "nombre": "REGISTRO DE MÉRITOS",
+      "descripcion_breve": "Logros y hitos del explorador.",
+      "descripcion_larga": [
+        "Cada gran hazaña queda grabada en tu registro de Méritos.",
+        "Desde sincronizar tu primer Eco hasta derrotar a los Guardianes de nivel máximo.",
+        "En las Mazmorras de dificultad máxima, incluso podrías tener la oportunidad de estabilizar Ecos legendarios."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "caracter_y_potencial",
+      "nombre": "EL CARÁCTER DEL ECO",
+      "descripcion_breve": "Carácter e IVs (Valores Individuales).",
+      "descripcion_larga": [
+        "Cada Eco nace con una naturaleza única que define su temperamento: una estadística brillará con un +10% de bono, mientras otra se reducirá un 10%.",
+        "Los IVs son el ADN digital: valores del 1 al 20 que marcan el potencial máximo de cada estadística.",
+        "Identificar un Eco con naturaleza favorable y altos IVs es la clave para superar los desafíos del post-game."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "maestria_y_armadura",
+      "nombre": "MAESTRÍA DE COMBATE",
+      "descripcion_breve": "STAB y Mitigación de Daño.",
+      "descripcion_larga": [
+        "Un Eco que utiliza ataques de su mismo tipo recibe un bono de Maestría (STAB) del 20%, potenciando su resonancia natural.",
+        "La Armadura es el escudo contra el código corrupto: reduce el daño de forma porcentual siguiendo una curva de eficiencia.",
+        "A mayor nivel, mayor es la importancia de equilibrar el ataque puro con una defensa sólida para sobrevivir a los Guardianes."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "prestigio_ascenso",
+      "nombre": "EL CAMINO DEL RANGO",
+      "descripcion_breve": "Prestigio y crecimiento infinito.",
+      "descripcion_larga": [
+        "El Rango no solo es una letra; es el multiplicador de tus estadísticas base. A mayor Rango, más poder obtienes por cada nivel subido.",
+        "Aunque el nivel máximo es 255, el sistema de Prestigio permite seguir mejorando la esencia del Eco mediante ascensos.",
+        "Ten cuidado: un mayor rango aumenta la complejidad del Eco, requiriendo más experiencia para seguir progresando."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "anatomia_ataque",
+      "nombre": "ANATOMÍA DEL ATAQUE",
+      "descripcion_breve": "Categorías, precisión y protocolos.",
+      "descripcion_larga": [
+        "Cada protocolo de ataque se clasifica en categorías: Físico (P), Físico a Distancia (RP), Mágico (M), Mágico a Distancia (RM) o de Estado/Potenciación.",
+        "La Probabilidad de Impacto depende de tu Precisión frente a la Evasión del rival. Los ataques de 'Buff' (potenciación) nunca fallan.",
+        "Los ataques pueden poseer Prioridad (+1): estos siempre se ejecutan antes que los ataques estándar, independientemente de la velocidad de los entes.",
+        "El Golpe Crítico es una sobrecarga de energía que inflige daño masivo. Algunos ataques tienen una probabilidad de crítico base superior a otros."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "glosario_estados",
+      "nombre": "ALTERACIONES DE FRECUENCIA",
+      "descripcion_breve": "Glosario de estados positivos y negativos.",
+      "descripcion_larga": [
+        "DAÑO CONTINUO (DOT): Veneno, Sangrado y Quemadura consumen la integridad del Eco cada turno. La Quemadura, además, reduce la potencia de los ataques físicos.",
+        "RESTRICCIÓN: La Parálisis reduce la velocidad un 50% y puede anular ataques. La Congelación y el Aturdimiento bloquean el turno por completo. La Confusión puede provocar que el Eco se dañe a sí mismo.",
+        "ESTRATEGIA AVANZADA: El estado Vulnerable aumenta el daño recibido un 50%, mientras que Debilitado reduce el daño que inflige el rival a la mitad.",
+        "DEFENSA Y RECUPERACIÓN: El Escudo reduce el daño recibido, las Espinas devuelven parte del impacto al atacante y la Regeneración restaura HP de forma gradual.",
+        "DRENADO Y SACRIFICIO: Algunas técnicas permiten robar la energía del rival para sanarse o, en casos extremos, sacrificar al Eco para liberar una carga masiva."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "propiedades_avanzadas",
+      "nombre": "VARIABLES DE EJECUCIÓN",
+      "descripcion_breve": "Críticos, Prioridad y Cooldowns.",
+      "descripcion_larga": [
+        "COOLDOWN: Los ataques potentes requieren ciclos de enfriamiento. No podrás usar la misma técnica de forma consecutiva si tiene un cooldown activo.",
+        "PRIORIDAD: Movimientos como 'Aguijón Veloz' o 'Ataque Sorpresa' ignoran la velocidad y golpean primero. Es la herramienta ideal para rematar enemigos rápidos.",
+        "RECOIL Y SACRIFICIO: Cuidado con ataques como 'Voltio Duro' o 'Embestida Ígnea'; infligen un gran daño pero sobrecargan a tu Eco, restándole integridad (HP) al usarlos.",
+        "GOLPE CRÍTICO: Técnicas como 'Golpe de Suerte' o 'Rayo Errático' tienen una probabilidad de crítico de hasta el 50%, permitiendo dar la vuelta a combates perdidos."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "tipos_ataque_especial",
+      "nombre": "PROTOCOLOS ESPECIALES",
+      "descripcion_breve": "Drenaje, Escudos y Apoyo.",
+      "descripcion_larga": [
+        "DRENAJE: Movimientos como 'Sifón de Vida' o 'Drenaje Micélico' roban la energía del rival para sanar a tu Eco cada turno. Es la base de la supervivencia de tipo Hongo y Caos.",
+        "PROTECCIÓN TOTAL: El 'Escudo Total' o el 'Hidro Escudo' pueden anular por completo el daño recibido durante un ciclo de tiempo limitado.",
+        "ESTADOS DE APOYO: El 'Muro de Espinas' activa un protocolo de contraataque que devuelve parte del daño físico recibido al agresor.",
+        "PRECISIÓN Y EVASIÓN: No subestimes los ataques que bajan la precisión del rival; un enemigo que no puede conectarte es un enemigo derrotado."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "dinamicas_avanzadas",
+      "nombre": "DINÁMICAS DE TURNO",
+      "descripcion_breve": "Confusión, Recarga y Reflejo.",
+      "descripcion_larga": [
+        "RECARGA: Los ataques potentes tienen un tiempo de enfriamiento (Cooldown). No podrás repetir el mismo protocolo hasta que sus ciclos de carga se completen.",
+        "CONFUSIÓN (Dizzy): Un Eco confundido tiene una probabilidad de perder el control de su código y dañarse a sí mismo en lugar de al rival.",
+        "REFLEJO DE CONTACTO: Ten cuidado al atacar a entes con el estado 'Espinas'; una parte del daño que inflijas se volverá contra ti por el impacto físico."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "dinamicas_avanzadas",
+      "nombre": "DINÁMICAS DE TURNO",
+      "descripcion_breve": "Cooldown, ejes de combate y estadisticas operativas.",
+      "descripcion_larga": [
+        "RECARGA: Los ataques potentes requieren ciclos de enfriamiento (cooldown). No podrás repetir el mismo protocolo hasta que sus ciclos de carga se completen.",
+        "--- EJES DE COMBATE (SISTEMA 4x4) ---",
+        "IMPACTO vs BARRERA FÍSICA: Fuerza cinética pura. Desgasta la estructura sólida del oponente.",
+        "MAGIA vs BARRERA MÁGICA: Alteración de partículas y energía técnica, poder mágico en estado puro.",
+        "FRECUENCIA vs BARRERA MENTAL: Ataques de modulación sónica/psíquica. Resuenan en la conciencia del Eco para corromper su lógica.",
+        "PULSO vs BARRERA VITAL: Descargas de energía pura al núcleo. Buscan desconectar el pulso eléctrico del ente.",
+        "--- ESTADÍSTICAS OPERATIVAS ---",
+        "CORAZA (Armadura): Factor de mitigación global que reduce todo daño recibido tras aplicar las barreras.",
+        "ESQUIVA (Evasión): Capacidad de evadir ataques mediante el posicionamiento en el terreno.",
+        "SINTONÍA (Precisión): Probabilidad de que tu ataque alcance el objetivo sin perderse.",
+        "VELOCIDAD (Celeridad): Define la prioridad de procesamiento. A mayor celeridad, más rápido es tu eco."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "supervivencia_mazmorra",
+      "nombre": "SUPERVIVENCIA EN MAZMORRAS",
+      "descripcion_breve": "Gestión de integridad persistente.",
+      "descripcion_larga": [
+        "A diferencia de los nodos estándar, en las Mazmorras la integridad (HP) de tus Ecos NO se restaura al terminar un combate.",
+        "Cada enfrentamiento desgasta tu sistema. Deberás gestionar tus recursos y decidir cuándo avanzar o cuándo retirarte al Santuario para reparar los daños.",
+        "Si un Eco cae en la profundidad de la mazmorra, permanecerá deshabilitado hasta que logres salir o encuentres un punto de estabilización."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "gestion_stats_combate",
+      "nombre": "RECALIBRACIÓN TEMPORAL",
+      "descripcion_breve": "Multiplicadores y tiempos de espera.",
+      "descripcion_larga": [
+        "Los bufos y penalizaciones aplicados durante la batalla son volátiles: una vez terminada la sincronización (el combate), todos los multiplicadores se reinician a su estado base.",
+        "Cada técnica requiere un tiempo de enfriamiento (Cooldown). Al usar un ataque potente, este quedará inhabilitado durante un número determinado de turnos.",
+        "Gestionar el orden de tus ataques es vital: no agotes tus mejores recursos al principio si el Guardián tiene mucha integridad restante."
+      ],
+      "imagen": ""
+    },
+    {
+      "id": "mecanicas_avanzadas",
+      "nombre": "PROTOCOLO DE EMERGENCIA",
+      "descripcion_breve": "Efectos de protección y recuperación.",
+      "descripcion_larga": [
+        "PROTECCIÓN TOTAL: Técnicas como 'Escudo de Datos' otorgan el estado Protegido, anulando cualquier daño recibido durante ese turno.",
+        "RECOIL Y SACRIFICIO: Ciertos ataques masivos sobrecargan al usuario, provocando un daño de retroceso (Recoil) del 20% de su integridad total.",
+        "ORDEN DE PROCESAMIENTO: Al final de cada turno, el sistema procesa primero los daños por estado (Veneno, Sangrado) y luego las curaciones (Regeneración).",
+        "REGENERACIÓN: Un Eco en estado de regeneración recupera un porcentaje de su salud máxima cada turno, lo que puede compensar el daño de quemaduras o venenos."
+      ],
+      "imagen": ""
+    }
+  ],
+  "contacto": {
+    "email": "almacodes.tecnologia@gmail.com",
+    "mensaje": "Ecos es un sueño personal hecho realidad. Gracias de corazón por dedicar tu tiempo a explorar este mundo. Si tienes cualquier sugerencia o simplemente quieres saludar, puedes escribirme a:"
+  }
+}

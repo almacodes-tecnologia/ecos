@@ -1,0 +1,16 @@
+{
+  "id": "lore_0023",
+  "capitulo": "1",
+  "orden": 23,
+  "titulo": "Estática Blanca",
+  "cuerpo": [
+    "El caminante leyó los versos grabados en el metal: / 'No busques el cielo azul de las postales viejas, / ni el verde de una hierba que el metal ya no imita. / Mira el ruido blanco de la pantalla muerta, / donde el universo parpadea y nos invita.",
+    "Hay más verdad en un destello que se rompe / que en mil recuerdos de un sol que se ha apagado. / La estática es la nieve de este mundo nuevo, / el único mapa de lo que el tiempo ha borrado.",
+    "No llores por el rastro que el entorno corrompe, / ni temas al vacío que se abre bajo el puente. / La belleza no está en el orden que se rompe, / sino en el chispazo eléctrico que aún nos hace sentir gente.",
+    "Si el paraje nos borra, que sea en luz fría, / un último brillo antes del silencio total. / Somos el error de una fuerza que todavía confía / en que la estática blanca es nuestra alma inmortal'."
+  ],
+  "fuente": "Poema anónimo: Tallado con un punzón en la barandilla",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Encontrado al final del Puente de la Estática, donde el horizonte parpadea.",
+  "foto": "assets/images/lore/lore_0023.webp"
+}

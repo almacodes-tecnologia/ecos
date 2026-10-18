@@ -1,0 +1,16 @@
+{
+  "id": "lore_0014",
+  "capitulo": "1",
+  "orden": 14,
+  "titulo": "Nota de Raciones",
+  "cuerpo": [
+    "El retazo de papel recuperado contenía la queja amarga de un colono tras más de un año de encierro. Describía cómo era incapaz de tragar el alimento artificial que les daban en el bloque B. Aseguraba que, aunque prometían que los mantendría con vida en aquel pedrusco, aquello sabía a hierro. Sabía a la sangre fría de un mecanismo.",
+    "El autor juraba que, mientras masticaba en la penumbra, sentía un chispazo punzante en las encías. No lograba distinguir si era la comida la que estaba cargada de una extraña energía o si su propio cuerpo se estaba volviendo un conductor. Había empezado a lamer los muros de metal del almacén solo para comprobar si el sabor era el mismo. Lo era.",
+    "El escrito advertía con sarcasmo que, de seguir alimentándose con aquel lodo denso, llegaría un día en que los humanos se fundirían con las propias herramientas del campamento. Añoraba con desesperación el sabor de una fruta real, una que no hubiera sido moldeada por una máquina en un laboratorio.",
+    "A veces soñaba con un trozo de carne que sangrara de verdad, y no con aquel fluido denso que dejaba la lengua entumecida durante horas. El retazo concluía con una última línea desesperada: si aquello era sobrevivir, prefería el hambre."
+  ],
+  "fuente": "Post-it arrugado: Encontrado en un contenedor de basura",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de un contenedor de suministros abierto.",
+  "foto": "assets/images/lore/lore_0014.webp"
+}

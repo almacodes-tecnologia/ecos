@@ -1,0 +1,16 @@
+{
+  "id": "lore_0003",
+  "capitulo": "1",
+  "orden": 3,
+  "titulo": "Protocolo Delta",
+  "cuerpo": [
+    "Los manuscritos hablaban de un refugio que debió ser inexpugnable, protegido por pesadas capas de metal blindado. Pero cuando aquella criatura a la que llamaron el 'Guardián' llegó, no necesitó usar la fuerza. Se limitó a quedarse allí, inmóvil, una silueta oscura recortada contra el cielo violeta.",
+    "Quienes estaban dentro esperaban un impacto, un estruendo. En su lugar, el silencio fue absoluto. Entonces, los paneles y las luces del asentamiento empezaron a parpadear al unísono. La criatura no golpeaba las compuertas; parecía estar comunicándose con las cerraduras, convenciéndolas de que los humanos eran los verdaderos intrusos.",
+    "Los sistemas de emergencia reaccionaron demasiado tarde. Los mecanismos de defensa automatizados se volvieron contra sus propios creadores en un parpadeo. No parecía una simple avería de las máquinas; era como si el planeta reclamara el control del sector, despojándolos de todo derecho.",
+    "El caminante leyó que tuvieron que abandonar el Camino del Horizonte y huir desprotegidos en mitad de la noche. Mientras escapaban, se escuchaba el chirrido del metal retorciéndose a lo lejos: el Guardián estaba doblegando las últimas defensas. Ahora, él era el dueño absoluto del lugar."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado de un terminal dañado en el Camino del Horizonte.",
+  "foto": "assets/images/lore/lore_0003.webp"
+}

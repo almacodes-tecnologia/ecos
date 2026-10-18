@@ -1,0 +1,45 @@
+{
+  "id": "E0042",
+  "baseSpeciesId": "E0041",
+  "nombre": "Pavoratus",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.9,
+  "time_affinity" : "noche",
+  "tipo1": "Fuego",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["fuego", "espantapajaros", "final"],
+  "base_exp_needed": 250,
+  "descripcion": "Sus ojos son ascuas ardientes que vigilan los campos. Se dice que el fuego que lo consume nunca se apaga, alimentándose del miedo de quienes lo miran.",
+  "foto": "assets/images/creatures/E0042.webp",
+
+  "stats_base": {
+    "vida": 84,
+    "impacto": 62, "magia": 107, "frecuencia": 101, "pulso": 89,
+    "barrera_fisica": 45, "barrera_magica": 46, "barrera_mental": 100, "barrera_vital": 72,
+    "armadura": 23, "velocidad": 61, "precision": 97, "evasion": 6
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.1, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 0.9, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.3, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "incendio_eterno",
+    "mirada_ceniza",
+    "venganza_flameante"
+  ],
+
+  "pool_ataques": ["fogonazo", "manto_de_ceniza", "incendio_forestal", "puno_ebullicion", "corriente_ascendente",
+    "lanzamiento_chatarra", "telequinesis", "copia_mental", "pirotecnia", "manto_de_fuego", "hechizo de fuego"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

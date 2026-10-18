@@ -1,0 +1,82 @@
+[
+  {
+    "id": "item_001",
+    "nombre": "Trenza de Trébol Negro",
+    "descripcion": "Un amuleto tejido con tallos de una rara variante de trébol que solo crece en las zonas más fértiles. Al llevarlo, te sientes tan arraigado al suelo que ninguna fuerza parece capaz de moverte.",
+    "tipo_objeto": "equipo",
+    "statModificado": "barrera_fisica",
+    "valorModificador": 5
+  },
+  {
+    "id": "item_002",
+    "nombre": "Colmillo de la Jauría",
+    "descripcion": "Un diente largo y afilado de un depredador que antaño dominó los pastizales. Transmite un instinto primario al portador, convirtiendo cada golpe en una dentellada feroz.",
+    "tipo_objeto": "equipo",
+    "statModificado": "impacto",
+    "valorModificador": 7
+  },
+  {
+    "id": "item_003",
+    "nombre": "Esencia de Rocío",
+    "descripcion": "Una pequeña botella de barro que contiene el rocío más puro recogido al alba. Bebe directamente de la vitalidad del campo, cerrando heridas y renovando las fuerzas del Eco.",
+    "tipo_objeto": "equipo",
+    "statModificado": "vida",
+    "valorModificador": 30
+  },
+  {
+    "id": "item_004",
+    "nombre": "Pluma de Vigía",
+    "descripcion": "La pluma de un ave rapaz que planea sobre las llanuras. Su ligereza es legendaria; permite anticipar el movimiento de la hierba y encontrar el punto exacto donde golpear.",
+    "tipo_objeto": "equipo",
+    "statModificado": "precision",
+    "valorModificador": 5
+  },
+  {
+    "id": "item_005",
+    "nombre": "Herradura del Arado",
+    "descripcion": "Un viejo hierro forjado que ha recorrido miles de hectáreas abriendo la tierra. Simboliza el trabajo incansable del campo y otorga una potencia de impacto digna de una bestia de carga.",
+    "tipo_objeto": "equipo",
+    "statModificado": "impacto",
+    "valorModificador": 12
+  },
+  {
+    "id": "item_006",
+    "nombre": "Raíz de Tormenta",
+    "descripcion": "Un trozo de madera nudosa que fue alcanzada por un rayo en mitad de la pradera. Conserva un calor interno que, al canalizarse, desata una energía salvaje y natural.",
+    "tipo_objeto": "equipo",
+    "statModificado": "frecuencia",
+    "valorModificador": 8
+  },
+  {
+    "id": "item_007",
+    "nombre": "Piel de Zorro del Prado",
+    "descripcion": "Un retal de pelaje suave que cambia de tonalidad según el color del pasto. Permite al portador desvanecerse entre la maleza como un susurro en el viento.",
+    "tipo_objeto": "equipo",
+    "statModificado": "evasion",
+    "valorModificador": 8
+  },
+  {
+    "id": "item_008",
+    "nombre": "Cinto de Cuero Curtido",
+    "descripcion": "Una correa ancha y robusta, tratada con aceites naturales y resina de pino. Es la protección básica de todo aquel que se enfrenta a la dureza del clima en campo abierto.",
+    "tipo_objeto": "equipo",
+    "statModificado": "armadura",
+    "valorModificador": 7
+  },
+  {
+    "id": "item_009",
+    "nombre": "Corazón de la Colina",
+    "descripcion": "Una piedra ovalada y cálida encontrada en lo alto de un túmulo. Dicen que contiene la fuerza de mil veranos, otorgando una resistencia que parece no tener fin.",
+    "tipo_objeto": "equipo",
+    "statModificado": "vida",
+    "valorModificador": 20
+  },
+  {
+    "id": "item_010",
+    "nombre": "Brazales del Pastor",
+    "descripcion": "Protecciones de cuero reforzadas con astillas de madera de roble. Diseñadas originalmente para protegerse de las zarzas y los colmillos, son el escudo perfecto del hombre de campo.",
+    "tipo_objeto": "equipo",
+    "statModificado": "barrera_fisica",
+    "valorModificador": 8
+  }
+]

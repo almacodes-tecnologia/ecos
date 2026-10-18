@@ -1,0 +1,40 @@
+{
+  "id": "E0017",
+  "baseSpeciesId": "E0017",
+  "nombre": "Bambusín",
+  "expansion": 1,
+  "catch_rate": 0.35,
+  "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+  "tipo1": "Vegetal",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["planta", "doméstico", "flexible"],
+  "base_exp_needed": 110,
+  "descripcion": "Suele habitar en laboratorios de botánica. Su cuerpo elástico le permite absorber impactos físicos sin romperse, recuperando su forma original al instante.",
+  "foto": "assets/images/creatures/E0017.webp",
+  "stats_base": {
+    "vida": 72,
+    "impacto": 45, "magia": 40, "frecuencia": 58, "pulso": 52,
+    "barrera_fisica": 45, "barrera_magica": 50, "barrera_mental": 63, "barrera_vital": 61,
+    "armadura": 35, "velocidad": 42, "precision": 98, "evasion": 2
+  },
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 1.2, "barrera_vital": 1.1,
+    "armadura": 0.3, "velocidad": 0.8
+  },
+  "pasivas_posibles": [
+    "fotosintesis",
+    "cuerpo_elastico",
+    "enraizar"
+  ],
+  "pool_ataques": ["muro_de_espinas", "latigazo", "polen_adormecedor", "clorofila_viva", "semilla_drenadora",
+    "golpe_de_raiz"],
+  "evolutionId": "E0018",
+  "evolutionPointsNeeded": 18
+}

@@ -1,0 +1,42 @@
+{
+    "id": "E0009",
+    "baseSpeciesId": "E0007",
+    "nombre": "Tsunamioth",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Agua",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["final", "coloso", "rio"],
+    "base_exp_needed": 400,
+    "descripcion": "Un coloso cuyo peso puede desviar el curso de los ríos. Cuando entra en el océano, su carga genera olas que pueden verse a kilómetros de distancia.",
+    "foto": "assets/images/creatures/E0009.webp",
+  
+    "stats_base": {
+      "vida": 70,
+      "p_atk": 35, "r_atk": 16, "m_atk": 25, "mr_atk": 14,
+      "p_def": 35, "r_def": 25, "m_def": 30, "mr_def": 25,
+      "armadura": 14, "velocidad": 16, "precision": 95, "evasion": 2
+    },
+  
+    "growth_mods": {
+      "vida": 0.5,
+      "p_atk": 0.8, "r_atk": 0.7, "m_atk": 0.7, "mr_atk": 0.7,
+      "p_def": 0.8, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.6,
+      "armadura": 0.2, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "presion_abismal",
+      "maestria_lodo",
+      "indomable"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

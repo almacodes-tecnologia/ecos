@@ -1,0 +1,42 @@
+{
+    "id": "E0049",
+    "baseSpeciesId": "E0049",
+    "nombre": "Mecha-Sibilant",
+    "expansion": 1,
+    "catch_rate": 0.30,
+    "capturable": true,
+    "tipo1": "Pólvora",
+    "tipo2":null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["serpiente", "explosivo", "volátil"],
+    "base_exp_needed": 140,
+    "descripcion": "Su cuerpo está compuesto por escamas de carbón y azufre. Al deslizarse, deja un rastro de ceniza explosiva y el cascabel de su cola funciona como un percutor que puede causar explosiones en cadena.",
+    "foto": "assets/images/creatures/E0049.webp",
+  
+    "stats_base": {
+      "vida": 55,
+      "p_atk": 45, "r_atk": 30, "m_atk": 15, "mr_atk": 10,
+      "p_def": 15, "r_def": 10, "m_def": 20, "mr_def": 15,
+      "armadura": 5, "velocidad": 85, "precision": 100, "evasion": 30
+    },
+  
+    "growth_mods": {
+      "vida": 1.1,
+      "p_atk": 2.3, "r_atk": 1.8, "m_atk": 0.8, "mr_atk": 0.6,
+      "p_def": 0.7, "r_def": 0.5, "m_def": 1.0, "mr_def": 0.8,
+      "armadura": 0.4, "velocidad": 2.5
+    },
+  
+    "pasivas_posibles": [
+      "combustión_espontánea",
+      "rastro_incendiario",
+      "mecha_corta"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+}

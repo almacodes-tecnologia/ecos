@@ -1,0 +1,46 @@
+{
+    "id": "E0020",
+    "baseSpeciesId": "E0019",
+    "nombre": "Psycérula",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "genero_ratio" : 0.5,
+    "time_affinity" : "dia",
+    "tipo1": "Insecto",
+    "tipo2": "Mental",
+    "linaje": "biologico",
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["evolucion", "volador", "psiquico"],
+    "base_exp_needed": 130,
+    "descripcion": "Sus alas vibran a una frecuencia que altera las ondas cerebrales de sus enemigos. La luz de su abdomen no solo ilumina, sino que proyecta ilusiones de sus propios miedos.",
+    "foto": "assets/images/creatures/E0020.webp",
+
+  "stats_base": {
+    "vida": 84,
+    "impacto": 55, "magia": 83, "frecuencia": 92, "pulso": 61,
+    "barrera_fisica": 45, "barrera_magica": 59, "barrera_mental": 68, "barrera_vital": 59,
+    "armadura": 20, "velocidad": 91, "precision": 100, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 0.9, "magia": 1.1, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "iluminacion_mental",
+      "alas_espejo",
+      "neurotoxina_luminica"
+    ],
+
+  "pool_ataques": ["picadura", "enjambre", "polvillo_cegador", "onda_mental", "barrera_psiquica",
+    "telequinesis", "evasion_mental", "coraza_de_insecto", "rafaga_insectivora", "inyeccion_mental"],
+
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

@@ -1,0 +1,186 @@
+{
+  "id": "D0003",
+  "nombre": "El Archivo de Silicio",
+  "tipo_mazmorra": "digital",
+  "pasos_maximo": 140,
+  "image_asset": "assets/images/dungeons/D003.webp",
+  "tags": ["red_virtual", "archivo_corrupto", "seguridad_informatica"],
+  "descripcion": [
+    "Una vasta red de datos congelada en el tiempo donde la información se ha materializado.",
+    "Los cortafuegos del sistema siguen activos y purgarán a cualquier intruso orgánico."
+  ],
+  "objetos_especiales": {
+    "key_cyber_03": "Inyector de Código Root",
+    "item_005": "Fragmento de Código Fuente",
+    "item_006": "Memoria RAM Cristalizada",
+    "lore_page_03": "Manifiesto del Programador Original"
+  },
+  "nivel": 5,
+  "restricciones": {
+    "nivel_max": 30,
+    "rango_minimo": 0,
+    "tamano_equipo": 4,
+    "tipos_permitidos": [],
+    "expansiones_requeridas": []
+  },
+  "dificultades": {
+    "normal": { "boss_level_modifier": 0},
+    "dificil": { "boss_level_modifier": 3},
+    "experto": { "boss_level_modifier": 6}
+  },
+  "recompensa_final": {
+    "set_id": "set_del_archivo_del_silicio",
+    "piezas": ["guantes_de_silicio", "pantalones_de_silicio", "yelmo_de_silicio",
+      "zapatos_de_silicio", "anillo_de_silicio", "tunica_de_silicio"],
+    "eco_legendario": {
+      "eco_id": "E0100",
+      "probabilidad_aparicion": 1.0,
+      "captura_dado": {
+        "1": "capturado", "2": "capturado", "3": "fallo",
+        "4": "fallo", "5": "fallo", "6": "fallo"
+      }
+    }
+  },
+
+  "nodos": [
+    {
+      "id": "N1",
+      "nombre": "Terminal de Acceso",
+      "tipo": "inicio",
+      "msg": "Tu conciencia se digitaliza. Bienvenido a la subred del Archivo."
+    },
+    {
+      "id": "N2",
+      "nombre": "Nodo de Enrutamiento",
+      "tipo": "seleccion_ruta",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N3",
+      "nombre": "Sector de Datos Corruptos",
+      "tipo": "normal",
+      "evento_id": "azar_menor"
+    },
+    {
+      "id": "N4",
+      "nombre": "CortaFuegos Activo",
+      "tipo": "normal",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N5",
+      "nombre": "Matriz de Respaldo",
+      "tipo": "normal",
+      "evento_id": "azar_menor"
+    },
+    {
+      "id": "N6",
+      "nombre": "Terminal de Desfragmentación",
+      "tipo": "curacion",
+      "curacion_valor": 0.90,
+      "msg": "Ejecutando protocolo de limpieza... Tus sectores dañados han sido reparados."
+    },
+    {
+      "id": "N7",
+      "nombre": "Núcleo de la CPU Central",
+      "tipo": "guardian_final",
+      "guardian_id": "G005",
+      "msg_pre_combate": "Se intenta iniciar el proceso de borrado de tu existencia..."
+    }
+  ],
+  "rutas": [
+    {
+      "id": "R1",
+      "from_node": "N1",
+      "to_node": "N2",
+      "pasos": 15,
+      "descripcion": "Viajas a través de un bus de datos a alta velocidad.",
+      "encounters": [{"creature_id": "G005", "probability": 0.10}, {"item_id": "item_005", "probability": 0.2}]
+    },
+    {
+      "id": "R2",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 30,
+      "descripcion": "Te desvías hacia las bases de datos fragmentadas.",
+      "encounters": [{"item_id": "key_cyber_03", "probability": 0.5}]
+    },
+    {
+      "id": "R3",
+      "from_node": "N2",
+      "to_node": "N4",
+      "pasos": 25,
+      "descripcion": "Intentas forzar la entrada directa por el canal de seguridad.",
+      "encounters": [{"creature_id": "G005", "probability": 0.25}]
+    },
+    {
+      "id": "R4",
+      "from_node": "N3",
+      "to_node": "N5",
+      "pasos": 20,
+      "descripcion": "Utilizas el inyector para saltarte la encriptación de la base de datos.",
+      "item_requerido": "key_cyber_03",
+      "encounters": [{"creature_id": "G005", "probability": 0.25}]
+    },
+    {
+      "id": "R5",
+      "from_node": "N4",
+      "to_node": "N5",
+      "pasos": 35,
+      "descripcion": "Sobrecargas las defensas del cortafuegos para avanzar a pie de código.",
+      "encounters": [{"creature_id": "G005", "probability": 0.25}]
+    },
+    {
+      "id": "R6",
+      "from_node": "N5",
+      "to_node": "N6",
+      "pasos": 20,
+      "descripcion": "Sigues un flujo de energía limpia hacia el sector médico del sistema.",
+      "item_encounters": [{"item_id": "item_006", "probability": 0.3}]
+    },
+    {
+      "id": "R7",
+      "from_node": "N3",
+      "to_node": "N6",
+      "pasos": 45,
+      "descripcion": "Creas un puente de datos alternativo. Es largo y consume muchos recursos.",
+      "encounters": [{"creature_id": "G005", "probability": 0.25}]
+    },
+    {
+      "id": "R8",
+      "from_node": "N6",
+      "to_node": "N7",
+      "pasos": 10,
+      "descripcion": "Cruzas la última puerta lógica. El procesador central está frente a ti."
+    }
+  ],
+  "eventos_pool": {
+    "glitch_menor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.10, "msg": "¡Error de desbordamiento de búfer! Daño leve al equipo."},
+        "2": {"creature_id": "G006", "msg": "¡Un Guardián de Datos  intercepta tu paquete de red!", "capturable": true},
+        "3": {"msg": "Ping estable. El entorno virtual se mantiene en calma."},
+        "4": {"creature_id": "G006", "msg": "¡Un Guardián de Datos  intercepta tu paquete de red!", "capturable": true},
+        "5": {"valor_danio": 0.15, "msg": "Un pico de voltaje estático sacude tus sistemas internos."},
+        "7": {"creature_id": "G006", "msg": "¡Un Guardián de Datos  intercepta tu paquete de red!", "capturable": true}
+      }
+    },
+    "glitch_mayor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.45, "msg": "¡Pantallazo azul inminente! Una descarga crítica daña gravemente tu estructura."},
+        "2": {"creature_id": "G006", "msg": "¡Un Guardián de Datos  intercepta tu paquete de red!", "capturable": true},
+        "3": {"creature_id": "G006", "msg": "¡Un Guardián de Datos  intercepta tu paquete de red!", "capturable": true},
+        "4": {"valor_pasos": 10, "msg": "Descargas un parche beta que acorta la distancia al procesador."},
+        "5": {"valor_danio": 0.25, "msg": "Un virus de tipo troyano drena la energía de tus componentes."},
+        "6": {"forzar_salida": true, "es_victoria": false, "msg": "¡Error fatal 404! El sistema te expulsa de la red y te desconecta a la fuerza."}
+      }
+    }
+  },
+  "idle_messages": [
+    "Líneas de código hexadecimal caen del cielo digital.",
+    "Escuchas el zumbido eléctrico de millones de teraflops procesándose.",
+    "La realidad parpadea por un milisegundo a tu alrededor."
+  ]
+}

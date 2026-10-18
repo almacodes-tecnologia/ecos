@@ -1,0 +1,42 @@
+{
+  "id": "E0048",
+  "baseSpeciesId": "E0047",
+  "nombre": "Voltigato",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "tipo1": "Eléctrico",
+  "tipo2": null,
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["felino", "veloz", "urbano"],
+  "base_exp_needed": 150,
+  "descripcion": "Evolución esbelta de Chispón. Su cola termina en una conexión orgánica similar a un enchufe que utiliza para descargar voltajes masivos contra sus depredadores.",
+  "foto": "assets/images/creatures/E0048.webp",
+
+  "stats_base": {
+    "vida": 102,
+    "impacto": 88, "magia": 64, "frecuencia": 67, "pulso": 99,
+    "barrera_fisica": 55, "barrera_magica": 60, "barrera_mental": 60, "barrera_vital": 65,
+    "armadura": 18, "velocidad": 117, "precision": 100, "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.1,
+    "armadura": 0.4, "velocidad": 1.1
+  },
+
+  "pasivas_posibles": [
+    "sobrecarga",
+    "vínculo_eléctrico",
+    "reflejos_luz"
+  ],
+
+  "pool_ataques": ["rayo_electrico", "sobrecarga_vatios" , "chispa_rapida", "voltio_duro", "resplandor", "electrogarra",
+    "golpe_agil", "rapidez", "garra_desgarradora", "mordisco", "garra_de_cristal"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

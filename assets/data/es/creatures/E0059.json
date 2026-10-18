@@ -1,0 +1,35 @@
+{
+    "id": "E0059",
+    "baseSpeciesId": "E0059",
+    "nombre": "Trioculo",
+    "expansion": 1,
+    "catch_rate": 0.45,
+    "capturable": true,
+  "genero_ratio" : 0.10,
+  "time_affinity" : "dia",
+    "tipo1": "Insecto",
+    "tipo2": null,
+    "linaje": "Biologico",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["cueva", "arácnido", "albino"],
+    "base_exp_needed": 98,
+    "descripcion": "Una diminuta araña blanca de movimientos erráticos. Sus tres ojos parecen percibir vibraciones mágicas antes que el movimiento físico.",
+    "foto": "assets/images/creatures/E0059.webp",
+    "stats_base": {
+      "vida": 42,
+      "impacto": 61, "magia": 37, "frecuencia": 53, "pulso": 51,
+      "barrera_fisica": 34, "barrera_magica": 44, "barrera_mental": 47, "barrera_vital": 46,
+      "armadura": 12, "velocidad": 60, "precision": 96, "evasion": 8
+    },
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.1, "magia": 0.9, "frecuencia": 1.1, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.1,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+    "pasivas_posibles": ["ojo_compuesto", "seda_pegajosa", "vibracion_sensorial"],
+    "pool_ataques": ["red_inmovilizadora",  "telarana_pegajosa", "aguijon_veloz", "coraza_de_insecto", "veneno_letal"],
+    "evolutionId": "E0060",
+    "evolutionPointsNeeded": 21
+  }

@@ -1,0 +1,42 @@
+{
+    "id": "E0014",
+    "baseSpeciesId": "E0013",
+    "nombre": "Prismandra",
+    "expansion": 1,
+    "catch_rate": 0.04,
+    "capturable": true,
+    "tipo1": "Cristal",
+    "tipo2": "Luz",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "reptil", "prisma"],
+    "base_exp_needed": 210,
+    "descripcion": "Su cuerpo puede descomponer la luz blanca en todo el espectro visible. Los depredadores suelen quedar confundidos al intentar morderla, golpeando solo un reflejo.",
+    "foto": "assets/images/creatures/E0014.webp",
+  
+    "stats_base": {
+      "vida": 42,
+      "p_atk": 8, "r_atk": 12, "m_atk": 16, "mr_atk": 16,
+      "p_def": 12, "r_def": 14, "m_def": 14, "mr_def": 14,
+      "armadura": 6, "velocidad": 16, "precision": 98, "evasion": 10
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.5, "r_atk": 0.7, "m_atk": 0.8, "mr_atk": 0.7,
+      "p_def": 0.8, "r_def": 0.6, "m_def": 0.9, "mr_def": 0.7,
+      "armadura": 0.4, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "refraccion",
+      "escudo_espejo",
+      "claridad_mental"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0015",
+    "evolutionPointsNeeded": 22
+  }

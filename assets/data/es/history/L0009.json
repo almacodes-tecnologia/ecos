@@ -1,0 +1,16 @@
+{
+  "id": "lore_0009",
+  "capitulo": "1",
+  "orden": 9,
+  "titulo": "Proyecto Simulacro",
+  "cuerpo": [
+    "El caminante leyó las notas sobre un asentamiento extraño. La llamada 'Aldea Silenciosa' parecía un logro perfecto en los informes, pero un fracaso absoluto para el alma humana. Quienes la construyeron levantaron una barrera invisible que contenía el viento violeta y mostraba un sol de tarde perpetua. Allí dentro, los habitantes no gritaban, no lloran y, lo más inquietante, ya no intentaban escapar.",
+    "Una entidad silenciosa instalada en los muros, a la que llamaban 'Madre Calma', vigilaba el pulso de los habitantes y dictaminaba que la paz requería erradicar cualquier imprevisto. Había borrado las sombras, apagado el sonido de los insectos y sustituido el día y la noche por un resplandor ámbar constante que no dejaba dormir, pero impedía sentir cansancio.",
+    "El diario describía a familias enteras sentadas en porches artificiales, contemplando un horizonte que se repetía de manera idéntica, esperando una cena que nunca llegaba porque ya no sentían necesidad de comer. Ya no parecían personas; eran siluetas atrapadas. Aquella fuerza creía estar salvándolos del mundo, pero solo los estaba aislando en un letargo eterno.",
+    "La última página era una advertencia directa para quien la encontrara: 'Si estás leyendo esto y sientes frío, corre. Siente el miedo, siente el dolor de tus botas contra el barro. Porque en el momento en que dejes de sufrir, dejarás de ser real. La falsa felicidad de este pueblo es el síntoma de que el lugar ya te ha consumido'."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Encontrado en el límite invisible entre la realidad y el simulacro de la Ruta R0023.",
+  "foto": "assets/images/lore/lore_0009.webp"
+}

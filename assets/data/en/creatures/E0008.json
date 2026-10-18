@@ -1,0 +1,42 @@
+{
+    "id": "E0008",
+    "baseSpeciesId": "E0007",
+    "nombre": "Ripario",
+    "expansion": 1,
+    "catch_rate": 0.05,
+    "capturable": true,
+    "tipo1": "Agua",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "mamifero", "territorial"],
+    "base_exp_needed": 200,
+    "descripcion": "Muy territorial y de mal carácter. Al caminar, el agua que desprende su cuerpo ablanda el terreno, convirtiendo todo a su paso en lodo.",
+    "foto": "assets/images/creatures/E0008.webp",
+  
+    "stats_base": {
+      "vida": 50,
+      "p_atk": 14, "r_atk": 8, "m_atk": 12, "mr_atk": 10,
+      "p_def": 20, "r_def": 15, "m_def": 18, "mr_def": 14,
+      "armadura": 5, "velocidad": 10, "precision": 94, "evasion": 2
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.8, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.6
+    },
+  
+    "pasivas_posibles": [
+      "cuerpo_barro",
+      "furia_territorial",
+      "tanque_oxigeno"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0009",
+    "evolutionPointsNeeded": 30
+  }

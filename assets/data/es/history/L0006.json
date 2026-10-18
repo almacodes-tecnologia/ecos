@@ -1,0 +1,16 @@
+{
+  "id": "lore_0006",
+  "capitulo": "1",
+  "orden": 6,
+  "titulo": "El Injerto Maestro",
+  "cuerpo": [
+    "El caminante encontró registros sobre una gran promesa del pasado: la creación de un bosque artificial capaz de sanar el aire de aquel mundo. Los antiguos panfletos prometían un futuro donde la naturaleza y el metal convivirían en armonía, ofreciendo un nuevo comienzo.",
+    "Pero las notas del viejo diario revelaban una verdad más oscura. Quien escribió aquellas líneas había estudiado las colosales raíces que invadían el Túnel Vegetal. Aquel árbol inmenso no traía vida; estaba absorbiendo la escasa energía de los asentamientos humanos para enterrar algo profundo en el subsuelo.",
+    "No era un pulmón verde, sino un enorme conducto artificial. El gran árbol era un 'Injerto', un intento desesperado por forzar la memoria, el pasado y el rastro de la humanidad en las entrañas de aquel mundo salvaje. Intentaban obligar al planeta a recordar la Tierra por la fuerza.",
+    "Sin embargo, el planeta parecía rechazar aquella invasión. Las hojas del árbol no eran verdes; eran filamentos pálidos que parpadeaban con un brillo enfermo y errático. El árbol moría ahogado por la historia que intentaban imponerle, y el autor del diario lo advertía: lo que sea que esté despertando ahora mismo en sus raíces... ya no es nuestro."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado tras despejar el camino bloqueado por el Guardián de la Mansión.",
+  "foto": "assets/images/lore/lore_0006.webp"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "E0007",
+    "baseSpeciesId": "E0007",
+    "nombre": "Hidropopo",
+    "expansion": 1,
+    "catch_rate": 0.3,
+    "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+    "tipo1": "Agua",
+    "tipo2": null,
+  "linaje": "elemental",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["inicial", "mamifero", "rio"],
+    "base_exp_needed": 100,
+    "descripcion": "Pasa el día sumergido dejando solo sus ojos fuera del agua. Su piel exhala una humedad constante que lo mantiene fresco incluso en desiertos.",
+    "foto": "assets/images/creatures/E0007.webp",
+  
+    "stats_base": {
+      "vida": 67,
+      "impacto": 59, "magia": 53, "frecuencia": 42, "pulso": 47,
+      "barrera_fisica": 59, "barrera_magica": 62, "barrera_mental": 48, "barrera_vital": 45,
+      "armadura": 30, "velocidad": 48, "precision": 96, "evasion": 1
+    },
+  
+  "growth_mods": {
+    "vida": 1.2,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.8, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "hidratacion",
+      "piel_gruesa",
+      "buceo_profundo"
+    ],
+
+  "pool_ataques": ["rugido_aturdidor", "impacto_acuatico", "lluvia_de_agua", "chapoteo"],
+  
+    "evolutionId": "E0008",
+    "evolutionPointsNeeded": 10
+  }

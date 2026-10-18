@@ -1,0 +1,45 @@
+{
+  "id": "E0089",
+  "baseSpeciesId": "E0088",
+  "nombre": "Fogocarajo",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.75,
+  "time_affinity" : "noche",
+  "tipo1": "Piedra",
+  "tipo2": "Fuego",
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["escarabajo", "volcán", "cristal"],
+  "base_exp_needed": 175,
+  "descripcion": "La presión y el calor interno han transformado sus piedras en gemas preciosas. Sus antenas de cuarzo brillan intensamente antes de liberar potentes llamaradas. Se dice que su coraza es tan caliente que puede derretir el acero al contacto.",
+  "foto": "assets/images/creatures/E0089.webp",
+
+  "stats_base": {
+    "vida": 102,
+    "impacto": 67, "magia": 89, "frecuencia": 57, "pulso": 62,
+    "barrera_fisica": 100, "barrera_magica": 89, "barrera_mental": 89, "barrera_vital": 70,
+    "armadura": 25, "velocidad": 40, "precision": 94, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+
+  "pasivas_posibles": [
+    "aura_fundente",
+    "nucleo_cristalino",
+    "armadura_magmática"
+  ],
+
+  "pool_ataques": ["fogonazo","manto_de_fuego","manto_de_ceniza","drenaje_de_calor","fractura","cornada_petrea",
+    "pisoton","tormenta_de_arena","torbellino_de_polvo","aranazo_rocoso","pirotecnia"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

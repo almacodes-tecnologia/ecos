@@ -1,0 +1,44 @@
+{
+  "id": "E0090",
+  "baseSpeciesId": "E0090",
+  "nombre": "Brotyto",
+  "expansion": 1,
+  "catch_rate": 0.7,
+  "capturable": true,
+  "genero_ratio" : 0.9,
+  "time_affinity" : "dia",
+  "tipo1": "Vegetal",
+  "tipo2": null,
+  "linaje": "Biológico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["zanahoria", "brote", "tierra"],
+  "base_exp_needed": 80,
+  "descripcion": "Un pequeño e inocente brote de zanahoria. Se dice que si lo riegas con agua mágica, su crecimiento se acelera. Es muy popular entre los agricultores novatos por su facilidad de cuidado.",
+  "foto": "assets/images/creatures/E0090.webp",
+
+  "stats_base": {
+    "vida": 45,
+    "impacto": 35, "magia": 25, "frecuencia": 40, "pulso": 30,
+    "barrera_fisica": 45, "barrera_magica": 50, "barrera_mental": 35, "barrera_vital": 25,
+    "armadura": 30, "velocidad": 20, "precision": 90, "evasion": 10
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "crecimiento_rapido",
+    "raiz_profunda"
+  ],
+
+  "pool_ataques": ["danza_vegetal", "arraizar", "lluvia_de_semillas", "raices_agresivas"
+  ],
+
+  "evolutionId": "E0091",
+  "evolutionPointsNeeded": 30
+}

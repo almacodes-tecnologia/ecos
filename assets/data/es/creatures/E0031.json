@@ -1,0 +1,44 @@
+{
+  "id": "E0031",
+  "baseSpeciesId": "E0031",
+  "nombre": "Slikworm",
+  "expansion": 1,
+  "catch_rate": 0.35,
+  "capturable": true,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "dia",
+  "tipo1": "Insecto",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["larva", "suave", "bosque"],
+  "base_exp_needed": 70,
+  "descripcion": "Un gusano que se desplaza lentamente por las ramas de los árboles. Produce una seda extremadamente pegajosa que utiliza para inmovilizar a posibles depredadores o para construir capullos temporales.",
+  "foto": "assets/images/creatures/E0031.webp",
+
+  "stats_base": {
+    "vida": 74,
+    "impacto": 32, "magia": 25, "frecuencia": 40, "pulso": 30,
+    "barrera_fisica": 65, "barrera_magica": 50, "barrera_mental": 72, "barrera_vital": 72,
+    "armadura": 18, "velocidad": 22, "precision": 95, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.8, "magia": 0.8, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.2, "barrera_vital": 1.2,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_pegajoso",
+    "capa_de_seda",
+    "comedor_de_hojas"
+  ],
+
+  "pool_ataques": ["picadura"],
+
+  "evolutionId": "E0032",
+  "evolutionPointsNeeded": 12
+}

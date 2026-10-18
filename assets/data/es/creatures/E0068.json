@@ -1,0 +1,33 @@
+  {
+    "id": "E0068",
+    "baseSpeciesId": "E0066",
+    "nombre": "Garralator",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Viento",
+    "tipo2": "Bestia",
+    "rareza": "Común",
+    "level_cap": 100,
+    "tags": ["ave", "alfa", "veloz"],
+    "base_exp_needed": 150,
+    "descripcion": "El soberano de los cielos de Ecos. Su grito puede disipar nubes y su velocidad supera la percepción del ojo humano.",
+    "foto": "assets/images/creatures/E0068.webp",
+    "stats_base": {
+      "vida": 93,
+      "impacto": 99, "magia": 93, "frecuencia": 67, "pulso": 66,
+      "barrera_fisica": 59, "barrera_magica": 67, "barrera_mental": 63, "barrera_vital": 63,
+      "armadura": 14, "velocidad": 113, "precision": 97, "evasion": 10
+    },
+    "growth_mods": {
+      "vida": 1.1,
+      "impacto": 1.0, "magia": 1.0, "frecuencia": 0.8, "pulso": 1.0,
+      "barrera_fisica": 0.9, "barrera_magica": 1.1, "barrera_mental": 0.9, "barrera_vital": 1.1,
+      "armadura": 0.2, "velocidad": 1.1
+    },
+    "pasivas_posibles": ["ojo_halcon", "vuelo_ligero", "furia_bestial"],
+    "pool_ataques": ["torbellino", "en_picado", "golpe_alado","ala_cortante", "ojo_del_huracan", "golpe_agil",
+      "mirada_penetrante", "instinto_salvaje", "picotazo","torbellino_de_polvo", "golpe_de_ilusion"],
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

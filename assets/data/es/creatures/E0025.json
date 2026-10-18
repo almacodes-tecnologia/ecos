@@ -1,0 +1,46 @@
+{
+  "id": "E0025",
+  "baseSpeciesId": "E0025",
+  "nombre": "Mireska",
+  "expansion": 1,
+  "catch_rate": 0.18,
+  "capturable": true,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Ilusión",
+  "tipo2": null,
+  "linaje": "conceptual",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["anfibio", "brillante", "escurridizo"],
+  "base_exp_needed": 115,
+  "descripcion": "Una salamandra de colores tornasolados. Sus glándulas secretan un aceite que altera la percepción visual de quienes la miran, haciendo que parezca estar en dos lugares a la vez.",
+  "foto": "assets/images/creatures/E0025.webp",
+
+  "stats_base": {
+    "vida": 52,
+    "impacto": 30, "magia": 40, "frecuencia": 68, "pulso": 65,
+    "barrera_fisica": 30, "barrera_magica": 30, "barrera_mental": 45, "barrera_vital": 54,
+    "armadura": 8, "velocidad": 79, "precision": 100, "evasion": 35
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.3, "velocidad": 1.1
+  },
+
+  "pasivas_posibles": [
+    "reflejo_engañoso",
+    "piel_prisma",
+    "camuflaje_etéreo"
+  ],
+
+  "pool_ataques": ["ataque_sorpresa", "copia_mental", "golpe_de_ilusion", "reflejo_cristalino",
+    "ilusion_destructiva"
+  ],
+
+  "evolutionId": "E0026",
+  "evolutionPointsNeeded": 18
+}

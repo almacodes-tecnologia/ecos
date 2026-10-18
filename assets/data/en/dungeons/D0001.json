@@ -1,0 +1,149 @@
+{
+  "id": "D0001",
+  "nombre": "Ancient Echo Crypt",
+  "tipo_mazmorra": "ancient",
+  "pasos_maximo": 80,
+  "image_asset": "assets/images/dungeons/D001.webp",
+  "tags": ["ancient_dungeon","legendary_echo","guardian_dungeon"],
+  "descripcion": [
+    "A forgotten dungeon where ancient Echoes still resonate.",
+    "The energy is unstable and every decision can make a difference."
+  ],
+  "objetos_especiales": {
+    "key_ancient_01": "Alba's Brass Key",
+    "item_001": "Mario's Iron Ring",
+    "item_002": "Alba's Bronze Ring",
+    "lore_page_01": "Chronicles of Alba and Mario"
+  },
+  "nivel": 5,
+  "restricciones": {
+    "nivel_max": 6,
+    "rango_minimo": 0,
+    "tamano_equipo": 3,
+    "tipos_permitidos": [],
+    "expansiones_requeridas": []
+  },
+  "dificultades": {
+    "normal": { "boss_level_modifier": 0},
+    "dificil": { "boss_level_modifier": 5},
+    "experto": { "boss_level_modifier": 12}
+  },
+  "recompensa_final": {
+    "set_id": "set_eco_antiguo",
+    "piezas": ["guantes_del_eco_antiguo", "pantalones_del_eco_antiguo", "yelmo_del_eco_antiguo",
+      "botas_del_eco_antiguo", "anillo_del_eco_antiguo", "pechera_del_eco_antiguo"],
+    "eco_legendario": {
+      "eco_id": "E0050",
+      "probabilidad_aparicion": 1.0,
+      "captura_dado": {
+        "1": "captured", "2": "captured", "3": "captured",
+        "4": "fail", "5": "fail", "6": "fail"
+      }
+    }
+  },
+
+  "nodos": [
+    {
+      "id": "N1",
+      "nombre": "Crypt Entrance",
+      "tipo": "inicio",
+      "msg": "The doors close behind you. You can only move forward."
+    },
+    {
+      "id": "N2",
+      "nombre": "Deserted Plaza",
+      "tipo": "seleccion_ruta",
+      "evento_id": "azar_menor"
+    },
+    {
+      "id": "N3",
+      "nombre": "Chamber of Chance",
+      "tipo": "normal",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N4",
+      "nombre": "Spring of Life",
+      "tipo": "curacion",
+      "curacion_valor": 1.0,
+      "msg": "The crystal clear water heals your team's wounds."
+    },
+    {
+      "id": "N5",
+      "nombre": "Guardian's Altar",
+      "tipo": "guardian_final",
+      "guardian_id": "G001",
+      "msg_pre_combate": "The Ancient Guardian awakens from its slumber..."
+    }
+  ],
+  "rutas": [
+    {
+      "id": "R1",
+      "from_node": "N1",
+      "to_node": "N2",
+      "pasos": 10,
+      "descripcion": "You cross the threshold towards the center of the crypt.",
+      "encounters": [{"creature_id": "E0001", "probability": 0.3},{"item_id": "item_001", "probability": 0.2}, {"item_id": "key_ancient_01", "probability": 0.3}]
+    },
+    {
+      "id": "R2",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 20,
+      "descripcion": "You take the ruins path (Dangerous).",
+      "item_requerido": "key_ancient_01",
+      "encounters": [{"creature_id": "E0001", "probability": 0.01}]
+    },
+    {
+      "id": "R3",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 35,
+      "descripcion": "You go around through the catacombs (Long but safe).",
+      "item_encounters": [{"item_id": "item_001", "probability": 0.01}]
+    },
+    {
+      "id": "R4",
+      "from_node": "N3",
+      "to_node": "N4",
+      "pasos": 15,
+      "descripcion": "You follow the trail of fresh water."
+    },
+    {
+      "id": "R5",
+      "from_node": "N4",
+      "to_node": "N5",
+      "pasos": 5,
+      "descripcion": "The air becomes freezing. The end is near."
+    }
+  ],
+  "eventos_pool": {
+    "azar_menor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.15, "msg": "Arrow trap!"},
+        "2": {"creature_id": "E0001", "msg": "A wild Echo appears!", "capturable": true},
+        "3": {"msg": "Absolute silence... you keep moving forward."},
+        "4": {"valor_pasos": 10, "msg": "You find a shortcut and recover energy."},
+        "5": {"valor_danio": 0.05, "msg": "You trip over a stone. A minor scratch."},
+        "6": {"item_id": "item_002", "msg": "Something shines on the floor! You found an item."}
+      }
+    },
+    "azar_mayor": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.35, "msg": "Massive collapse! The team suffers serious injuries."},
+        "2": {"creature_id": "G001", "capturable": false, "msg": "A robotic Sentry detects your presence!"},
+        "3": {"creature_id": "G001", "capturable": false, "msg": "A robotic guardian blocks your path!"},
+        "4": {"valor_pasos": 25, "msg": "A mystical air current gives you vigor."},
+        "5": {"creature_id": "E0003", "capturable": true, "msg": "A rare Echo emerges from the shadows!"},
+        "6": {"forzar_salida": true, "es_victoria": false, "msg": "Narcotic gas... your eyes close. You wake up at the entrance."}
+      }
+    }
+  },
+  "idle_messages": [
+    "You hear water droplets falling rhythmically.",
+    "A shiver runs down your spine.",
+    "Distant echoes seem to whisper your name."
+  ]
+}

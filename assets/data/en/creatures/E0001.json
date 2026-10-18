@@ -1,0 +1,42 @@
+{
+  "id": "E0001",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushpre",
+  "expansion": 1,
+  "catch_rate": 0.1,
+  "capturable": true,
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["inicial", "slime", "bosque"],
+  "base_exp_needed": 100,
+  "descripcion": "A small green snail with a tiny mushroom on its back. It is curious and very vulnerable. A friendly and soft Echo, perfect as a companion.",
+  "foto": "assets/images/creatures/E0001.webp",
+
+  "stats_base": {
+    "vida": 30,
+    "p_atk": 6, "r_atk": 4, "m_atk": 10, "mr_atk": 8,
+    "p_def": 10, "r_def": 12, "m_def": 10, "mr_def": 12,
+    "armadura": 4, "velocidad": 6, "precision": 95, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 0.6,
+    "p_atk": 0.6, "r_atk": 0.4, "m_atk": 0.8, "mr_atk": 0.8,
+    "p_def": 0.8, "r_def": 0.8, "m_def": 0.8, "mr_def": 0.9,
+    "armadura": 0.2, "velocidad": 0.6
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_liquido",
+    "regeneracion_clofila",
+    "nucleo_blando"
+  ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+
+  "evolutionId": "E0002",
+  "evolutionPointsNeeded": 12
+}

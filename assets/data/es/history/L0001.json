@@ -1,0 +1,16 @@
+{
+  "id": "lore_0001",
+  "capitulo": "1",
+  "orden": 1,
+  "titulo": "El Exilio",
+  "cuerpo": [
+    "Despertó con una certeza amarga latiendo en su pecho: no se marcharon por ambición, sino porque el silencio de su viejo mundo se había vuelto ensordecedor. No quedaba nada que escuchar en aquellas ciudades vacías, salvo el lamento del metal enfriándose.",
+    "Aquel armatoste colosal en el que viajaron no fue una promesa de salvación; fue un ataúd de acero lanzado al vacío, flotando en la negrura con la única esperanza de encontrar un rincón donde los restos de la humanidad dejaran de odiarse.",
+    "Había notas que hablaban del instante exacto en que las últimas señales de su hogar se apagaron para siempre, en mitad de la nada. Nadie lloró. Quienes guiaban el viaje estaban demasiado ocupados preparando los sistemas para lo que llamaban el 'Nuevo Hogar'.",
+    "¿Hogar? Lo que el viajero encontraba al abrir los ojos no era una cuna, sino un espejo roto. El entorno devolvía una imagen irreconocible, un pulso extraño que nadie sabía cómo medir. Habían cruzado el espacio buscando vida, pero solo habían encontrado... repeticiones."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Recuperado tras la primera sincronización en la Cabaña.",
+  "foto": "assets/images/lore/lore_0001.webp"
+}

@@ -1,0 +1,42 @@
+{
+    "id": "E0023",
+    "baseSpeciesId": "E0023",
+    "nombre": "Arenil",
+    "expansion": 1,
+    "catch_rate": 0.2,
+    "capturable": true,
+    "tipo1": "Arena",
+    "tipo2": null,
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["inicial", "reptil", "desierto"],
+    "base_exp_needed": 105,
+    "descripcion": "Una pequeña iguana cuyo color se mimetiza perfectamente con las dunas. Tiene la capacidad de inflar su cuerpo para flotar sobre la arena suelta.",
+    "foto": "assets/images/creatures/E0023.webp",
+  
+    "stats_base": {
+      "vida": 35,
+      "p_atk": 15, "r_atk": 8, "m_atk": 6, "mr_atk": 4,
+      "p_def": 8, "r_def": 10, "m_def": 6, "mr_def": 8,
+      "armadura": 3, "velocidad": 20, "precision": 95, "evasion": 10
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.9, "r_atk": 0.8, "m_atk": 0.7, "mr_atk": 0.6,
+      "p_def": 0.7, "r_def": 0.9, "m_def": 0.5, "mr_def": 0.7,
+      "armadura": 0.3, "velocidad": 0.7
+    },
+  
+    "pasivas_posibles": [
+      "velo_arena",
+      "sangre_fria",
+      "excavador_rapido"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0024",
+    "evolutionPointsNeeded": 18
+  }

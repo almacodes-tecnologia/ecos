@@ -1,0 +1,45 @@
+{
+    "id": "E0011",
+    "baseSpeciesId": "E0010",
+    "nombre": "Prismandra",
+    "expansion": 1,
+    "catch_rate": 0.00,
+    "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+    "tipo1": "Cristal",
+    "tipo2": null,
+  "linaje": "material",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "reptil", "prisma"],
+    "base_exp_needed": 120,
+    "descripcion": "Su cuerpo puede descomponer la luz blanca en todo el espectro visible. Los depredadores suelen quedar confundidos al intentar morderla, golpeando solo un reflejo.",
+    "foto": "assets/images/creatures/E0011.webp",
+
+  "stats_base": {
+    "vida": 46,
+    "impacto": 37, "magia": 60, "frecuencia": 71, "pulso": 59,
+    "barrera_fisica": 36, "barrera_magica": 40, "barrera_mental": 62, "barrera_vital": 64,
+    "armadura": 20, "velocidad": 65, "precision": 99, "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.1, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.1, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "refraccion",
+      "escudo_espejo",
+      "claridad_mental"
+    ],
+
+  "pool_ataques": ["estocada_cuarzo", "garra_de_cristal", "reflejo_cristalino",
+    "armadura_de_diamante", "cuartear", "cristal_magico"],
+
+    "evolutionId": "E0012",
+    "evolutionPointsNeeded": 12
+  }

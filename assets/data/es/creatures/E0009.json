@@ -1,0 +1,45 @@
+{
+    "id": "E0009",
+    "baseSpeciesId": "E0007",
+    "nombre": "Tsunamioth",
+    "expansion": 1,
+    "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "dia",
+  "tipo1": "Agua",
+  "tipo2": null,
+  "linaje": "elemental",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["final", "coloso", "rio"],
+    "base_exp_needed": 145,
+    "descripcion": "Un coloso cuyo peso puede desviar el curso de los ríos. Cuando entra en el océano, su carga genera olas que pueden verse a kilómetros de distancia.",
+    "foto": "assets/images/creatures/E0009.webp",
+
+  "stats_base": {
+    "vida": 110,
+    "impacto": 77, "magia": 74, "frecuencia": 67, "pulso": 74,
+    "barrera_fisica": 80, "barrera_magica": 83, "barrera_mental": 63, "barrera_vital": 68,
+    "armadura": 34, "velocidad": 70, "precision": 96, "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.2,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.8, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "presion_abismal",
+      "maestria_lodo",
+      "indomable"
+    ],
+
+  "pool_ataques": ["rugido_aturdidor", "impacto_acuatico", "lluvia_de_agua", "chapoteo",
+    "furia_animal", "hidro_escudo", "hidro_escudo"],
+
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

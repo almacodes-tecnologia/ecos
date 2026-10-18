@@ -1,0 +1,13 @@
+{
+  "id": "LM0010",
+  "capitulo": "Las Fauces de la Chatarra",
+  "orden": 4,
+  "titulo": "LUBRICANTE OSCURO",
+  "cuerpo": [
+    "Día 15. Ya no queda agua limpia en los niveles inferiores. De las juntas entre el metal triturado y la roca viva brota un fluido espeso, negro y aceitoso que huele a batería sulfatada y óxido húmedo. Las bombas de la colonia se atascan al intentar succionarlo; la densidad de ese lodo desafía nuestros filtros.",
+    "He observado cómo este fluido arrastra pequeños componentes (tornillos, tuercas, filamentos) y los adhiere a las formaciones rocosas. La chatarra no se está pudriendo; está siendo cementada a la estructura misma de la montaña, formando un esqueleto artificial que se expande hacia los lados."
+  ],
+  "fuente": "Análisis químico de la marea de óxido",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Obtén las botas de la Chatarra"
+}

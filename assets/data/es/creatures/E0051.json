@@ -1,0 +1,45 @@
+{
+  "id": "E0051",
+  "baseSpeciesId": "E0051",
+  "nombre": "Ferrulup",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "dia",
+  "tipo1": "Metal",
+  "tipo2": "Bestia",
+  "linaje": "Material",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["lobo", "hierro", "estepa"],
+  "base_exp_needed": 120,
+  "descripcion": "Un lobo de pelaje grisáceo cuyas puntas están endurecidas por depósitos de hierro. Vive en zonas minerales y suele afilar sus garras contra las rocas magnéticas.",
+  "foto": "assets/images/creatures/E0051.webp",
+
+  "stats_base": {
+    "vida": 75,
+    "impacto": 85, "magia": 60, "frecuencia": 45, "pulso": 40,
+    "barrera_fisica": 70, "barrera_magica": 65, "barrera_mental": 65, "barrera_vital": 45,
+    "armadura": 10, "velocidad": 55, "precision": 95, "evasion": 5
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.0, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.25, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "pelaje_acerado",
+    "colmillo_ferreo",
+    "instinto_alfa"
+  ],
+
+  "pool_ataques": ["golpe_metalico", "pulimento", "placaje_de_acero", "lluvia_de_remaches", "martillazo",
+    "alarido_metalico"],
+
+  "evolutionId": "E0052",
+  "evolutionPointsNeeded": 20
+}

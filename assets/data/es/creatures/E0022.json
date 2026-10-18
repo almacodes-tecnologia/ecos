@@ -1,0 +1,46 @@
+{
+    "id": "E0022",
+    "baseSpeciesId": "E0021",
+    "nombre": "Brumon",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "genero_ratio" : 0.8,
+    "time_affinity" : "noche",
+    "tipo1": "Bestia",
+    "tipo2": null,
+    "linaje": "biologico",
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["evolucion", "mamifero", "terremoto"],
+    "base_exp_needed": 130,
+    "descripcion": "Sus colmillos han crecido hasta convertirse en vigas de hueso y piedra. Es capaz de atravesar muros de hormigón sin reducir su velocidad de carga.",
+    "foto": "assets/images/creatures/E0022.webp",
+
+  "stats_base": {
+    "vida": 105,
+    "impacto": 77, "magia": 65, "frecuencia": 51, "pulso": 84,
+    "barrera_fisica": 76, "barrera_magica": 61, "barrera_mental": 53, "barrera_vital": 72,
+    "armadura": 32, "velocidad": 80, "precision": 90, "evasion": 3
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.0, "frecuencia": 0.9, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "estampida_continua",
+      "sangre_caliente",
+      "rompemuros"
+    ],
+
+  "pool_ataques": ["mirada_penetrante", "impacto", "pisoton", "furia_animal", "canto_bestial",
+    "impacto_toxico", "conjuro_caotico"],
+
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

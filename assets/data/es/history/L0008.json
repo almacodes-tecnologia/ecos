@@ -1,0 +1,16 @@
+{
+  "id": "lore_0008",
+  "capitulo": "1",
+  "orden": 8,
+  "titulo": "Bitácora del Vigía",
+  "cuerpo": [
+    "Entre las páginas ajadas, el caminante encontró el registro de los astrónomos. Durante tres años, los antiguos habitantes habían apuntado sus grandes lentes hacia el lugar de donde vinieron, esperando una señal, un reflejo de que alguien seguía allí. Creían que el silencio absoluto se debía a que sus aparatos estaban rotos, pero la verdad era otra.",
+    "El diario revelaba que descubrieron impulsos invisibles saliendo de este mundo. Sutiles vibraciones viajaban con fuerza hacia su antiguo hogar. Aquella tierra extraña parecía estar devolviendo una respuesta, un reflejo de la llegada de los humanos, de su carne y de sus fracasos, respondiendo a lo que los árboles artificiales intentaron enterrar en el subsuelo.",
+    "Pero las notas temblorosas describían un horror inimaginable: las señales llegaban al lugar exacto donde debería estar su viejo mundo y rebotaban contra la nada. No había nada allí. Ni rastro del planeta original, ni cenizas de una estrella muerta, ni un solo fragmento de roca. El vacío ocupaba el espacio de su pasado.",
+    "Su antiguo hogar no solo se había apagado; ya no existía en la realidad. Quienes llegaron antes comprendieron que le hablaban a un fantasma, y que este mundo en el que ahora despertaba el caminante parecía ser el único testigo de que eran los últimos restos de algo que el universo había decidido borrar."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Encontrado bajo una lente rota en el punto más alto de la Vía del Vigía.",
+  "foto": "assets/images/lore/lore_0008.webp"
+}

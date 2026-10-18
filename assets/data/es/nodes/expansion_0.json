@@ -1,0 +1,407 @@
+[
+  {
+    "id": "N001",
+    "nombre": "Cabaña del Origen",
+    "tipo": "ciudad",
+    "image_asset": "assets/images/nodes/N001.webp",
+    "descripcion": [
+      "El caminante abre los ojos entre paredes de madera artificial que crujen con el viento. El aire huele a ozono y a tierra mojada, una mezcla extraña que el instinto humano no logra procesar.",
+      "Esta estructura es el único refugio en kilómetros; un vestigio de la primera oleada de colonización que parece haber sido abandonada a toda prisa.",
+      "Fuera, el horizonte se extiende en un verde demasiado vibrante para ser real. No hay registros de cómo se llegó a este lugar, pero los pocos cristales que aún emiten un brillo moribundo muestran un parpadeo errático e interrumpido.",
+      "Es el punto donde la señal comenzó, y donde la marcha para comprender qué le ocurrió a los antiguos habitantes da sus primeros pasos."
+    ],
+    "boss_id": null,
+    "routes": ["R0001", "R0002"]
+  },
+  {
+    "id": "N002",
+    "nombre": "Granja de Cosecha Cero",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N002.webp",
+    "descripcion": [
+      "Lo que una vez fue un proyecto de autosuficiencia para la colonia, ahora es un cementerio de engranajes y maquinaria agrícola oxidada.",
+      "Los campos han sido invadidos por malas hierbas de una bioluminiscencia tenue que parecen alimentarse de los restos químicos del suelo.",
+      "Aún se pueden encontrar algunos almacenes intactos, aunque el grano que guardan en su interior ha mutado en algo que ninguna boca humana debería ingerir.",
+      "El silencio aquí es denso, solo roto por el chirrido de un molino de metal que gira sin dirección fija."
+    ],
+    "boss_id": null,
+    "routes": ["R0001", "R0003", "R0004"]
+  },
+  {
+    "id": "N003",
+    "nombre": "Refugio Delta",
+    "tipo": "ciudad",
+    "image_asset": "assets/images/nodes/N003.webp",
+    "descripcion": [
+      "Un conjunto de módulos prefabricados semienterrados en la maleza. Este fue uno de los primeros asentamientos de los exploradores que cartografiaron la pradera.",
+      "Las compuertas están abiertas y las luces de emergencia parpadean con una intensidad débil. Nadie se molestó en asegurar el lugar cuando se marcharon.",
+      "En el exterior, la vegetación ha comenzado a cubrir las viejas balizas, como si el entorno intentara borrar cualquier rastro de la presencia humana.",
+      "Algunas estructuras muestran marcas profundas que no parecen hechas por herramientas. Algo empujó desde fuera… o desde dentro."
+    ],
+    "boss_id": "B001",
+    "routes": ["R0002", "R0003", "R0005"]
+  },
+  {
+    "id": "N004",
+    "nombre": "Pradera de los Susurros",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N004.webp",
+    "descripcion": [
+      "Un océano de tallos esmeralda que ondean al unísono, incluso cuando no hay brisa. No es el viento lo que los mueve, sino una vibración sorda e invisible que recorre una red de hilos trenzados ocultos a escasos centímetros del suelo.",
+      "Las flores aquí atrapan la luz en filamentos brillantes. Al avanzar, los pasos provocan pequeñas ondas luminosas que se pierden en el horizonte, como si el paraje respondiera de forma física a la intrusión de la carne.",
+      "El sonido es lo más difícil de ignorar. No es el crujido natural de la hierba; es un murmullo de mil voces superpuestas, una reverberación infinita que el lugar parece reproducir a través del roce de las espigas."
+    ],
+    "boss_id": null,
+    "routes": ["R0004", "R0006", "R0007"]
+  },
+  {
+    "id": "N005",
+    "nombre": "Charca del Eco",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N005.webp",
+    "descripcion": [
+      "Una depresión natural donde el agua se acumula formando una laguna poco profunda. El líquido tiene un tono azul pálido que parece emitir destellos bajo la superficie.",
+      "Las plantas que crecen en las orillas muestran filamentos metálicos entre sus fibras, como si las raíces hubieran absorbido unas vetas ocultas, frías y ajenas a la naturaleza.",
+      "Cuando el viento sopla sobre la superficie, el agua vibra de una forma extraña, produciendo un zumbido grave que resuena en el pecho.",
+      "Las criaturas mecánicas de la zona acuden aquí con frecuencia. Permanecen inmóviles durante minutos, como si escucharan una llamada moviéndose bajo el barro."
+    ],
+    "boss_id": null,
+    "routes": ["R0005", "R0008"],
+    "acciones": [
+      {
+        "tipo": "pescar",
+        "herramienta_id": "tool_001",
+        "delay": 15,
+        "encounters": [
+          { "creature_id": "E0038", "probability": 0.4 }
+        ],
+        "tools_encounters": [
+          {"item_id": "lore_0015", "probability": 0.05}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N006",
+    "nombre": "Canales de Irrigación",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N006.webp",
+    "descripcion": [
+      "Un entramado de antiguos canales excavados por los colonos para intentar distribuir agua hacia los campos experimentales del sector.",
+      "El sistema artificial dejó de bombear hace tiempo, pero algunos conductos agrietados todavía filtran fluido lentamente hacia la pradera.",
+      "Las paredes de piedra y metal están cubiertas por una capa de musgo brillante que reacciona con destellos débiles al menor contacto con la piel.",
+      "Muchas de las criaturas mecánicas del paraje se reúnen en este punto, atraídas por la humedad y por una vibración sutil y rítmica que recorre el agua."
+    ],
+    "boss_id": null,
+    "routes": ["R0006", "R0009"],
+    "acciones": [
+      {
+        "tipo": "pescar",
+        "herramienta_id": "tool_001",
+        "delay": 12,
+        "encounters": [{ "creature_id": "E0081", "probability": 0.1 }],
+        "item_encounters": [
+          {"item_id": "lore_0005", "probability": 0.1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N007",
+    "nombre": "Colina de la Señal",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N007.webp",
+    "descripcion": [
+      "Una colina de pendiente suave desde la que se puede divisar la llanura. En la cima se levanta una torre de comunicaciones oxidada y muda.",
+      "Los colonos utilizaban esta estructura para intentar mantener el contacto entre los asentamientos dispersos antes de la evacuación.",
+      "La gran antena sigue emitiendo pulsos débiles de estática analógica que se pierden en el cielo perpetuo.",
+      "A veces, entre el rumor de las interferencias, el caminante cree percibir un susurro que responde desde algún lugar oculto en la pradera."
+    ],
+    "boss_id": "B002",
+    "routes": ["R0007", "R0010"]
+  },
+  {
+    "id": "N008",
+    "nombre": "Refugio de Pastores",
+    "tipo": "ciudad",
+    "image_asset": "assets/images/nodes/N008.webp",
+    "descripcion": [
+      "Un círculo de cabañas de barro y polímero que imitan el tono pajizo de la llanura. Fueron construidas para los supervisores de las manadas mecánicas, evocando una nostalgia primitiva por el hogar que dejaron atrás.",
+      "El aire aquí es distinto; el olor a ozono es derrotado por el rastro del humo de leña vieja y el cuero curtido. Estas paredes parecen haber protegido vidas humanas hasta hace apenas unos ciclos.",
+      "Hogueras con ceniza aún gris y envases de raciones abiertos sugieren una huida desesperada. Es un oasis de humanidad en mitad de la llanura artificial, un lugar donde el silencio ya no suena al zumbido de los engranajes, sino a una ausencia repentina."
+    ],
+    "boss_id": null,
+    "routes": ["R0008", "R0011", "R0012"]
+  },
+  {
+    "id": "N009",
+    "nombre": "Huerto Genético",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N009.webp",
+    "descripcion": [
+      "Árboles colosales de corteza rugosa forzados a crecer en hileras perfectas. En sus troncos aún se aprecian las cicatrices de las abrazaderas metálicas que los colonos instalaron para controlar su ciclo.",
+      "Las frutas son pesadas y vibran con un color carmesí que evoca la sangre bajo la piel. Al morderlas, el sabor salvaje se mezcla con un espejismo en los sentidos: un destello amargo de recuerdos extraños, filtrados desde unas raíces que han perforado las estructuras del subsuelo.",
+      "Lo que pretendía ser un huerto controlado es ahora una selva que ha devorado su propia cerca. La valla electrificada emite chispas moribundas, incapaz de frenar el avance de una vegetación que no necesita permiso para crecer, solo un rastro humano del que alimentarse."
+    ],
+    "boss_id": null,
+    "routes": ["R0009", "R0013"],
+    "acciones": [
+      {
+        "tipo": "vegetar",
+        "herramienta_id": "",
+        "delay": 12,
+        "encounters": [{ "creature_id": "E0001", "probability": 0.001 }],
+        "item_encounters": [
+          {"item_id": "lore_0007", "probability": 0.2}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N010",
+    "nombre": "Almacén de Suministros",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N010.webp",
+    "descripcion": [
+      "Un hangar metálico parcialmente sepultado en una ladera de roca artificial. Su pesada compuerta principal ha sido forzada violentamente desde el interior.",
+      "En las estanterías vacías del fondo se lee la historia de una desesperación creciente por los recursos más básicos antes del abandono.",
+      "Aún así, en los rincones donde la luz ámbar no llega, el caminante puede hallar restos útiles para continuar la marcha por las sendas."
+    ],
+    "boss_id": null,
+    "routes": ["R0010", "R0014"]
+  },
+  {
+    "id": "N011",
+    "nombre": "Ruinas de la Mansión",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N011.webp",
+    "descripcion": [
+      "Los restos de la fastuosa vivienda del supervisor del sector. Un intento desesperado y soberbio de replicar el lujo terrestre en mitad de un mundo hostil.",
+      "Las paredes muestran los marcos agrietados de viejas lentes de proyección fundidas y muebles carcomidos de madera auténtica, traída desde la Tierra.",
+      "Cada pisada sobre el suelo de mármol roto resuena en el vacío, como una profanación a un pasado muerto que se niega a desvanecerse."
+    ],
+    "boss_id": "B003",
+    "routes": ["R0011", "R0015"]
+  },
+  {
+    "id": "N012",
+    "nombre": "Prado de los Caídos",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N012.webp",
+    "descripcion": [
+      "Un campo abierto y desolado donde la chatarra retorcida de las naves de descenso se funde de forma antinatural con las formaciones rocosas.",
+      "Las criaturas mecánicas patrullan esta zona de conflicto, desmantelando los restos metálicos para integrarlos directamente en sus propios armazones.",
+      "Es un paraje peligroso y cargado de estática, pero repleto de restos de instrumental útil para aquellos que se atrevan a explorar entre los escombros."
+    ],
+    "boss_id": null,
+    "routes": ["R0012", "R0016"]
+  },
+  {
+    "id": "N013",
+    "nombre": "Pradera Cercada",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N013.webp",
+    "acciones": [
+      {
+        "tipo": "electrico",
+        "herramienta_id": "tool_019",
+        "delay": 15,
+        "encounters": [
+          { "creature_id": "E0047", "probability": 0.2 }
+        ]
+      }
+    ],
+    "descripcion": [
+      "Un terreno delimitado por antiguos postes de contención cuyos filamentos apenas se mantienen en pie emitiendo un zumbido débil.",
+      "Aquí se confinó a los primeros especímenes recreados en los laboratorios para observar cómo reaccionaban ante las sutiles frecuencias del entorno.",
+      "Las vallas han colapsado por completo y la llanura ha reclamado el terreno, borrando los límites artificiales.",
+      "Sin embargo, el suelo blando sigue marcado por huellas profundas y extrañas que no se corresponden con el patrón de ninguna criatura conocida."
+    ],
+    "boss_id": null,
+    "routes": ["R0013", "R0017"]
+  },
+  {
+    "id": "N014",
+    "nombre": "Mirador del Valle",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N014.webp",
+    "descripcion": [
+      "Una plataforma de observación suspendida al borde de un desfiladero profundo y brumoso que hiende la pradera en dos.",
+      "Desde esta altura, el caminante puede escuchar cómo el eco distorsionado de las criaturas del subsuelo resuena contra las paredes de piedra de la fosa.",
+      "Un viejo visor óptico permanece fijo, apuntando hacia las siluetas borrosas de una urbe en ruinas en la lejanía, oculta tras una perpetua neblina ámbar."
+    ],
+    "boss_id": null,
+    "routes": ["R0014", "R0018"]
+  },
+  {
+    "id": "N015",
+    "nombre": "Claro del Roble Sintético",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N015.webp",
+    "descripcion": [
+      "En el centro de este claro silencioso se alza un injerto gigantesco con forma de árbol, cuyas hojas artificiales alteran su tonalidad según la cadencia del día.",
+      "Fue la pieza central del gran despliegue de los colonos en su intento por transformar el aire de este sector.",
+      "Sus inmensas raíces emiten una pulsación constante y rítmica que adormece los sentidos de los viajeros, imitando una falsa sensación de calma que reverbera con fuerza en el pecho."
+    ],
+    "boss_id": null,
+    "routes": ["R0015", "R0019"]
+  },
+  {
+    "id": "N016",
+    "nombre": "Excavación de Cristales",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N016.webp",
+    "descripcion": [
+      "Una profunda excavación a cielo abierto de donde los colonos extraían vetas de cuarzo violeta, necesarias para alterar los linajes de las criaturas del sector.",
+      "Aunque las pesadas grúas y excavadoras automáticas tienen los núcleos apagados desde hace ciclos, algunos de sus brazos de hierro continúan moviéndose de forma errática, emitiendo un lamento metálico constante.",
+      "El denso polvo mineral suspendido en el aire vuelve la respiración asfixiante y deja un persistente sabor amargo en la boca del caminante."
+    ],
+    "boss_id": null,
+    "routes": ["R0016", "R0020"],
+    "acciones": [
+      {
+        "tipo": "mineria",
+        "herramienta_id": "tool_002",
+        "delay": 12,
+        "encounters": [
+          { "creature_id": "E0084", "probability": 0.2 },
+          { "creature_id": "E0088", "probability": 0.1 }
+        ],
+        "tools_encounters": [
+          {"item_id": "lore_0009", "probability": 0.05}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N017",
+    "nombre": "Santuario de la Semilla",
+    "tipo": "ciudad",
+    "image_asset": "assets/images/nodes/N017.webp",
+    "descripcion": [
+      "Un búnker subterráneo cuya entrada de hormigón está decorada con toscos grabados de plantas y animales extintos de la Tierra.",
+      "En estas estancias profundas se custodiaban los moldes puros de la herencia orgánica, antes de que los investigadores decidieran experimentar con los cuerpos por pura desesperación.",
+      "El aire en el interior permanece filtrado y extrañamente inmóvil, conservando el aroma lejano de un mundo que ya no existe."
+    ],
+    "boss_id": "B004",
+    "routes": ["R0017", "R0021"]
+  },
+  {
+    "id": "N018",
+    "nombre": "Ribera del Silencio",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N018.webp",
+    "descripcion": [
+      "El río que divide la llanura se ensancha en este punto, dando paso a una playa solitaria de arena gris y fina.",
+      "No hay rastro de fauna natural en el agua; en su lugar, miríadas de partículas pálidas y destellos geométricos barren el fondo, manteniendo el líquido en una pureza antinatural.",
+      "Es un paraje de calma absoluta, donde el caminante siente que las amenazas del exterior se transforman en una idea lejana y desdibujada."
+    ],
+    "boss_id": null,
+    "routes": ["R0018", "R0022"],
+    "acciones": [
+      {
+        "tipo": "pescar",
+        "herramienta_id": "tool_001",
+        "delay": 15,
+        "encounters": [
+          { "creature_id": "E0081", "probability": 0.3 },
+          { "creature_id": "E0082", "probability": 0.05 },
+          { "creature_id": "E0038", "probability": 0.1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N019",
+    "nombre": "Invernadero Abandonado",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N019.webp",
+    "descripcion": [
+      "Una inmensa cúpula de cristal fracturado donde los antiguos botánicos intentaron aclimatar los últimos brotes terrestres a las frecuencias de este mundo.",
+      "El experimento derivó en una maraña caótica de plantas trepadoras e híbridas que han terminado por estrangular y sepultar la armadura de metal.",
+      "La humedad bajo los vidrios es asfixiante, y el olor de la vegetación en descomposición satura los sentidos de forma casi insoportable."
+    ],
+    "boss_id": null,
+    "routes": ["R0019", "R0023"]
+  },
+  {
+    "id": "N020",
+    "nombre": "Zona de Descenso",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N020.webp",
+    "descripcion": [
+      "Un claro amplio y yermo donde los primeros transportes del Exilio tomaron tierra cuando se inició la ocupación del sector.",
+      "Las cicatrices térmicas de los propulsores continúan grabadas con fuego en la costra de tierra seca, resistiéndose al paso de los ciclos.",
+      "Algunos contenedores de suministros permanecen olvidados y oxidados entre la maleza alta.",
+      "Este es uno de los pocos puntos donde el entorno parece haber avanzado más despacio a la hora de borrar el rastro de los humanos."
+    ],
+    "boss_id": null,
+    "routes": ["R0020", "R0024"]
+  },
+  {
+    "id": "N021",
+    "nombre": "Cementerio de Máquinas",
+    "tipo": "recurso",
+    "image_asset": "assets/images/nodes/N021.webp",
+    "descripcion": [
+      "Un desfiladero pedregoso donde los colonos arrojaron todo el equipamiento técnico que dejó de responder tras el colapso de los primeros asentamientos.",
+      "Entre el metal retorcido y los chasis mudos, las criaturas mecánicas más jóvenes buscan cobijo, asimilando piezas sueltas para robustecer sus engranajes.",
+      "Cada fragmento de chatarra acumulado en la fosa narra la historia de una promesa de progreso que acabó en un silencio absoluto."
+    ],
+    "boss_id": null,
+    "routes": ["R0021", "R0025"]
+  },
+  {
+    "id": "N022",
+    "nombre": "Puente de Piedra Viva",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N022.webp",
+    "descripcion": [
+      "Un desfiladero cruzado por un puente natural formado por bloques de piedra que parecen haber crecido y entrelazado sus formas de manera deliberada.",
+      "Debajo, un abismo cubierto por una niebla perpetua y densa oculta las siluetas de lo que parecen ser estructuras colosales y engranajes sepultados en lo más hondo.",
+      "Cruzar la pasarela exige un equilibrio tenaz y la fría certeza de que las rocas podrían alterar su posición bajo las botas en cualquier instante."
+    ],
+    "boss_id": null,
+    "routes": ["R0022", "R0023"]
+  },
+  {
+    "id": "N023",
+    "nombre": "Aldea Silenciosa",
+    "tipo": "ciudad",
+    "image_asset": "assets/images/nodes/N023.webp",
+    "descripcion": [
+      "Un pequeño asentamiento agrícola construido combinando materiales rudimentarios traídos de la Tierra con la piedra grisácea local.",
+      "Las viviendas permanecen abiertas y desiertas, como si sus moradores hubieran interrumpido sus labores cotidianas para salir un instante y nunca más regresar.",
+      "Las herramientas de labranza siguen apoyadas contra los muros exteriores y algunas mesas aún conservan enseres sin recoger, cubiertos de polvo.",
+      "El viento que recorre las callejuelas estrechas produce un rumor bajo y continuo, como un suspiro atrapado que el pueblo es incapaz de liberar."
+    ],
+    "boss_id": "B005",
+    "routes": ["R0023", "R0024"]
+  },
+  {
+    "id": "N024",
+    "nombre": "Observatorio Estelar",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N024.webp",
+    "descripcion": [
+      "Un edificio de cúpula esférica situado en una loma solitaria, aislado por completo de los antiguos centros de actividad de los colonos.",
+      "Sus desgastadas lentes ópticas apuntan con fijeza hacia las coordenadas de la Tierra, como si el armatoste aún aguardara una señal de socorro que jamás cruzará el firmamento.",
+      "En las estancias interiores, el silencio es tan denso que solo es interrumpido por el eco sordo de los propios latidos del caminante."
+    ],
+    "boss_id": null,
+    "routes": ["R0024", "R0025"]
+  },
+  {
+    "id": "N025",
+    "nombre": "La Puerta del Vacío",
+    "tipo": "especial",
+    "image_asset": "assets/images/nodes/N025.webp",
+    "descripcion": [
+      "Una estructura monolítica de obsidiana que se alza como una cicatriz negra, marcando el confín absoluto de la zona que los humanos intentaron dominar.",
+      "Más allá de este umbral, el paisaje se vuelve ajeno, indómito y carece de cualquier rastro o memoria de la influencia de la colonia. El vacío se extiende sin fin.",
+      "El monumento vibra con una frecuencia opresiva; un paraje donde el caminante se siente vigilado por ojos invisibles mientras unos murmullos sin rostro suplican no avanzar. Es una puerta ciega que empuja a avanzar hacia lo desconocido, sin retorno y sin saber qué aguarda al otro lado."
+    ],
+    "boss_id": "B006",
+    "routes": ["R0025"]
+  }
+]

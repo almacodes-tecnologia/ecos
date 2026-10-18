@@ -1,0 +1,16 @@
+{
+  "id": "lore_0017",
+  "capitulo": "1",
+  "orden": 17,
+  "titulo": "El Cumpleaños de Mario",
+  "cuerpo": [
+    "El caminante halló un pedazo de papel abandonado bajo un banco artificial en la Senda del Simulacro. Los colores de los dibujos seguían brillantes, como si los hubieran pintado hacía apenas unos instantes, pero el material no tenía el tacto áspero del papel común; se sentía frío, liso y carente de toda calidez.",
+    "'Estáis todos invitados al sexto cumpleaños de Mario en la Plaza de la Calma. ¡Habrá pastel de fresa real!'. El nombre del niño estaba escrito con una caligrafía temblorosa, rebosante de una ilusión que aquel entorno parecía consumir. Al acudir a la plaza en busca de respuestas, el autor solo encontró el silencio sepulcral del asentamiento y esa luz ámbar perpetua.",
+    "No quedaba rastro de la celebración, ni del niño, ni del pastel. Al preguntar a uno de los habitantes que permanecía sentado en el lugar, este lo miró con ojos vacíos y desprovistos de emoción. Le respondió escuetamente que Mario había sido 'trasladado' a las estancias del sector profundo y que el dulce prometido era tan solo un espejismo para los sentidos.",
+    "El manuscrito terminaba con una triste reflexión tras guardar la invitación en el bolsillo. Aquel retazo era lo único que quedaba de un niño que deseaba celebrar la vida en un lugar decidido a apagar cualquier rastro humano. Si la paz en ese asentamiento era artificial, Mario parecía ser el último que intentaba conservar su propia alma."
+  ],
+  "fuente": "Invitación Infantil: Papel de Síntesis",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de un banco solitario en la Senda del Simulacro (R0023).",
+  "foto": "assets/images/lore/lore_0017.webp"
+}

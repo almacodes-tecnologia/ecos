@@ -1,0 +1,78 @@
+{
+  "eventos": [
+    {
+      "id": "halloween",
+      "nombre": "NOCHE DE ÁNIMAS",
+      "descripcion": "Un Eco espectral emerge de las sombras.",
+      "icono": "🎃",
+      "color": "#FF7518",
+      "fecha_inicio": "04-01",
+      "fecha_fin": "11-30",
+      "reintentable": false,
+      "unico_intento": true,
+
+      "restricciones": {
+        "tamano_equipo": 1,
+        "nivel_minimo": 10
+      },
+
+      "combate": {
+        "enemigo_id": "E0083",
+        "nivel_enemigo": {
+          "tipo": "escalado",
+          "modificador": 5
+        },
+        "capturable": true,
+        "probabilidad_captura": {
+          "1": "capturado",
+          "2": "capturado",
+          "3": "capturado",
+          "4": "fallo",
+          "5": "fallo",
+          "6": "fallo"
+        }
+      },
+
+      "recompensa_polvo": {
+        "dado": "1d10+5"
+      }
+    },
+    {
+      "id": "navidad",
+      "nombre": "BENDICIÓN INVERNAL",
+      "descripcion": "Un Eco de hielo guarda un regalo ancestral.",
+      "icono": "🎄",
+      "color": "#2ECC71",
+      "fecha_inicio": "01-20",
+      "fecha_fin": "1-31",
+      "reintentable": true,
+      "unico_intento": false,
+
+      "restricciones": {
+        "tamano_equipo": 1,
+        "nivel_minimo": 2
+      },
+
+      "combate": {
+        "enemigo_id": "E0083",
+        "nivel_enemigo": {
+          "tipo": "fijo",
+          "valor": 25
+        },
+        "capturable": true,
+        "probabilidad_captura": {
+          "1": "capturado",
+          "2": "capturado",
+          "3": "capturado",
+          "4": "capturado",
+          "5": "fallo",
+          "6": "fallo"
+        }
+      },
+
+      "recompensa_polvo": {
+        "dado": "1d8+2"
+      }
+    }
+  ]
+}

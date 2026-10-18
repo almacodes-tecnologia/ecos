@@ -1,0 +1,42 @@
+{
+    "id": "E0042",
+    "baseSpeciesId": "E0040",
+    "nombre": "Kraken-Drive",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Agua",
+    "tipo2": "Digital",
+    "rareza": "Epico",
+    "level_cap": 100,
+    "tags": ["final", "coloso", "cibernetico"],
+    "base_exp_needed": 420,
+    "descripcion": "Un calamar colosal cuyos tentáculos parecen cables de fibra óptica gigantes. Controla las corrientes marinas mediante algoritmos complejos y puede colapsar redes globales.",
+    "foto": "assets/images/creatures/E0042.webp",
+  
+    "stats_base": {
+      "vida": 50,
+      "p_atk": 12, "r_atk": 15, "m_atk": 21, "mr_atk": 22,
+      "p_def": 12, "r_def": 13, "m_def": 12, "mr_def": 15,
+      "armadura": 4, "velocidad": 23, "precision": 100, "evasion": 8
+    },
+  
+    "growth_mods": {
+      "vida": 0.4,
+      "p_atk": 0.5, "r_atk": 0.6, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.6, "r_def": 0.7, "m_def": 0.6, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.6
+    },
+  
+    "pasivas_posibles": [
+      "dominio_del_servidor",
+      "encriptacion_total",
+      "maestro_de_redes"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

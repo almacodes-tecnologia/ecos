@@ -1,0 +1,53 @@
+Expansión 1: Las Aguas Negras
+Bioma: Pantanos Densos, Árboles Parásitos y Cenagales Magnéticos.
+
+Lore: Un humedal perpetuamente oscuro donde el lodo denso y la vegetación flotante parecen dotados de una atracción gravitatoria anómala. No hay balizas ni caminos; la maleza devora la luz y una extraña estática en el aire eriza la piel, arrastrando al viajero hacia el centro del lodo.
+
+¿Qué descubrimos?: Los restos deshechos de las botas, mochilas y armas de los colonos de la pradera; huyeron hacia aquí despavoridos, despojándose de su equipo tecnológico y adentrándose desnudos en el fango para escapar de algo que no dejó huellas.
+
+¿Qué pregunta se genera?: ¿Por qué la tecnología humana de la pradera los aterrorizó tanto como para preferir ahogarse en este pantano hostil e indómito?
+
+Expansión 2: Los Crestones del Silencio
+Bioma: Cañones de Basalto, Rocas Huecas y Viento Acústico.
+
+Lore: Una cordillera monumental de piedra negra y pilares geométricos pulidos por una erosión milenaria. No hay rastro de cables, pero el viento, al filtrarse por la porosidad natural de la roca, genera una vibración sorda que anula cualquier otro sonido.
+
+¿Qué descubrimos?: Una fosa común natural donde los huesos de los colonos se han calcificado directamente dentro de las grietas de basalto, dispuestos en patrones circulares perfectos, sin marcas de violencia física.
+
+¿Qué pregunta se genera?: ¿Fueron depositados aquí por alguna criatura, o sus propios cuerpos marcharon voluntariamente para fundirse con la geometría de la piedra?
+
+Expansión 3: El Altiplano de la Cal Viva
+Bioma: Desierto de Sal, Geiseres Fríos y Costras Minerales.
+
+Lore: Una llanura cegadora e infinita cubierta por una costra crujiente de cal y sedimentos alcalinos que queman los ojos. De las grietas del suelo emanan chorros de agua gélida y mineralizada que se solidifica al instante al contacto con el aire.
+
+¿Qué descubrimos?: Los vehículos pesados y las excavadoras de la colonia, completamente detenidos en mitad del desierto, con sus motores intactos pero cubiertos por una capa de cal tan gruesa que parecen esculturas de piedra blanca.
+
+¿Qué pregunta se genera?: Si las máquinas no sufrieron una avería mecánica ni se quedaron sin combustible... ¿qué fuerza física provocó que los conductores apagaran los motores en mitad de la nada?
+
+Expansión 4: La Selva de los Tallos Ciegos
+Bioma: Bosque de Haya Roja, Helechos Gigantes y Raíces Sangrantes.
+
+Lore: Un ecosistema boscoso de proporciones colosales donde la luz del sol adquiere un matiz escarlata al pasar por las hojas. Los árboles no tienen corteza, sino una piel lisa y tibia que supura una savia densa y ferrosa al ser rozada.
+
+¿Qué descubrimos?: Pequeños campamentos de lona de los colonos, sepultados bajo toneladas de helechos; dentro de las tiendas no hay cuerpos, pero la savia de los árboles cercanos ha tomado la forma exacta de los rostros de los que allí dormían.
+
+¿Qué pregunta se genera?: ¿El bosque absorbió la carne de los colonos para replicar sus facciones en los troncos, o los humanos se transformaron físicamente en parte de la arboleda?
+
+Expansión 5: El Litoral de las Rocas Flotantes
+Bioma: Acantilados de Piedra Pómez, Mar de Brea y Niebla Salina.
+
+Lore: Una costa escarpada azotada por un océano espeso y oscuro que no produce espuma. En este sector, la gravedad parece debilitarse: inmensos bloques de piedra pómez flotan suspendidos a pocos metros sobre el agua, balanceándose con el viento de la costa.
+
+¿Qué descubrimos?: Los restos del último puesto de transmisiones de la colonia, construido con madera local en lo alto de un acantilado; el diario del operador describe que el mar "comenzó a espesar" tras la llegada de las naves del Exilio.
+
+¿Qué pregunta se genera?: ¿Fue la llegada de la masa física de los humanos y sus naves lo que alteró las leyes de la gravedad y la densidad del agua en este planeta?
+
+Expansión 6: La Garganta del Origen
+Bioma: Cuevas de Hielo Seco, Estalactitas de Hierro y Abismos Térmicos.
+
+Lore: Una inmensa fractura subterránea que desciende hacia las profundidades calientes del planeta. Las paredes están cubiertas por una capa de hielo seco que no se derrite, mezclada con formaciones naturales de hierro puro que caen del techo como agujas.
+
+¿Qué descubrimos?: El punto exacto donde la primera nave del Exilio impactó contra el planeta hace décadas; la estructura de acero de la nave se ha deshecho por completo, volviéndose indistinguible de las vetas de hierro naturales de la caverna.
+
+¿Qué pregunta se genera?: ¿El choque de la nave fue un accidente, o el magnetismo ferroso de esta garganta arrancó la nave del cielo para devorarla y asimilar su metal desde el primer día?

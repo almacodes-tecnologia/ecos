@@ -1,0 +1,61 @@
+{
+  "id": "E0053",
+  "baseSpeciesId": "E0053",
+  "nombre": "Fyrant",
+  "expansion": 1,
+  "catch_rate": 0.3,
+  "capturable": true,
+  "genero_ratio" : 0.45,
+  "time_affinity" : "dia",
+  "tipo1": "Fuego",
+  "tipo2": "Insecto",
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["volcán", "enjambre", "agresivo"],
+  "base_exp_needed": 100,
+  "descripcion": "Una hormiga obrera imbuida en esencia ígnea. Sus mandíbulas no solo trituran, sino que cauterizan. Se dice que el rastro de feromonas que deja es en realidad una línea de ceniza caliente.",
+  "foto": "assets/images/creatures/E0053.webp",
+
+  "stats_base": {
+    "vida": 72,
+    "impacto": 68,
+    "magia": 79,
+    "frecuencia": 67,
+    "pulso": 41,
+    "barrera_fisica": 79,
+    "barrera_magica": 63,
+    "barrera_mental": 39,
+    "barrera_vital": 44,
+    "armadura": 12,
+    "velocidad": 89,
+    "precision": 96,
+    "evasion": 8
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 0.9,
+    "barrera_fisica": 1.1,
+    "barrera_magica": 0.9,
+    "barrera_mental": 1.0,
+    "barrera_vital": 0.9,
+    "armadura": 0.15,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_igneo",
+    "enjambre_voraz",
+    "exoesqueleto_brillante"
+  ],
+
+  "pool_ataques": ["fogonazo", "pirotecnia", "drenaje_de_calor", "frecuencia_vibrante", "mandibula_feroz",
+    "rafaga_insectivora"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

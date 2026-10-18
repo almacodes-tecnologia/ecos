@@ -1,0 +1,46 @@
+{
+  "id": "E0024",
+  "baseSpeciesId": "E0023",
+  "nombre": "Mucklord",
+  "expansion": 1,
+  "catch_rate": 0.00,
+  "capturable": false,
+  "genero_ratio" : 0.4,
+  "time_affinity" : "noche",
+  "tipo1": "Hongo",
+  "tipo2": "Basura",
+  "linaje": "conceptual",
+  "rareza": "Mazmorra",
+  "level_cap": 100,
+  "tags": ["sucio", "espora", "contaminación", "industrial"],
+  "base_exp_needed": 120,
+  "descripcion": "Tras absorber toneladas de desechos químicos, el pequeño hongo ha mutado en una montaña de fango y esporas. Su sola presencia marchita la vegetación cercana y su cuerpo es capaz de digerir metales pesados para fortalecer su estructura.",
+  "foto": "assets/images/creatures/E0024.webp",
+
+  "stats_base": {
+    "vida": 87,
+    "impacto": 65, "magia": 97, "frecuencia": 49, "pulso": 30,
+    "barrera_fisica": 67, "barrera_magica": 69, "barrera_mental": 50, "barrera_vital": 39,
+    "armadura": 24, "velocidad": 49, "precision": 99, "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.2, "frecuencia": 1.0, "pulso": 0.9,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.9
+  },
+
+  "pasivas_posibles": [
+    "fermentacion_toxica",
+    "maestria_lodo",
+    "micelio_acorazado"
+  ],
+
+  "pool_ataques": ["setaimpacto", "nube_alucinogena", "espora_ferrea", "humo_denso",
+    "compactacion", "lluvia_acida", "colera_del_vertedero"],
+
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

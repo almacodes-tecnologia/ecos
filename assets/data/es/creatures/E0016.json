@@ -1,0 +1,40 @@
+{
+  "id": "E0016",
+  "baseSpeciesId": "E0016",
+  "nombre": "Palomith",
+  "expansion": 1,
+  "catch_rate": 0.6,
+  "capturable": true,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "dia",
+  "tipo1": "Viento",
+  "tipo2": null,
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["ave", "urbano", "campo"],
+  "base_exp_needed": 80,
+  "descripcion": "Se alimenta de granos en los campos abiertos. Su arrullo tiene un efecto relajante, aunque suele salir volando ante el menor ruido.",
+  "foto": "assets/images/creatures/E0016.webp",
+  "stats_base": {
+    "vida": 74,
+    "impacto": 45, "magia": 70, "frecuencia": 51, "pulso": 49,
+    "barrera_fisica": 35, "barrera_magica": 40, "barrera_mental": 68, "barrera_vital": 40,
+    "armadura": 10, "velocidad": 77, "precision": 95, "evasion": 8
+  },
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 0.9, "pulso": 1.1,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.1, "velocidad": 1.1
+  },
+  "pasivas_posibles": [
+    "ojo_avizor",
+    "pies_ligeros",
+    "migracion"
+  ],
+  "pool_ataques": ["corriente_ascendente", "ala_cortante", "golpe_alado", "ola_de_plumas",
+    "picotazo", "golpe_base"],
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

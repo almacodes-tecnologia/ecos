@@ -1,0 +1,45 @@
+{
+    "id": "E0012",
+    "baseSpeciesId": "E0010",
+    "nombre": "Quarzodon",
+    "expansion": 1,
+    "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Cristal",
+  "tipo2": null,
+  "linaje": "material",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["final", "reptil", "ancestral"],
+    "base_exp_needed": 145,
+    "descripcion": "Un ser majestuoso cuyo cuerpo es un diamante viviente. Dicen que puede ver el futuro a través de las infinitas facetas de sus ojos. Sus ataques mágicos no conocen la distancia.",
+    "foto": "assets/images/creatures/E0012.webp",
+
+  "stats_base": {
+    "vida": 91,
+    "impacto": 52, "magia": 105, "frecuencia": 83, "pulso": 67,
+    "barrera_fisica": 47, "barrera_magica": 44, "barrera_mental": 96, "barrera_vital": 77,
+    "armadura": 25, "velocidad": 113, "precision": 100, "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.1, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.1, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+  
+    "pasivas_posibles": [
+      "transparencia_total",
+      "aura_diamantina",
+      "amplificador_gauss"
+    ],
+
+  "pool_ataques": ["estocada_cuarzo", "garra_de_cristal", "reflejo_cristalino",
+    "armadura_de_diamante", "cuartear", "cristal_magico", "rayos_de_prisma", "lengua_de_caos"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

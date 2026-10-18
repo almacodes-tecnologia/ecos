@@ -1,0 +1,16 @@
+{
+  "id": "lore_0021",
+  "capitulo": "1",
+  "orden": 21,
+  "titulo": "La Última Foto",
+  "cuerpo": [
+    "El caminante estudió los fragmentos de un antiguo dispositivo de lentes recuperado en el borde del Abismo. El aparato apenas lograba proyectar una silueta borrosa del pasado, pero no mostraba aquel extraño mundo; se trataba de una estampa de una gran ciudad de la Tierra antes del Gran Exilio. En ella, la luz del sol brillaba con un tono cálido y el cielo lucía ese azul limpio que los colonos ya solo recordaban a través de las viejas crónicas.",
+    "Sin embargo, el recuerdo estaba dañado. La influencia del entorno parecía haber emponzoñado el mecanismo de la lente: allí donde antes se intuía una calle concurrida, ahora brotaba una distorsión grisácea y fría que parecía devorar los edificios. Los rostros de los transeúntes habían sido reemplazados por patrones de interferencia y líneas estáticas, como si una fuerza invisible pretendiera censurar la memoria de los suyos.",
+    "Aquella era la imagen de un hogar que ya no existía en ningún lugar del universo. El autor del diario confesaba que, al cerrar los ojos, aún creía percibir el rumor del tráfago urbano y el olor a lluvia sobre el asfalto; pero al abrirlos, solo hallaba la inmensidad del Abismo y el parpadeo errático de un artefacto moribundo.",
+    "Las notas concluían con una certeza desoladora: los humanos ya no eran dueños de su propia historia. Solo eran vagabundos en un paraje decidido a desvanecerlos. Aquella imagen no constituía un simple recuerdo; era la prueba de que el olvido absoluto aguardaba al final del camino."
+  ],
+  "fuente": "Datos Recuperados: Dispositivo de Visión Dañado",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de un resto tecnológico al borde del precipicio en El Abismo (R0014).",
+  "foto": "assets/images/lore/lore_0021.webp"
+}

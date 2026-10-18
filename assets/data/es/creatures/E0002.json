@@ -1,0 +1,45 @@
+{
+  "id": "E0002",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushnell",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "linaje": "biológico",
+  "rareza": "Raro",
+  "level_cap": 100,
+  "tags": ["evolucion", "slime", "bosque"],
+  "base_exp_needed": 120,
+  "descripcion": "Al acumular minerales del suelo, este slime ha desarrollado una capa protectorade hongos que lo hace mucho más resistente. Su moco empieza a ser tóxico.",
+  "foto": "assets/images/creatures/E0002.webp",
+
+  "stats_base": {
+    "vida": 71,
+    "impacto": 52, "magia": 67, "frecuencia": 48, "pulso": 62,
+    "barrera_fisica": 62, "barrera_magica": 63, "barrera_mental": 61, "barrera_vital": 72,
+    "armadura": 50, "velocidad": 42, "precision": 98, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.1, "barrera_magica": 1.1, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.9
+  },
+
+  "pasivas_posibles": [
+    "cuerpo_liquido",
+    "coraza_mineral",
+    "fotosintesis"
+  ],
+
+  "pool_ataques": ["latigazo", "polen_adormecedor", "esporas_toxicas",
+    "endurecer", "mazazo", "semilla_drenadora", "pisoton"],
+
+  "evolutionId": "E0003",
+  "evolutionPointsNeeded": 12
+}

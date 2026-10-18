@@ -1,0 +1,44 @@
+{
+  "id": "E0045",
+  "baseSpeciesId": "E0045",
+  "nombre": "Flyvolt",
+  "expansion": 1,
+  "catch_rate": 0.60,
+  "capturable": true,
+  "genero_ratio" : 0.3,
+  "time_affinity" : "noche",
+  "tipo1": "Insecto",
+  "tipo2": "Eléctrico",
+  "linaje": "energia",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["volador", "pradera", "destello"],
+  "base_exp_needed": 80,
+  "descripcion": "Una pequeña mosca de abdomen amarillo brillante. Revolotea frenéticamente generando estática que utiliza para ahuyentar a depredadores más grandes.",
+  "foto": "assets/images/creatures/E0045.webp",
+
+  "stats_base": {
+    "vida": 66,
+    "impacto": 39, "magia": 75, "frecuencia": 37, "pulso": 37,
+    "barrera_fisica": 33, "barrera_magica": 35, "barrera_mental": 50, "barrera_vital": 34,
+    "armadura": 10, "velocidad": 87, "precision": 95, "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.4, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "paralisis_estatica",
+    "ojo_compuesto",
+    "vuelo_agil"
+  ],
+
+  "pool_ataques": ["picadura", "coraza_de_insecto", "enjambre", "aguijon_veloz", "impacto_electrico"],
+
+  "evolutionId": "E0046",
+  "evolutionPointsNeeded": 15
+}

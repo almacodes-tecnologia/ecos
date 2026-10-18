@@ -1,0 +1,61 @@
+{
+  "id": "E0094",
+  "baseSpeciesId": "E0094",
+  "nombre": "Cerchisp",
+  "expansion": 1,
+  "catch_rate": 0.15,
+  "capturable": true,
+  "genero_ratio" : 0.5,
+  "time_affinity" : "noche",
+  "tipo1": "Eléctrico",
+  "tipo2": null,
+  "linaje": "Energia",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["ciervo", "pequeño", "rapido"],
+  "base_exp_needed": 100,
+  "descripcion": "Un cervatillo juguetón que acumula electricidad estática en su pelaje aterciopelado. Al correr por praderas altas, sus pequeñas pezuñas sueltan destellos azulados. Su velocidad es su mejor defensa.",
+  "foto": "assets/images/creatures/E0094.webp",
+
+  "stats_base": {
+    "vida": 46,
+    "impacto": 46,
+    "magia": 39,
+    "frecuencia": 63,
+    "pulso": 67,
+    "barrera_fisica": 52,
+    "barrera_magica": 56,
+    "barrera_mental": 60,
+    "barrera_vital": 64,
+    "armadura": 18,
+    "velocidad": 76,
+    "precision": 92,
+    "evasion": 21
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0,
+    "magia": 1.0,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.0,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.0,
+    "armadura": 0.2,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "pata_veloz",
+    "pararrayos",
+    "fuga"
+  ],
+
+  "pool_ataques": ["impacto_electrico","sobrecarga_vatios","cornada_electrizante","chispa_rapida",
+    "golpe_base","cornada","embestida","golpe_agil"],
+
+  "evolutionId": "E0095",
+  "evolutionPointsNeeded": 18
+}

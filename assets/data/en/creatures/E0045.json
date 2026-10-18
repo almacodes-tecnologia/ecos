@@ -1,0 +1,42 @@
+{
+    "id": "E0045",
+    "baseSpeciesId": "E0045",
+    "nombre": "Radmous",
+    "expansion": 1,
+    "catch_rate": 0.45,
+    "capturable": true,
+    "tipo1": "Nuclear",
+    "tipo2": "Veneno",
+    "rareza": "Comun",
+    "level_cap": 100,
+    "tags": ["roedor", "bebe", "radiactivo"],
+    "base_exp_needed": 100,
+    "descripcion": "Aunque parece inofensivo, su pelaje emite un suave brillo verdoso. Se alimenta de residuos tóxicos y suele dejar huellas que brillan en la oscuridad.",
+    "foto": "assets/images/creatures/E0045.webp",
+  
+    "stats_base": {
+      "vida": 35,
+      "p_atk": 30, "r_atk": 8, "m_atk": 30, "mr_atk": 8,
+      "p_def": 5, "r_def": 8, "m_def": 12, "mr_def": 10,
+      "armadura": 2, "velocidad": 50, "precision": 98, "evasion": 20
+    },
+  
+    "growth_mods": {
+      "vida": 0.4,
+      "p_atk": 0.6, "r_atk": 0.6, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.5, "r_def": 0.7, "m_def": 0.6, "mr_def": 0.6,
+      "armadura": 0.3, "velocidad": 0.5
+    },
+  
+    "pasivas_posibles": [
+      "isótopo_estable",
+      "rastro_luminoso",
+      "cuerpo_tóxico"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": "E0046",
+    "evolutionPointsNeeded": 18
+}

@@ -1,0 +1,14 @@
+{
+  "id": "lore_m_pantalones_del_eco_antiguo",
+  "capitulo": "Cripta Antigua",
+  "orden": 2,
+  "titulo": "EL PESO DEL SILENCIO",
+  "cuerpo": [
+    "Día 4. Hemos descendido al segundo nivel. El aire aquí abajo es denso, cargado de una presión sorda que eriza el vello. El equipo de protección de la colonia empezó a agrietarse; el magnetismo del subsuelo estaba filtrándose en nuestra piel, dejándonos marcas violáceas y entumecimiento en las articulaciones.",
+    "Solo yo he permanecido ileso gracias a estas grebas de bronce reforzado. Lo más inquietante es su temperatura: están gélidas, como si absorbieran el calor de mi propia sangre para alimentar las vibraciones rítmicas de sus placas. Al caminar, no oigo el metal chocar, sino un zumbido denso e hidroacústico.",
+    "He descubierto que si me quedo inmóvil, la vibración se sincroniza de forma exacta con los latidos de mi corazón. Siento que mis piernas ya no responden del todo a mis impulsos, como si la armadura conociera la inclinación de estas galerías mejor que yo. Cada paso nos aleja más de la superficie, pero el peso del bronce me empuja a seguir bajando."
+  ],
+  "fuente": "Diario de Campo del Arqueólogo Valerius",
+  "tipo": "mazmorra",
+  "desbloqueo_hint": "Recupera los Pantalones en la Cripta."
+}

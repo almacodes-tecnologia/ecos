@@ -1,0 +1,45 @@
+{
+  "id": "E0055",
+  "baseSpeciesId": "E0054",
+  "nombre": "Quartzhell",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": true,
+  "genero_ratio" : 0.45,
+  "time_affinity" : "dia",
+  "tipo1": "Arena",
+  "tipo2": "Insecto",
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["desierto", "cristal", "pesado"],
+  "base_exp_needed": 175,
+  "descripcion": "Al evolucionar, su caparazón se funde con minerales del entorno. Los cristales de cuarzo naranja que brotan de su espalda actúan como conductores térmicos y defensa natural contra depredadores.",
+  "foto": "assets/images/creatures/E0055.webp",
+
+  "stats_base": {
+    "vida": 104,
+    "impacto": 62, "magia": 86, "frecuencia": 55, "pulso": 44,
+    "barrera_fisica": 104, "barrera_magica": 101, "barrera_mental": 64, "barrera_vital": 81,
+    "armadura": 15, "velocidad": 58, "precision": 92, "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.0, "magia": 1.1, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 1.1, "barrera_mental": 0.9, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "reflejo_cristalino",
+    "armadura_ignífuga",
+    "tormenta_afilada"
+  ],
+
+  "pool_ataques": ["feromonas_desorientadoras" , "caparazon_reforzado", "zumbido_ensordecedor", "rafaga_insectivora",
+    "impacto_de_arena", "arena_movediza", "vendaval_del_desierto", "drenaje_micelico", "reflejo_cristalino", "fragmentacion", "temblor"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

@@ -1,0 +1,32 @@
+{
+    "id": "E0016",
+    "baseSpeciesId": "E0016",
+    "nombre": "Guijar",
+    "expansion": 1,
+    "catch_rate": 0.15,
+    "capturable": true,
+    "tipo1": "Piedra",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["inicial", "armadillo", "montaña"],
+    "base_exp_needed": 100,
+    "descripcion": "Un armadillo cuyo caparazón es de granito puro. Se enrolla en una bola para dormir, pareciendo una piedra común.",
+    "foto": "assets/images/creatures/E0016.webp",
+    "stats_base": {
+      "vida": 40,
+      "p_atk": 7, "r_atk": 4, "m_atk": 4, "mr_atk": 4,
+      "p_def": 12, "r_def": 12, "m_def": 12, "mr_def": 12,
+      "armadura": 8, "velocidad": 5, "precision": 90, "evasion": 0
+    },
+    "growth_mods": {
+      "vida": 0.8, "p_atk": 0.8, "r_atk": 0.4, "m_atk": 0.4, "mr_atk": 0.4,
+      "p_def": 0.8, "r_def": 0.8, "m_def": 0.8, "mr_def": 0.8,
+      "armadura": 0.7, "velocidad": 0.4
+    },
+    "pasivas_posibles": ["piel_rocosa", "robustez", "inmovible"],
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+    "evolutionId": "E0017",
+    "evolutionPointsNeeded": 18
+  }

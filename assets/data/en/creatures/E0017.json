@@ -1,0 +1,32 @@
+{
+    "id": "E0017",
+    "baseSpeciesId": "E0016",
+    "nombre": "Rodolito",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Piedra",
+    "tipo2": "Acero",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "armadillo", "acorazado"],
+    "base_exp_needed": 220,
+    "descripcion": "Sus escamas se han vuelto tan densas que han adquirido un brillo metálico. Puede excavar a través de la roca sólida.",
+    "foto": "assets/images/creatures/E0017.webp",
+    "stats_base": {
+      "vida": 55,
+      "p_atk": 12, "r_atk": 6, "m_atk": 5, "mr_atk": 5,
+      "p_def": 22, "r_def": 22, "m_def": 18, "mr_def": 20,
+      "armadura": 10, "velocidad": 7, "precision": 92, "evasion": 1
+    },
+    "growth_mods": {
+      "vida": 0.6, "p_atk": 0.8, "r_atk": 0.7, "m_atk": 0.6, "mr_atk": 0.6,
+      "p_def": 0.9, "r_def": 0.8, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 0.5
+    },
+    "pasivas_posibles": ["filo_metalico", "núcleo_pesado", "contraataque"],
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+    "evolutionId": "E0018",
+    "evolutionPointsNeeded": 32
+  }

@@ -1,0 +1,163 @@
+[
+{
+"id": "tool_001",
+"nombre": "Caña de Pesca 1",
+"descripcion": "Una caña básica para pescar en lagos tranquilos.",
+"tipo_objeto": "herramienta",
+"uso": "pesca"
+},
+{
+"id": "tool_002",
+"nombre": "Pico 1",
+"descripcion": "Pico básico para minar rocas comunes.",
+"tipo_objeto": "herramienta",
+"uso": "mineria"
+},
+{
+"id": "tool_003",
+"nombre": "Bicicleta",
+"descripcion": "Permite moverse más rápido por rutas terrestres.",
+"tipo_objeto": "transporte",
+"uso": "terrestre"
+},
+{
+"id": "tool_004",
+"nombre": "Balsa",
+"descripcion": "Permite cruzar ríos y lagos.",
+"tipo_objeto": "transporte",
+"uso": "acuatico"
+},
+  {
+    "id": "tool_005",
+    "nombre": "Digitalizador antiguo",
+    "descripcion": "Permite digitalizar ecos.",
+    "tipo_objeto": "herramienta",
+    "uso": "digitalizar"
+  },
+  {
+    "id": "tool_006",
+    "nombre": "Sintonizador de Ecos",
+    "descripcion": "Dispositivo portatil que detecta vibraciones invisibles.",
+    "tipo_objeto": "herramienta",
+    "uso": "resonancia"
+  },
+  {
+    "id": "tool_007",
+    "nombre": "Estabilizador de Nucleos",
+    "descripcion": "Anillo magnetico para contener particulas inestables.",
+    "tipo_objeto": "herramienta",
+    "uso": "nuclear"
+  },
+  {
+    "id": "tool_008",
+    "nombre": "Filtro de Anomalias",
+    "descripcion": "Permite ver el orden dentro del desorden absoluto.",
+    "tipo_objeto": "herramienta",
+    "uso": "caos"
+  },
+  {
+    "id": "tool_009",
+    "nombre": "Reloj de Arena Digital",
+    "descripcion": "Sincroniza el tiempo del usuario con el flujo del eco.",
+    "tipo_objeto": "herramienta",
+    "uso": "temporal"
+  },
+  {
+    "id": "tool_010",
+    "nombre": "Cetro del Chaman",
+    "descripcion": "Poderosa herramienta para guiar espiritos descarriados.",
+    "tipo_objeto": "herramienta",
+    "uso": "totem"
+  },
+  {
+    "id": "tool_011",
+    "nombre": "Ancla de Singularidad",
+    "descripcion": "Genera un campo gravitatorio artificial para estabilizar órbitas.",
+    "tipo_objeto": "herramienta",
+    "uso": "gravedad"
+  },
+  {
+    "id": "tool_012",
+    "nombre": "Visor de Ecolocalización",
+    "descripcion": "Detecta ondas de rebote en la oscuridad absoluta.",
+    "tipo_objeto": "herramienta",
+    "uso": "tinieblas"
+  },
+  {
+    "id": "tool_013",
+    "nombre": "Lente de la Verdad",
+    "descripcion": "Atraviesa espejismos y revela el núcleo real entre copias falsas.",
+    "tipo_objeto": "herramienta",
+    "uso": "ilusion"
+  },
+  {
+    "id": "tool_014",
+    "nombre": "Prisma de Cuarzo Puro",
+    "descripcion": "Refracta y dirige rayos de luz con precisión nanométrica.",
+    "tipo_objeto": "herramienta",
+    "uso": "luz"
+  },
+  {
+    "id": "tool_015",
+    "nombre": "Antena Ectoplásmica",
+    "descripcion": "Sintoniza frecuencias espectrales fuera del espectro visible.",
+    "tipo_objeto": "herramienta",
+    "uso": "espectro"
+  },
+  {
+    "id": "tool_016",
+    "nombre": "Cizallas Ignífugas",
+    "descripcion": "Herramienta de corte rápido para desactivar reacciones en cadena.",
+    "tipo_objeto": "herramienta",
+    "uso": "polvora"
+  },
+  {
+    "id": "tool_017",
+    "nombre": "Esponja de Iones",
+    "descripcion": "Disuelve la tensión superficial de las burbujas protectoras.",
+    "tipo_objeto": "herramienta",
+    "uso": "espuma"
+  },
+  {
+    "id": "tool_018",
+    "nombre": "Aguja de coser",
+    "descripcion": "Permite estirar y romper fibras de seda.",
+    "tipo_objeto": "herramienta",
+    "uso": "telaje"
+  },
+  {
+    "id": "tool_019",
+    "nombre": "Pilas oscuras",
+    "descripcion": "Genera arcos voltaicos para sobrecargar ecos eléctricos.",
+    "tipo_objeto": "herramienta",
+    "uso": "electrico"
+  },
+  {
+    "id": "tool_020",
+    "nombre": "Imán de Tierras Raras",
+    "descripcion": "Atrae componentes metálicos y ecos de alta polaridad.",
+    "tipo_objeto": "herramienta",
+    "uso": "magnetico"
+  },
+  {
+    "id": "tool_021",
+    "nombre": "Disolvente de Hidrocarburos",
+    "descripcion": "Permite moverse y capturar ecos atrapados en brea espesa.",
+    "tipo_objeto": "herramienta",
+    "uso": "alquitran"
+  },
+  {
+    "id": "tool_022",
+    "nombre": "Soplete del poder",
+    "descripcion": "Permite combartir las llamas con fuego de poder.",
+    "tipo_objeto": "herramienta",
+    "uso": "fuego"
+  },
+  {
+    "id": "tool_023",
+    "nombre": "Tenazas de diamante",
+    "descripcion": "Perfectas para el cristal.",
+    "tipo_objeto": "herramienta",
+    "uso": "cristal"
+  }
+]

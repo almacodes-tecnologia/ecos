@@ -1,0 +1,44 @@
+{
+  "id": "E0071",
+  "baseSpeciesId": "E0071",
+  "nombre": "Bovira",
+  "expansion": 1,
+  "catch_rate": 0.25,
+  "capturable": true,
+  "genero_ratio" : 0.9,
+  "time_affinity" : "dia",
+  "tipo1": "Bestia",
+  "tipo2": "Vegetal",
+  "linaje": "Elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["pradera", "bosque", "cuadrúpedo"],
+  "base_exp_needed": 120,
+  "descripcion": "Una vaca de pelaje manchado cuyos cuernos son pequeñas ramas tiernas. Sus tres colas se agitan constantemente para esparcir polen por la pradera.",
+  "foto": "assets/images/creatures/E0071.webp",
+
+  "stats_base": {
+    "vida": 78,
+    "impacto": 62, "magia": 70, "frecuencia": 41, "pulso": 39,
+    "barrera_fisica": 70, "barrera_magica": 66, "barrera_mental": 52, "barrera_vital": 58,
+    "armadura": 36, "velocidad": 43, "precision": 95, "evasion": 3
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 1.1, "magia": 1.1, "frecuencia": 0.9, "pulso": 0.9,
+    "barrera_fisica": 1.0, "barrera_magica": 1.1, "barrera_mental": 0.8, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "fotosintesis",
+    "pisotón_pesado",
+    "pelaje_clorofila"
+  ],
+
+  "pool_ataques": ["cornada", "embestida", "pisoton", "latigo_de_lianas", "enredadera", "golpe_de_raiz"],
+
+  "evolutionId": "E0072",
+  "evolutionPointsNeeded": 22
+}

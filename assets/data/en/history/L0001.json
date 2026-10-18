@@ -1,0 +1,14 @@
+{
+  "id": "P0001",
+  "capitulo": "1",
+  "orden": 1,
+  "titulo": "The Exile",
+  "cuerpo": [
+    "Many eons ago, humanity exhausted the Earth's vitality...",
+    "Poison and greed forced them to look towards the void."
+  ],
+  "fuente": "Old World Diary",
+  "tipo": "history",
+  "desbloqueo_hint": "Obtained upon awakening for the first time.",
+  "foto": "assets/images/lore/exile_sketch.png"
+}

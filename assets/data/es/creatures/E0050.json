@@ -1,0 +1,45 @@
+{
+  "id": "E0050",
+  "baseSpeciesId": "E0049",
+  "nombre": "Mossark",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": false,
+  "genero_ratio" : 0.8,
+  "time_affinity" : "noche",
+  "tipo1": "Madera",
+  "tipo2": null,
+  "linaje": "elemental",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["bosque", "antiguo", "oscuro"],
+  "base_exp_needed": 175,
+  "descripcion": "Su corteza es tan dura como el hierro y su interior es una red de energía oscura. Dicen que los Elderark son los pilares que sostienen los bosques más antiguos.",
+  "foto": "assets/images/creatures/E0050.webp",
+
+  "stats_base": {
+    "vida": 135,
+    "impacto": 77, "magia": 49, "frecuencia": 84, "pulso": 76,
+    "barrera_fisica": 95, "barrera_magica": 60, "barrera_mental": 89, "barrera_vital": 88,
+    "armadura": 10, "velocidad": 37, "precision": 98, "evasion": 1
+  },
+
+  "growth_mods": {
+    "vida": 1.1,
+    "impacto": 0.9, "magia": 0.9, "frecuencia": 1.1, "pulso": 1.1,
+    "barrera_fisica": 1.1, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 0.8
+  },
+
+  "pasivas_posibles": [
+    "corazon_de_roble",
+    "sombra_forestal",
+    "espinas_madera"
+  ],
+
+  "pool_ataques": ["golpe_de_madera", "escudo_de_madera", "paciencia", "lluvia_de_astillas",
+    "intimidacion_arborea", "lanza_de_bambu", "troncazo"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

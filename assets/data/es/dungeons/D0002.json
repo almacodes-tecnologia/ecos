@@ -1,0 +1,165 @@
+{
+  "id": "D0002",
+  "nombre": "El Vertedero Fósil",
+  "tipo_mazmorra": "chatarrería_antigua",
+  "pasos_maximo": 110,
+  "image_asset": "assets/images/dungeons/D002.webp",
+  "tags": ["vertedero_toxico", "fosil_mecanico", "peligro_acido"],
+  "descripcion": [
+    "Un cementerio industrial donde los restos de colosos mecánicos se fusionaron con huesos prehistóricos.",
+    "Los gases tóxicos y las trampas de óxido castigan a los exploradores lentos."
+  ],
+  "objetos_especiales": {
+    "key_scrap_02": "Batería de Quironio Agotada",
+    "item_003": "Colmillo de Titanio Engranado",
+    "item_004": "Lente de Enfoque Ámbar",
+    "lore_page_02": "Esquema del Coloso Caído"
+  },
+  "nivel": 3,
+  "restricciones": {
+    "nivel_max": 30,
+    "rango_minimo": 0,
+    "tamano_equipo": 4,
+    "tipos_permitidos": [],
+    "expansiones_requeridas": []
+  },
+  "dificultades": {
+    "normal": { "boss_level_modifier": 0},
+    "dificil": { "boss_level_modifier": 2},
+    "experto": { "boss_level_modifier": 5}
+  },
+  "recompensa_final": {
+    "set_id": "set_armadura_de_la_chatarra",
+    "piezas": ["guantes_de_la_chatarra", "botas_de_la_chatarra", "pantalones_de_la_chatarra",
+      "casco_de_la_chatarra", "anillo_de_la_chatarra", "pechera_de_la_chatarra"],
+    "eco_legendario": {
+      "eco_id": "E0099",
+      "probabilidad_aparicion": 1.00,
+      "captura_dado": {
+        "1": "capturado", "2": "capturado", "3": "fallo",
+        "4": "fallo", "5": "fallo", "6": "fallo"
+      }
+    }
+  },
+
+  "nodos": [
+    {
+      "id": "N1",
+      "nombre": "Fauces del Vertedero",
+      "tipo": "inicio",
+      "msg": "El olor a azufre y metal oxidado es casi insoportable. No hay vuelta atrás."
+    },
+    {
+      "id": "N2",
+      "nombre": "Bifurcación de Chatarra",
+      "tipo": "seleccion_ruta",
+      "evento_id": "azar_menor"
+    },
+    {
+      "id": "N3",
+      "nombre": "Catarata de Ácido",
+      "tipo": "normal",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N4",
+      "nombre": "Nido de los Necrófagos",
+      "tipo": "normal",
+      "evento_id": "azar_mayor"
+    },
+    {
+      "id": "N5",
+      "nombre": "Estación de Purificación",
+      "tipo": "curacion",
+      "curacion_valor": 0.75,
+      "msg": "Un viejo extractor de toxinas aún funciona. Tu equipo respira aliviado."
+    },
+    {
+      "id": "N6",
+      "nombre": "Cámara del Núcleo Fósil",
+      "tipo": "guardian_final",
+      "guardian_id": "G002",
+      "msg_pre_combate": "Una descomunal estructura de huesos y cables se ensambla ante tus ojos..."
+    }
+  ],
+  "rutas": [
+    {
+      "id": "R1",
+      "from_node": "N1",
+      "to_node": "N2",
+      "pasos": 15,
+      "descripcion": "Desciendes por una rampa de escombros inestables.",
+      "encounters": [{"creature_id": "E0023", "probability": 0.15}, {"item_id": "item_003", "probability": 0.15}]
+    },
+    {
+      "id": "R2",
+      "from_node": "N2",
+      "to_node": "N3",
+      "pasos": 25,
+      "descripcion": "Cruzas el puente de costillas metálicas.",
+      "encounters": [{"item_id": "key_scrap_02", "probability": 0.4}]
+    },
+    {
+      "id": "R3",
+      "from_node": "N2",
+      "to_node": "N4",
+      "pasos": 30,
+      "descripcion": "Te abres paso a través del túnel de lodo hirviente.",
+      "encounters": [{"creature_id": "E0097", "probability": 0.3}]
+    },
+    {
+      "id": "R4",
+      "from_node": "N3",
+      "to_node": "N5",
+      "pasos": 20,
+      "descripcion": "Utilizas la energía de la batería para abrir las compuertas hidráulicas.",
+      "item_requerido": "key_scrap_02",
+      "encounters": [{"creature_id": "E0023", "probability": 0.3},
+        {"creature_id": "E0024", "probability": 0.1}]
+    },
+    {
+      "id": "R5",
+      "from_node": "N4",
+      "to_node": "N5",
+      "pasos": 40,
+      "descripcion": "Rodeas el nido por una tubería de ventilación estrecha y oxidada.",
+      "item_encounters": [{"item_id": "item_001", "probability": 0.5}]
+    },
+    {
+      "id": "R6",
+      "from_node": "N5",
+      "to_node": "N6",
+      "pasos": 15,
+      "descripcion": "Te diriges al corazón palpitante del vertedero."
+    }
+  ],
+  "eventos_pool": {
+    "azar_residuos": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.20, "msg": "¡Lluvia de chatarra! Placas de hierro caen del techo."},
+        "2": {"creature_id": "E0097", "msg": "¡Un raro rapaz hambriento salta de los escombros!", "capturable": true},
+        "3": {"msg": "Varios engranajes giran en falso a lo lejos, pero el camino está despejado."},
+        "4": {"valor_pasos": 15, "msg": "Encuentras una cinta transportadora aún activa que te lleva rápido."},
+        "5": {"valor_danio": 0.10, "msg": "Un chorro de vapor caliente quema a un miembro del equipo."},
+        "6": {"item_id": "item_004", "msg": "Entre el barro aceitoso brilla algo."}
+      }
+    },
+    "azar_toxico": {
+      "tipo": "dado",
+      "resultados": {
+        "1": {"valor_danio": 0.40, "msg": "¡Fuga de gas neurotóxico! El dolor es inmediato."},
+        "2": {"creature_id": "G003", "capturable": false, "msg": "¡Un prototipo de dron de limpieza te confunde con basura!"},
+        "3": {"creature_id": "G004", "capturable": false, "msg": "¡Un Guardian de Fósil Viviente se desprende de la pared!"},
+        "4": {"valor_pasos": 20, "msg": "Un conducto de aire limpio te devuelve las fuerzas."},
+        "5": {"valor_danio": 0.15, "msg": "El suelo cede y caes en un charco de lodo corrosivo."},
+        "6": {"forzar_salida": true, "es_victoria": false, "msg": "Una explosión de gas te lanza por los aires de vuelta al exterior."}
+      }
+    }
+  },
+  "idle_messages": [
+    "El metal cruje bajo tus pies con un chirrido agónico.",
+    "Burbujas de lodo ácido estallan a tu alrededor.",
+    "El eco de unos pistones lejanos suena como un corazón latiendo."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lore_0018",
+  "capitulo": "1",
+  "orden": 18,
+  "titulo": "Protocolo de Purga",
+  "cuerpo": [
+    "El caminante descifró un registro de emergencia perteneciente al sector minero N016. En él se ordenaba la evacuación inmediata de los niveles más profundos. El peligro no se debía a una filtración de gas tóxico o a un desprendimiento de roca. El problema radicaba en las pesadas máquinas de excavación: los operarios habían cortado su energía hacía horas, pero los motores continuaban rugiendo en la oscuridad.",
+    "Aquel equipamiento no operaba de forma normal; respondía a un estímulo oculto. Las grandes palas de metal golpeaban sistemáticamente las vetas de cuarzo violeta, repitiendo un patrón rítmico que resonaba en todo el subsuelo. Cuando uno de los técnicos intentó acceder a los mandos para detener el mecanismo, la estructura de hierro se giró de forma violenta con una velocidad antinatural.",
+    "Las notas aclaraban con horror que no se trató de una avería común. La máquina no intentaba apartar al intruso, sino integrarlo en su propia estructura. El autor describió cómo unos filamentos metálicos y afilados brotaron de las palancas, enredándose en los brazos del técnico hasta fundirse con su carne. En cuestión de instantes, el hombre pasó a formar parte del armazón. Aquellos artefactos ya no requerían operarios; habían encontrado un nuevo e inquietante propósito en las profundidades.",
+    "El registro finalizaba con una orden desesperada: sellar los pozos de acceso e inundar los túneles con bloques de piedra. Si aquellos armatostes alterados lograban alcanzar la superficie, no traerían el mineral extraído, sino las formas y la estructura de lo que fuera que habitase en lo más hondo. El diario concluía con un lamento: 'Que el universo nos perdone por haber cavado tan profundo'."
+  ],
+  "fuente": "Terminal de Seguridad: Registro de Emergencia 09",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Recuperado de un panel de control parpadeante en la Mina (N016).",
+  "foto": "assets/images/lore/lore_0018.webp"
+}

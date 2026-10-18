@@ -1,0 +1,45 @@
+{
+  "id": "E0027",
+  "baseSpeciesId": "E0027",
+  "nombre": "Linuxus",
+  "expansion": 1,
+  "catch_rate": 0.35,
+  "capturable": true,
+  "genero_ratio" : 0.8,
+  "time_affinity" : "dia",
+  "tipo1": "Bestia",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["corredor", "lince", "llanura"],
+  "base_exp_needed": 125,
+  "descripcion": "Un felino de pequeño tamaño con unas patas tan potentes que pueden atravesar el acero de un golpe. Es extremadamente territorial y perseguirá a cualquier intruso durante kilómetros.",
+  "foto": "assets/images/creatures/E0027.webp",
+
+  "stats_base": {
+    "vida": 89,
+    "impacto": 90, "magia": 84, "frecuencia": 49, "pulso": 55,
+    "barrera_fisica": 65, "barrera_magica": 61, "barrera_mental": 57, "barrera_vital": 57,
+    "armadura": 27, "velocidad": 110, "precision": 92, "evasion": 8
+  },
+
+  "growth_mods": {
+    "vida": 0.9,
+    "impacto": 1.1, "magia": 1.1, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 0.9, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "Zancada_Potente",
+    "Alerta_Súbita",
+    "Puntapié_Crítico"
+  ],
+
+  "pool_ataques": ["mirada_penetrante", "canto_bestial", "garra_desgarradora", "rugido_aturdidor", "furia_animal"
+  ],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lore_0019",
+  "capitulo": "1",
+  "orden": 19,
+  "titulo": "Sueño de Oxígeno",
+  "cuerpo": [
+    "El caminante halló la transcripción de un viejo mensaje de voz. El autor relataba haber tenido el mismo sueño recurrente mientras cruzaba el Túnel. No era una pesadilla de metal, sino algo mucho más extraño: el recuerdo vívido de un bosque que jamás había pisado en su vida. En el sueño, el aire se sentía espeso, cargado de una pureza que quemaba los pulmones, y las hojas del gran árbol no eran filamentos pálidos, sino de un terciopelo verde y vivo.",
+    "En mitad de aquella visión, el inmenso Injerto parecía llamarlo. No utilizaba una voz articulada, sino una pulsación sorda que resonaba con fuerza en sus dientes, pronunciando su nombre. Después, la presencia susurraba el nombre de 'Alba' una y otra vez, de manera torpe, como si intentara ensayar la fonética de una palabra humana para descubrir cómo encajaba en su estructura.",
+    "El relato describía cómo el colono despertó con un sabor a savia amarga en la boca y los dedos hundidos en el lodo del túnel. Aunque sus compañeros achacaban el delirio a la falta de aire en el sector, el autor estaba convencido de que el árbol estaba examinando su mente. No buscaba rastros físicos; buscaba sus afectos.",
+    "Aquel gran árbol no parecía tener la intención de limpiar el aire para asegurar la supervivencia de los colonos. Intentaba comprender la naturaleza del afecto humano para replicarlo en sus propias entrañas. Las notas concluían con un temor desgarrador: si aquel lugar aprendía el significado de nombres como 'Alba', la humanidad perdería el último refugio que le pertenecía: sus propios sentimientos."
+  ],
+  "fuente": "Fragmento de diario: Grabación de voz recuperada",
+  "tipo": "coleccionable",
+  "desbloqueo_hint": "Encontrado en un hueco de la corteza en el Túnel Vegetal.",
+  "foto": "assets/images/lore/lore_0019.webp"
+}

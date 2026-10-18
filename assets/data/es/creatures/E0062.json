@@ -1,0 +1,60 @@
+{
+  "id": "E0062",
+  "baseSpeciesId": "E0062",
+  "nombre": "Arbustereo",
+  "expansion": 1,
+  "catch_rate": 0.50,
+  "capturable": true,
+  "genero_ratio" : 0.25,
+  "time_affinity" : "dia",
+  "tipo1": "Vegetal",
+  "tipo2": "Madera",
+  "linaje": "Biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["jardín", "planta", "doméstico"],
+  "base_exp_needed": 100,
+  "descripcion": "Un arbusto de jardín densamente poblado que suele camuflarse entre la decoración exterior. Aunque parece estático, sus raíces son sorprendentemente ágiles cuando detecta agua o peligro.",
+  "foto": "assets/images/creatures/E0062.webp",
+
+  "stats_base": {
+    "vida": 84,
+    "impacto": 52,
+    "magia": 47,
+    "frecuencia": 61,
+    "pulso": 58,
+    "barrera_fisica": 73,
+    "barrera_magica": 69,
+    "barrera_mental": 82,
+    "barrera_vital": 76,
+    "armadura": 11,
+    "velocidad": 24,
+    "precision": 92,
+    "evasion": 3
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.8,
+    "magia": 0.9,
+    "frecuencia": 1.0,
+    "pulso": 1.0,
+    "barrera_fisica": 1.0,
+    "barrera_magica": 1.1,
+    "barrera_mental": 1.0,
+    "barrera_vital": 1.2,
+    "armadura": 0.2,
+    "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "clorofila_activa",
+    "corteza_gruesa",
+    "fotosintesis"
+  ],
+
+  "pool_ataques": ["paciencia", "rama_azotadora", "escudo_de_madera", "explosion_de_semillas", "flor_devora_vida", "arraizar", "impacto_vegetal"],
+
+  "evolutionId": "E0063",
+  "evolutionPointsNeeded": 15
+}

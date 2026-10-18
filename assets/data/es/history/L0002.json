@@ -1,0 +1,16 @@
+{
+  "id": "lore_0002",
+  "capitulo": "1",
+  "orden": 2,
+  "titulo": "Registro de Cosecha Cero",
+  "cuerpo": [
+    "Al leer las viejas anotaciones, descubrió que la tierra extraña rechazó todo lo que traían. Las semillas murieron en cuestión de horas. El suelo no estaba estéril; estaba vivo, y era agresivo. Cualquier intento por forzarlo a florecer provocaba una respuesta... un pulso vibratorio en el subsuelo.",
+    "El camino artificial de la Senda del Recuerdo estaba desapareciendo. No se agrietaba por el paso del tiempo, sino que estaba siendo digerido. Una red de filamentos bioluminiscentes brotaba de las fisuras, pulsando con un tono violeta que parecía alimentarse de la propia energía de las lámparas del campamento.",
+    "No era una vegetación normal. Aquellas plantas no buscaban la luz del sol; buscaban las corrientes del asentamiento. Los primeros en llegar observaron con miedo cómo la maleza envolvía los mecanismos para expandirse. Cada brote parecía un receptor; cada raíz, un hilo que conectaba el entorno.",
+    "La última línea del registro contenía una advertencia escalofriante: alguien juró que la hierba imitaba el patrón exacto de sus huellas antes de que sus botas llegaran a pisar el suelo. Este mundo no les estaba dejando espacio. Los estaba leyendo."
+  ],
+  "fuente": "Diario del Viejo Mundo",
+  "tipo": "historia",
+  "desbloqueo_hint": "Encontrado entre la maleza eléctrica de la Senda del Recuerdo.",
+  "foto": "assets/images/lore/lore_0002.webp"
+}

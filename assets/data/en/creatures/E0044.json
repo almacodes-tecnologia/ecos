@@ -1,0 +1,42 @@
+{
+    "id": "E0044",
+    "baseSpeciesId": "E0043",
+    "nombre": "Krakostal",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Hielo",
+    "tipo2": null,
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "acorazado", "abismo"],
+    "base_exp_needed": 300,
+    "descripcion": "Un gigante de las profundidades árticas. Sus pinzas de cristal puro pueden triturar el acero y congelar la sangre del enemigo al contacto.",
+    "foto": "assets/images/creatures/E0044.webp",
+  
+    "stats_base": {
+      "vida": 72,
+      "p_atk": 32, "r_atk": 15, "m_atk": 20, "mr_atk": 12,
+      "p_def": 40, "r_def": 38, "m_def": 25, "mr_def": 20,
+      "armadura": 22, "velocidad": 15, "precision": 100, "evasion": 5
+    },
+  
+    "growth_mods": {
+      "vida": 0.6,
+      "p_atk": 0.9, "r_atk": 0.4, "m_atk": 0.6, "mr_atk": 0.3,
+      "p_def": 0.6, "r_def": 0.6, "m_def": 0.8, "mr_def": 0.6,
+      "armadura": 0.2, "velocidad": 0.4
+    },
+  
+    "pasivas_posibles": [
+      "armadura_espejo",
+      "aura_congelante",
+      "presion_abismal"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+}

@@ -1,0 +1,38 @@
+[
+  {
+  "id": "guantes_del_eco_antiguo",
+  "nombre": "Guantes del Eco Old",
+  "descripcion": "Guantes  de bronce conseguida en la Mazmorra del Eco Antiguo",
+  "tipo_objeto": "Cripta del Eco Antiguo"
+},
+{
+"id": "pantalones_del_eco_antiguo",
+"nombre": "Pantalones  del Eco Old,",
+"descripcion": "Pantalones  de bronce conseguida en la Mazmorra del Eco Antiguo",
+"tipo_objeto": "Cripta del Eco Antiguo"
+},
+{
+"id": "yelmo_del_eco_antiguo",
+"nombre": "Yelmo del Eco Old",
+"descripcion": "Yelmo  de bronce conseguida en la Mazmorra del Eco Antiguo",
+"tipo_objeto": "Cripta del Eco Antiguo"
+},
+{
+"id": "botas_del_eco_antiguo",
+"nombre": "Botas del Eco Old",
+"descripcion": "Botas  de bronce conseguida en la Mazmorra del Eco Antiguo",
+"tipo_objeto": "Cripta del Eco Antiguo"
+},
+{
+"id": "anillo_del_eco_antiguo",
+"nombre": "Anillo del Eco Old",
+"descripcion": "Anillo  de bronce conseguida en la Mazmorra del Eco Antiguo",
+"tipo_objeto": "Cripta del Eco Antiguo"
+},
+{
+"id": "pechera_del_eco_antiguo",
+"nombre": "Pechera del Eco Old",
+"descripcion": "Pechera de bronce conseguida en la Mazmorra del Eco Antiguo",
+"tipo_objeto": "Cripta del Eco Antiguo"
+}
+  ]

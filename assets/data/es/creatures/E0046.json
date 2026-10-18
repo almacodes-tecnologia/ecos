@@ -1,0 +1,43 @@
+{
+  "id": "E0046",
+  "baseSpeciesId": "E0045",
+  "nombre": "Voltlamp",
+  "expansion": 1,
+  "catch_rate": 0.0,
+  "capturable": true,
+  "genero_ratio" : 0.3,
+  "time_affinity" : "noche",
+  "tipo1": "Insecto",
+  "tipo2": "Eléctrico",
+  "linaje": "energia",
+  "rareza": "Común",
+  "tags": ["volador", "nocturno", "foco"],
+  "base_exp_needed": 100,
+  "descripcion": "Su cuerpo se ha oscurecido para resaltar el potente foco eléctrico de su cola. Es capaz de emitir pulsos electromagnéticos que desactivan defensas enemigas.",
+  "foto": "assets/images/creatures/E0046.webp",
+
+  "stats_base": {
+    "vida": 77,
+    "impacto": 50, "magia": 115, "frecuencia": 54, "pulso": 54,
+    "barrera_fisica": 46, "barrera_magica": 45, "barrera_mental": 62, "barrera_vital": 47,
+    "armadura": 20, "velocidad": 120, "precision": 97, "evasion": 15
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 1.0, "magia": 1.0, "frecuencia": 1.1, "pulso": 1.0,
+    "barrera_fisica": 0.9, "barrera_magica": 1.0, "barrera_mental": 1.0, "barrera_vital": 1.0,
+    "armadura": 0.4, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "foco_cegador",
+    "sobrecarga",
+    "levitacion"
+  ],
+
+  "pool_ataques": ["picadura", "coraza_de_insecto", "enjambre", "aguijon_veloz", "impacto_electrico","Canonazo_electrico"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

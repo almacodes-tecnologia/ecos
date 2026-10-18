@@ -1,0 +1,45 @@
+{
+  "id": "E0032",
+  "baseSpeciesId": "E0031",
+  "nombre": "Silkmoth",
+  "expansion": 1,
+  "catch_rate": 0.00,
+  "capturable": false,
+  "genero_ratio" : 0.2,
+  "time_affinity" : "dia",
+  "tipo1": "Insecto",
+  "tipo2": null,
+  "linaje": "biologico",
+  "rareza": "Común",
+  "level_cap": 100,
+  "tags": ["volador", "nocturno", "polvo"],
+  "base_exp_needed": 140,
+  "descripcion": "Sus alas están cubiertas de un polvo plateado que brilla en la oscuridad. Al batirlas, libera esporas que pueden dormir o paralizar a sus enemigos en cuestión de segundos.",
+  "foto": "assets/images/creatures/E0032.webp",
+
+  "stats_base": {
+    "vida": 120,
+    "impacto": 45, "magia": 61, "frecuencia": 81, "pulso": 70,
+    "barrera_fisica": 70, "barrera_magica": 60, "barrera_mental": 100, "barrera_vital": 77,
+    "armadura": 25, "velocidad": 64, "precision": 95, "evasion": 2
+  },
+
+  "growth_mods": {
+    "vida": 1.0,
+    "impacto": 0.8, "magia": 0.8, "frecuencia": 1.0, "pulso": 1.0,
+    "barrera_fisica": 1.0, "barrera_magica": 1.0, "barrera_mental": 1.2, "barrera_vital": 1.2,
+    "armadura": 0.2, "velocidad": 1.0
+  },
+
+  "pasivas_posibles": [
+    "escamas_plateadas",
+    "vuelo_sereno",
+    "polvo_aturdidor"
+  ],
+
+  "pool_ataques": ["picadura", "frecuencia_vibrante", "polvillo_cegador", "metamorfosis_express", "rafaga_insectivora",
+    "torbellino", "onda_mental", "polvo_confuso", "respiracion_profunda", "picadura_neurotoxica"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}

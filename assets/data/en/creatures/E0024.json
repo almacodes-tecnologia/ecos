@@ -1,0 +1,42 @@
+{
+    "id": "E0024",
+    "baseSpeciesId": "E0023",
+    "nombre": "Dunariguan",
+    "expansion": 1,
+    "catch_rate": 0.0,
+    "capturable": false,
+    "tipo1": "Arena",
+    "tipo2": "Tierra",
+    "rareza": "Raro",
+    "level_cap": 100,
+    "tags": ["evolucion", "reptil", "depredador"],
+    "base_exp_needed": 260,
+    "descripcion": "Esta iguana colosal genera pequeñas turbulencias de arena al moverse. Sus escamas son tan ásperas que pueden desgastar el acero por contacto.",
+    "foto": "assets/images/creatures/E0024.webp",
+  
+    "stats_base": {
+      "vida": 65,
+      "p_atk": 28, "r_atk": 22, "m_atk": 14, "mr_atk": 12,
+      "p_def": 22, "r_def": 24, "m_def": 22, "mr_def": 21,
+      "armadura": 6, "velocidad": 32, "precision": 92, "evasion": 12
+    },
+  
+    "growth_mods": {
+      "vida": 0.7,
+      "p_atk": 0.7, "r_atk": 0.7, "m_atk": 0.6, "mr_atk": 0.7,
+      "p_def": 0.7, "r_def": 0.7, "m_def": 0.7, "mr_def": 0.7,
+      "armadura": 0.2, "velocidad": 1.6
+    },
+  
+    "pasivas_posibles": [
+      "tormenta_permanente",
+      "piel_abrasiva",
+      "maestria_del_desierto"
+    ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+  
+    "evolutionId": null,
+    "evolutionPointsNeeded": 0
+  }

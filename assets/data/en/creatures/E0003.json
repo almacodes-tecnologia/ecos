@@ -1,0 +1,42 @@
+{
+  "id": "E0003",
+  "baseSpeciesId": "E0001",
+  "nombre": "Mushnarch",
+  "expansion": 1,
+  "catch_rate": 0.00,
+  "capturable": false,
+  "tipo1": "Vegetal",
+  "tipo2": "Hongo",
+  "rareza": "raro",
+  "level_cap": 100,
+  "tags": ["final", "slime", "ancestral"],
+  "base_exp_needed": 300,
+  "descripcion": "El soberano de los bosques. Su cuerpo irradia una energía mística que puede sanar la naturaleza o devastar a sus enemigos. Su caparazón es ahora una estructura colosal de múltiples capas de hongos (como las setas de los troncos de los árboles).",
+  "foto": "assets/images/creatures/E0003.webp",
+
+  "stats_base": {
+    "vida": 62,
+    "p_atk": 10, "r_atk": 10, "m_atk": 24, "mr_atk": 18,
+    "p_def": 33, "r_def": 35, "m_def": 33, "mr_def": 35,
+    "armadura": 15, "velocidad": 21, "precision": 100, "evasion": 4
+  },
+
+  "growth_mods": {
+    "vida": 0.6,
+    "p_atk": 0.6, "r_atk": 0.4, "m_atk": 0.8, "mr_atk": 0.8,
+    "p_def": 0.8, "r_def": 0.8, "m_def": 0.8, "mr_def": 0.9,
+    "armadura": 0.2, "velocidad": 0.6
+  },
+
+  "pasivas_posibles": [
+    "aura_real",
+    "regeneracion_clofila",
+    "maestria_magica"
+  ],
+
+  "pool_ataques": ["atk_001", "atk_002", "atk_003", "atk_004", "atk_005",
+    "atk_006", "atk_007", "atk_008", "atk_009", "atk_010"],
+
+  "evolutionId": null,
+  "evolutionPointsNeeded": 0
+}
