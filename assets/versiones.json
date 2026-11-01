@@ -1,0 +1,15 @@
+
+{
+  "creatures": [1, 1],
+  "routes": [1, 1],
+  "objetos": [1, 1],
+  "bosses": [1, 1],
+  "guardians": [1, 1],
+  "events": [1, 1],
+  "eternos": [1, 1],
+  "dungeons": [1, 1],
+  "help": [1, 1],
+  "history": [1, 1],
+  "items": [1, 1],
+  "nodes": [1, 1]
+}
